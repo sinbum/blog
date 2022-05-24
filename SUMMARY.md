@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Blog](README.md)
+* [기록보단 기억을](README.md)
 
 ## About
 
