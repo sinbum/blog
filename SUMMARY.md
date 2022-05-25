@@ -4,7 +4,7 @@
 
 ## Java
 
-* [자바](java\_method.md)
+* [자바](java/메소드.md)
   * a
   * b
   * c
