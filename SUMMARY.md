@@ -1,7 +1,7 @@
 # Table of contents
 
 * [기록보단 기억을](README.md)
-  * [WorkHistory](workHistory.md)
+  * [History](History.md)
 
 ## Java
 

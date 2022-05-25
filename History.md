@@ -1,7 +1,7 @@
-```
-title: workSpace
+
+title : workSpace
 author: "Sinbum CHOI"
-```
+
 
 ### 22/05/25
 
