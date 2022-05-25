@@ -1,6 +1,7 @@
 # Table of contents
 
 * [기록보단 기억을](README.md)
+  * [WorkHistory](workHistory.md)
 
 ## Java
 
@@ -29,7 +30,7 @@
   * CollectionFramework
   * 네트워크
   * 다중 접속 서버
-  * 자바로 간단한 채팅 앱 개발하기
+* [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
 
 
 ## GitHub
@@ -46,8 +47,7 @@
 
 ## About
 
-* [SINBUM](about/sinbum.md)
-  * [WorkSpace](about/workspace.md)
+* [SINBUM](about/sinbum.md)  
 * [PROJECT](about/project.md)
   * [Personal](about/project/personal.md)
 * [CONTACT](about/contact.md)
