@@ -5,7 +5,7 @@
 ## Java
 
 * [자바는 무엇인가?](java/WhatIsJava.md) 
-* [자바 환경설정 가이드](java/undefined-1.md)
+* [자바 환경설정 가이드](java/JavaEnvGuide.md)
 * [자바 언어 활용 가이드](java/undefined-2.md)
 
 ## GitHub
