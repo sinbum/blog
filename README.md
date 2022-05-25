@@ -1,5 +1,5 @@
 ---
-description: 안녕하세요. 신범의 DEV log 입니다.
+description: 이사이트를 방문하는 모든 분들을 위한 문서
 ---
 
 # 기록보단 기억을
