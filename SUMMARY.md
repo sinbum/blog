@@ -43,7 +43,7 @@
 
 ## 빅데이터 분야
 
-* [빅데이터](undefined-2.md)
+* [Kafka](bigData/Kafka.md)
 
 ## About
 
