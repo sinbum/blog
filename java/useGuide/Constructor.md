@@ -15,7 +15,7 @@ class School2{
 int kuk = 0;
 int eng = 0;
 int tot = 0;
->
+
 
 public int hap(){
     tot = kuk+eng;
@@ -28,17 +28,16 @@ public int hap(){
 
 ```
 
+> SchoolMain2.java
+
+```java
 public class SchoolMain2 {
-
-```
-public static void main(String[] args) {
-    School2 sc2 = new School2();
-    sc2.kuk=90;
-    sc2.eng=100;
-    System.out.println("hap: " + sc2.hap());
-}
-
-
+    public static void main(String[] args) {
+        School2 sc2 = new School2();
+        sc2.kuk=90;
+        sc2.eng=100;
+        System.out.println("hap: " + sc2.hap());
+    }
 }
 ```
 
@@ -49,13 +48,13 @@ public static void main(String[] args) {
 
 > School3.java
 
-```
+```java
 
 class School3{
 int kuk = 0;
 int eng = 0;
 int tot = 0;
->
+
 
 public School3(){
 
@@ -117,7 +116,6 @@ public int hap(){
 
     return tot;
 }
-
 
 }
 
