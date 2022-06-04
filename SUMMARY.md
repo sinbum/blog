@@ -9,7 +9,7 @@
 * [자바 설치 가이드](java/JavaEnvGuide.md)
 * [자바 언어 활용 가이드](java/javaUseGuide.md)
   * [변수](java/useGuide/variable.md)
-  * 연산자
+  * [연산자](java/useGuide/operator.md)
   * 제어문
   * 배열
   * 클래스
