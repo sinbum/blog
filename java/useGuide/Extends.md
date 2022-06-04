@@ -60,43 +60,40 @@ System.out.println("제목:" + f.m1);
 ```java
 
 class Car{
-public void gear(){
-System.out.println("수동 기어를 사용합니다.");
-}
+  public void gear(){
+  System.out.println("수동 기어를 사용합니다.");
+  }
 }
 
 class ChildCar extends Car{
-public void auto_gear(){
-System.out.println("자동 기어를 사용합니다.");
-}
+  public void auto_gear(){
+  System.out.println("자동 기어를 사용합니다.");
+  }
 }
 
 class ChildCar2 extends ChildCar{
-public void auto_gear2(){
-System.out.println("수동/자동 기어를 혼합하여 사용합니다.");
-}
+  public void auto_gear2(){
+  System.out.println("수동/자동 기어를 혼합하여 사용합니다.");
+  }
 }
 ```
 
 > CarTest.java
 
-```
+```java
 public class CarTest {
-
   public static void main(String[] args) {
       ChildCar2 cc2 = new ChildCar2();
       cc2.gear();
       cc2.auto_gear();
       cc2.auto_gear2();
   }
-
-
 }
 ```
 
 ## 상속관계 UML로의 표현
 
-```
+```text
   Car Class
   
   △
@@ -144,23 +141,23 @@ public class CarTest {
 ```java
 
 class OverA {
-void show(String str) {
-System.out.println("상위클래스의 메소드 show(String str) 수행 " + str);
-}
+  void show(String str) {
+  System.out.println("상위클래스의 메소드 show(String str) 수행 " + str);
+  }
 }
 
 class SubOverA extends OverA {
-void show() {
-System.out.println("하위클래스의 메소드 show() 수행");
-}
+  void show() {
+  System.out.println("하위클래스의 메소드 show() 수행");
+  }
 }
 
 public class OverrideExam1 {
-public static void main(String args[]) {
-SubOverA over = new SubOverA();
-over.show("IT KOREA");
-over.show();
-}
+  public static void main(String args[]) {
+  SubOverA over = new SubOverA();
+  over.show("IT KOREA");
+  over.show();
+  }
 }
 ```
 
@@ -173,7 +170,7 @@ over.show();
 
 > OverB.java
 
-```
+```text
 class OverB {
   void show() {
   System.out.println("부모클래스의 메소드 show()");
@@ -188,7 +185,7 @@ class OverB {
 
 > SubOverB.java
 
-``` java
+```java
 class SubOverB extends OverB {
   //Overriding
   void show() {
@@ -264,7 +261,6 @@ public static void main(String[] args) {
 
 }
 ```
-
 > TypeConvert.java
 
 ```
