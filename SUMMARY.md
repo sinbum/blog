@@ -13,7 +13,7 @@
   * [제어문](java/useGuide/ControlStatement.md)
   * [배열](java/useGuide/Array.md)
   * [CLI-자바사용](java/useGuide/JavaUseInCLI.md)
-  * [클래스](java/useGuide/.md)
+  * [클래스](java/useGuide/Class.md)
   * [메소드](java/useGuide/.md)
   * [값에의한 호출](Call by Ref)(java/useGuide/.md)
   * [오버로딩](java/useGuide/.md)
