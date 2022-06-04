@@ -24,7 +24,7 @@
   * [상속](java/useGuide/Extends.md)
   * [상속생성자](java/useGuide/ExtendsConstructor.md)  
   * [추상클래스 와 인터페이스](java/useGuide/AbstractAndInterface.md)
-  * [다중구현](java/useGuide/.md)
+  * [다중구현](java/useGuide/MultipleInheritance.md)
   * [예외처리](java/useGuide/Exception.md)
   * [jam 메모리](java/useGuide/.md)
   * [인터페이스] 구현예제(java/useGuide/.md)
