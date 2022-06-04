@@ -11,7 +11,9 @@
   * [변수](java/useGuide/Variable.md)
   * [연산자](java/useGuide/Operator.md)
   * [제어문](java/useGuide/ControlStatement.md)
-  * [배열](java/useGuide/.md)
+  * [배열](java/useGuide/Array.md)
+  * [CLI로 자바사용](java/useGuide/JavaUseInCLI.md
+  * )
   * [클래스](java/useGuide/.md)
   * [메소드](java/useGuide/.md)
   * [값에의한 호출](Call by Ref)(java/useGuide/.md)
