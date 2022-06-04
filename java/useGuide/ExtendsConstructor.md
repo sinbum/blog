@@ -121,8 +121,7 @@ String part="";
        this.part = part;
        System.out.println("Movie3");
    }
-
-
+   
 }
 ```
 > Comedy3.java
@@ -139,7 +138,6 @@ String name="";
        this.name = name;
        System.out.println("Comedy");
    }
-
 
 }
 
