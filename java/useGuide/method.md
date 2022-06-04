@@ -80,7 +80,7 @@ package classtest;
     - @param bonbong
       */
       public void setData(String name,int bonbong){
-      [this.name](http://this.name/) = name;
+      this.name = name;
       this.bonbong = bonbong;
       }
 
@@ -220,7 +220,7 @@ package classtest;
     - @param bonbong
       */
       public void setData(String name,int bonbong){
-      [this.name](http://this.name/) = name;
+      this.name = name;
       this.bonbong = bonbong;
       }
 
@@ -278,7 +278,7 @@ package classtest;
     - @param bonbong
       */
       public void setData(String name,int bonbong){
-      [this.name](http://this.name/) = name;
+      this.name = name;
       this.bonbong = bonbong;
       }
 
