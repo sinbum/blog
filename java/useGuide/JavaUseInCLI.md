@@ -55,11 +55,14 @@ public static void main(String[] args) {
 }
 ```
 
-실행:
+- 실행
+
+```
 C:
 CD\
 CD C:\java_sunday\eclipse\workspace\february\classes
 java DosInput2 10 200
+```
 
 ### 문자와 숫자의 입력
 
