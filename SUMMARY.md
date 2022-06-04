@@ -21,7 +21,7 @@
   * [static](java/useGuide/Static.md)
   * [접근제한자 와 가비지 컬렉션](java/useGuide/GarbageCollection.md)
   * [상속](java/useGuide/Extends.md)
-  * [자바에서의] 생성자(java/useGuide/.md)
+  * [자바에서의생성자](java/useGuide/.md)
   * [상속생성자](java/useGuide/.md)
   * [추상클래스와] 인터페이스(java/useGuide/.md)
   * [다중구현_예외처리](java/useGuide/.md)
