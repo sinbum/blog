@@ -5,7 +5,8 @@
 
 ## Java
 
-* [자바(JAVA)는 무엇인가?](java/WhatIsJava.md) 
+* [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
+  * [JVM 메모리](java/useGuide/JVM.md)
 * [자바 설치 가이드](java/JavaEnvGuide.md)
 * [자바 언어 활용 가이드](java/javaUseGuide.md)
   * [변수](java/useGuide/Variable.md)
@@ -25,11 +26,9 @@
   * [상속생성자](java/useGuide/ExtendsConstructor.md)  
   * [추상클래스 와 인터페이스](java/useGuide/AbstractAndInterface.md)
   * [다중구현](java/useGuide/MultipleInheritance.md)
-  * [예외처리](java/useGuide/Exception.md)
-  * [jam 메모리](java/useGuide/.md)
-  * [인터페이스] 구현예제(java/useGuide/.md)
-  * [프레임](java/useGuide/.md)
-  * [쓰레드](java/useGuide/.md)
+  * [예외처리](java/useGuide/Exception.md)  
+  * [GUI 프레임](java/useGuide/Frame.md)
+  * [쓰레드](java/useGuide/Thread.md)
   * [CollectionFramework](java/useGuide/.md)
   * [네트워크](java/useGuide/.md)
   * [다중 접속 서버](java/useGuide/.md)
