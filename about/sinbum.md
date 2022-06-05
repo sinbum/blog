@@ -4,9 +4,8 @@
 
 
 ## HISTORY
-- 2022 / 05 / 30 사내교육/Confluent,ElasticSearch 을 사용한 간단한 파이프라인 구축 DataLake to Kibana
+- 2022 / 05 / 30 사내교육/Confluent,ElasticSearch 을 사용한 간단한 파이프라인 구축 DataLake to Kibana (1.5개월)
 - 2022 / 01 / 01 사내교육/JIRA,GITLAB,JENKINS,SWAGGER 를 이용한 사내 협업 시스템 이용 (1개월)
-- 2021 / 10 / 16 사내교육/Aouth2.0 을 활용한 API 사용 
 - 2021 / 08 / 31 대우능력개발원 웹개발자 과정 수료  (8개월)
 - 2021 / 03 / 01 경희사이버대학교 경영학과 졸업 
 
