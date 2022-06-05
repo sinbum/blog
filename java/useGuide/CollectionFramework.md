@@ -508,14 +508,13 @@ public class TestHashTable {
 ```java
   java.util.Properties p = new java.util.Properties();
   p.put(Context.INITIAL_CONTEXT_FACTORY, "weblogic.jndi.WLInitialContextFactory");
-  p.put(Context.PROVIDER_URL, "t3://192.168.0.85:7001");
+  p.put(Context.PROVIDER_URL, "t3://192.168.0.1:7001");
   ctx=new InitialContext(p);// 부분으로 변경할 것
 ```
 
 > ProTest.java
 
-
-```
+```java
 //import java.util.Properties;
 
 public class ProTest {
