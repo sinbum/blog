@@ -2,6 +2,10 @@
 title : workSpace  
 author: "Sinbum CHOI"
 
+### 22/06/05
+네트워크 페이지 보기 편하도록 수정필요.
+
+
 ### 22/05/26
 
 자바 (입문)
