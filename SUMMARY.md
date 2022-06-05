@@ -29,7 +29,7 @@
   * [예외처리](java/useGuide/Exception.md)  
   * [GUI 프레임](java/useGuide/Frame.md)
   * [쓰레드](java/useGuide/Thread.md)
-  * [CollectionFramework](java/useGuide/.md)
+  * [CollectionFramework](java/useGuide/CollectionFramework.md)
   * [네트워크](java/useGuide/.md)
   * [다중 접속 서버](java/useGuide/.md)
 * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
