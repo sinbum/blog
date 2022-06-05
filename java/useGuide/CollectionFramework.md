@@ -55,8 +55,8 @@ public static void print(Object [] obj){
 }
 
 ## List
-    - 순서가 있고 중복이 가능합니다.
-    - ArrayList, LinkedList, Vector
+- 순서가 있고 중복이 가능합니다.
+- ArrayList, LinkedList, Vector
 
 > ListTest1
 
@@ -131,11 +131,15 @@ public static void printGet(List set){
    +--java.util.Vector
 ```
 
-모든 구현 인터페이스:
-Cloneable , Collection , List , RandomAccess , Serializable
+- 모든 구현 인터페이스
+  - Cloneable 
+  - Collection 
+  - List 
+  - RandomAccess 
+  - Serializable
 
-직계의 기존의 서브 클래스:
-Stack
+- 직계의 기존의 서브 클래스
+  - Stack
 
 > SearchDelete.java
 
@@ -294,6 +298,7 @@ int i=0;
   있지 않습니다.
 - 속도는 Vector보다 빠른 속도를 가지고 있습니다. 굳이 객체를 스레드를
   이용해 공유할 경우가 아니면 ArrayList 사용을 권장합니다.
+
 ```text
 java.lang.Object
 |
@@ -393,11 +398,11 @@ int i=0;
 ```
 
 ## Map
-    - Key, value 한쌍
-    - HashMap, Hashtable
-    - put 메서드로 입력합니다.
-    - 중복된 키 값을 허용하지 않습니다. 만약 사용하게되면 기존의 값이 삭제됩니다.
-    - 검색 결과가 없으면 null을 리턴합니다.
+- Key, value 한쌍
+- HashMap, Hashtable
+- put 메서드로 입력합니다.
+- 중복된 키 값을 허용하지 않습니다. 만약 사용하게되면 기존의 값이 삭제됩니다.
+- 검색 결과가 없으면 null을 리턴합니다.
 
 > MapTest
 
