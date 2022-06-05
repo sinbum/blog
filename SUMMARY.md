@@ -8,7 +8,7 @@
 * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
   * [JVM 메모리](java/useGuide/JVM.md)
 * [자바 설치 가이드](java/JavaEnvGuide.md)
-* [자바 활용 - 입문](java/javaUseGuide.md)
+* [자바 언어 활용](java/javaUseGuide.md)
   * [변수](java/useGuide/Variable.md)
   * [static](java/useGuide/Static.md)
   * [상수](java/useGuide/Constant.md)
@@ -20,7 +20,6 @@
   * [메소드](java/useGuide/method.md)
   * [값에의한 호출](java/useGuide/CallByRef.md)
   * [GUI 프레임](java/useGuide/Frame.md)
-* [자바 활용 - 초,중급](java/javaUseGuide.md)
   * [생성자](java/useGuide/Constructor.md)
   * [오버로딩](java/useGuide/Overloading.md)
   * [상속](java/useGuide/Extends.md)
@@ -32,7 +31,7 @@
   * [컬렉션 프레임워크](java/useGuide/CollectionFramework.md)
   * [쓰레드](java/useGuide/Thread.md)
   * [네트워크](java/useGuide/Network.md)
-  * [다중 접속 서버](java/useGuide/ThredServer.md)
+  * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
 * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
 
 
