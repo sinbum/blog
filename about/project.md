@@ -8,7 +8,7 @@ description: 프로젝트.
 ## 업무 프로젝트
 
 ### LF 패션
- - 기간 : 2022/06 ~ 현재 진행중
+ - 기간 : 2022/06 ~ 진행중
  - 프로젝트 설명
    - 빅데이터를 통한 실시간 추천 서비스 구축
    - 빅데이터 마이그레이션 (Oracle/Mysql) to Confluent
@@ -50,17 +50,21 @@ description: 프로젝트.
 - Svelte FrameWork 사용.
 - 
 
-### 도커를 사용한 워드프레스 웹사이트 구현 (지인 웹사이트 구축)
+### 워드프레스 웹사이트 배포 (지인 웹사이트 구축)
 - 오라클 클라우드 서비스
-- Ubuntu
-- Nginx
+- Ubuntu : Nginx / WordPress / PHP
 - Docker
-- WordPress
 - PHP
 
 ### 주식공모일정을 크롤링 후 개인 웹 서비스에 표현
+- NodeJs : chromium
+- Java   : Jsoup
 
-### 공공데이터(버스도착시간) RestAPI 와 카카오 메세지 API를 연동한 버스알리미 앱
+### 카카오 restAPI를 연동한 **버스알리미** 앱
+- 공공데이터(버스도착시간) RestAPI
+- 카카오 RestApi
+- Javascript ES6
+- NodeJS : Express/Passport/Oauth2.0
 
 ### 리액트를 사용한 단어사전 앱 만들기
 - 리액트
