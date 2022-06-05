@@ -156,7 +156,7 @@ private String s="";
 ```
 
 
-### 채팅 클라이언트 생성
+### 채팅 클라 생성
 
 > ChatClientThread.java
 
@@ -321,7 +321,7 @@ start java chatting.ChatClientThread 172.16.3.1
 
 ## 멀티 채팅 앱 구현하기.
 
-### 멀티 채팅 서버생성
+### 멀티 채팅 서버 생성
 
 > ChatServerThreadMulti.java
 
@@ -465,7 +465,7 @@ private BufferedWriter writer; // 네트워크 전송
 
 ```
 
-### 멀티 클라이언트 생성
+### 멀티 채팅 클라 생성
 > ChatClientThreadMulti.java
 
 ```java
@@ -612,6 +612,7 @@ private String id;
 
 }
 ```
+### 실행 하기
 
 ```text
 실행:
