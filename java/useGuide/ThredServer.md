@@ -21,7 +21,7 @@ System.out.println("****************************************");
         int connectCount=0;
         
         try {
-            server = new ServerSocket(2007);
+            server = new ServerSocket(2022);
 
             while(true) {
                 Socket client = server.accept();
@@ -106,7 +106,7 @@ System.out.println("클라이언트 프로그램 작동.....");
         int cnt=0;
         
         try {
-            socket = new Socket(args[0], 2007);  
+            socket = new Socket(args[0], 2022);  
 
             InetAddress ia = socket.getInetAddress();
             int port = socket.getLocalPort();// 접속에 사용된 PORT 
@@ -194,7 +194,7 @@ System.out.println("****************************************");
         ServerSocket server = null;
         int connectCount=0;
         try {
-            server = new ServerSocket(2007);
+            server = new ServerSocket(2022);
 
             while(true) {
                 Socket client = server.accept();
@@ -344,7 +344,7 @@ System.out.println("클라이언트 프로그램 작동.....");
 }
 
 ```
-### 실행
+### 실행 하기
 
 - 서버 실행
    ```text
