@@ -1,7 +1,11 @@
 # CONTACT
 
-Github : https://github.com/sinbum
+---
 
-Notion : [https://sinbum.notion.com/blog](https://sinbum.notion.site/Sinbum-s-Web-Log-252c97b4088b43e5940ae915a657457e)
+Github : [https://github.com/sinbum](https://github.com/sinbum)  
 
-Email : sinbum@kakao.com
+Notion : [https://sinbum.notion.com/blog](https://sinbum.notion.site/Sinbum-s-Web-Log-252c97b4088b43e5940ae915a657457e)  
+
+Email : [*sinbum@kakao.com*](mailto://sinbum@kakao.com)
+
+---

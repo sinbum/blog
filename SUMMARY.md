@@ -55,6 +55,6 @@
 ## About
 
 * [SINBUM](about/sinbum.md)  
-* [PROJECT](about/project.md)
-  * [Personal](about/project/personal.md)
+* [업무 Project](about/project.md)
+* [개인 Project](about/personal.md)
 * [CONTACT](about/contact.md)
