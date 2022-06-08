@@ -2,6 +2,9 @@
 title : workSpace  
 author: "Sinbum CHOI"
 
+### 22/06/08
+파이썬으로 미니프로젝트 시작(노션api사용해서 gitBook블로그로 airflow사용해서 자동화 시켜넣기.)
+
 ### 22/06/05
 네트워크 페이지 보기 편하도록 수정필요.
 
