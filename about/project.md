@@ -11,9 +11,10 @@ description: 프로젝트.
  - 기간 : 2022/06 ~ 진행중
  - 프로젝트 설명
    - 빅데이터를 통한 실시간 추천 서비스 구축
-   - 빅데이터 마이그레이션 (Oracle/Mysql) to Confluent
+   - 빅데이터 마이그레이션 (Oracle/Mysql) to Confluent,Spark,Elastic_Kibana
    - 기존 Oracle 대비 낮은 비용을 위한 데이터 레이크 고도화 및 파이프라인 구축
  - 주 담당 업무
+   - 원천 SQL 쿼리분석 과 'AirFlow/DAG' 을 위한 spark 내 쿼리 로직 작성.
  - 사용 기술 스택
    - kafka/Confluent
    - Airflow

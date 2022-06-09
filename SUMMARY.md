@@ -58,4 +58,5 @@
 
 * [SINBUM](about/sinbum.md)  
 * [PROJECT](about/project.md)
+  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/history.md)
 * [CONTACT](about/contact.md)
