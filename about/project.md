@@ -52,6 +52,7 @@ description: 프로젝트.
 ### 스벨트를 사용한 영화 검색 사이트 만들기.
 - Svelte / SCSS / OMDB(영화검색api) RestAPI 
 - Netlify 를 이용한 웹서비스 배포
+- [사이트 링크](https://stirring-kitsune-5b483f.netlify.app/)
 
 ### 워드프레스 웹사이트 배포 
 설명 : 지인 웹사이트 구축을 위해 오라클 클라우드 와 wordPress를 이용해 간단한 웹페이지를 구현.
