@@ -49,7 +49,7 @@
 
 ## DATABASE
 
-* [데이터베이스](database.md)
+* [데이터베이스](database/database.md)
   * [데이터베이스 입문](database/theory/Basic.md)
     * [데이터베이스 역사](database/theory/BasicHistory.md)
     * [데이터베이스 종류](database/theory/BasicType.md)
@@ -69,7 +69,7 @@
 ## About
 
 * [SINBUM](about/sinbum.md)  
+* [INTEREST](about/interest.md)
 * [PROJECT](about/project.md)
   * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/history.md)
 * [CONTACT](about/contact.md)
-* [INTEREST](about/interest.md)
