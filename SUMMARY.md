@@ -2,8 +2,10 @@
 
 * [기록보단 기억을](README.md)
   * [History](History.md)
-* 리눅스
-  * [기초](linux/basic.md)
+
+## 기초 연습
+* 리눅스 사용
+  * [기본명령어](linux/BasicCommand.md)
 
 ## 언어
 * 자바
