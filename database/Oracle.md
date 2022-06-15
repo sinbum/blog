@@ -43,3 +43,13 @@ DISTINCT를 사용해 쿼리문을 분석 할 시에는 중복을 제거한 결�
 - join() 함수
 
 [참고링크 : codingDNA](https://bio-info.tistory.com/29)
+
+
+—-
+# 리눅스
+
+## 기본 명령어 (설명)
+
+
+
+## 기본 명령어 (연습용)
