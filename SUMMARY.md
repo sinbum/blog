@@ -60,12 +60,13 @@
 
 ## 빅데이터 분야
 
+* [bigData 개념](bigData/Basic/Readme.md)
+  * [OLTP,OLAP](bigData/Basic/OltpOlap.md)
 * [Kafka](bigData/kafka/kafka.md)
   * 환경설정 및 소스코드 다운로드
   * 아파치 카프카의 탄생 배경
     * [아파치 카프카 탄생](bigData/kafka/kafkaBorn.md)
   * 카프카 기초 개념
-    * 
 
 
 ## About
