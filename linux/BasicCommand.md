@@ -88,15 +88,69 @@
   - 파일이 없을 경우 abc.txt 빈파일을 생성하고, 있을경우는 수정시간을 현재 시각으로 변경합니다.
 
 ### mv
+    Move의 약자로, 파일이나 디렉터리의 이름을 변경하거나 다른 디렉터리로 옮길 때 사용합니다.
+- mv abc.txt /etc/sysyconfig
+  - abc.txt 파일을 지정한 경로에 위치를 변경합니다.  
+- mv abc.txt www.txt abc.txt의 이름을 www.txt로 변경해서 이동 시킵니다.
 
 ### mkdir
+**Make Directory의 약자로, 새로운 디렉터리를 생성합니다.**
+
+
+- mkdir abc
+  - 현재 디렉토리에 abc 폴더를 생성합니다.
+  - mkdir -p /def/fgp 
+    - /def/fgh 디렉터리를 생성하는데, 만약에 /fgh 디렉터리의 부모 디렉터리인 '/def' 디렉터리가 없다면 자동으로 생성합니다
+    - 옵션 -p 는 Parent를 뜻합니다.
+
+
 ### rmdir
+**ReMove Directory의 약자로 , 디렉터리를 삭제합니다.**
+- rmdir abc
+  - 해당 디렉터리의 삭제 권한이 있어야 합니다
+
+
 ### cat
+**conCATenate 의 약자로, 파일내용을 화면에 보여줍니다.**
+
+- cat a.txt
+  - a.txt 의 텍스트를 콘솔창에서 미리보기 할 수 있습니다.
+
 ### head,tail
+**텍스트 형식으로 작성된 파일의 앞 또는 마지막의 라인을 미리보기합니다.**
+- head anaconda-ks.cfg
+  - 해당 파일의 앞 10행을 화면에 출력합니다.
+  - 파일 내용이 너무긴 경우 cat 명령어 보다 head 명령어를 이용한다면 내가 원하는 부분 까지 미리보기 할 수 있습니다.
+- tail -5 anaconda-ks.cfg
+  - 마지막 5행만 화면에 출력합니다.
+
 ### more
+**텍스트 형식으로 작성된 파일을 페이지 단위로 화면에 출력합니다.**
+
+- more anaconda-ks.cfg
+  - '스페이스바'를 누를경우 다음페이지로 이동하고 'B' 를 누르면 앞 페이지로 이동합니다.  'Q' 는 종료입니다.
+- more +100 anaconda-ks.cfg 
+  - 100부터 출력합니다.
+  
 ### less
+**more 명령과 용도가 비슷하지만 기능이 더 확장되어 있습니다.**
+
+- less ananconda-ks.cfg
+- less +100 anaconda-ks.cfg
+  - 100행부터 출력
+  
+
 ### file
+**해당하는 파일이 어떤종류의 파일인지 표시합니다.**
+- file anaconda-ks.cfg
+  - 해당 파일은 텍스트 파일이므로 아스키 파일로 표시됩니다.
+- file /dev/sr0
+  - sr0은 DVD 장치이므로 block special로 표시됩니다.
+
 ### clear
+**현재 사용중인 터미널 화면을 깨끗하게 지워줍니다.**
+
+- clear
 
 
 
