@@ -2,7 +2,7 @@
 description: 아래 interest 페이지는 저의 개인적인 흥미 및 관심사를 노션으로 스크래핑 한 모음으로, 노션API를 사용해 자동으로 작성되었습니다.
 cover: >-
   https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxjb2Rpbmd8ZW58MHx8fHwxNjU1NTM0Njc2&ixlib=rb-1.2.1&q=80
-coverY: 0
+coverY: 263.4640234948605
 ---
 
 # 개발 관심 흥미도(시간순)
