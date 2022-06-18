@@ -5,7 +5,7 @@ description: 아래 interest 페이지는 저의 개인적인 흥미 및 관심�
 # 개발 관심 흥미도(시간순)
 ---
 |주제|이름|태그|참고링크|
-|:---:|:---|:---:|:---:|
+|:---:|:---------------------------------------------------------------------------------------------------------|:-------------------------------:|:---:|
 |주제X|파이썬 딕셔너리 리스트에서 특정 키 값으로 정렬하기| [] |[링크](https://blog.advenoh.pe.kr/python/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%ED%82%A4-%EA%B0%92%EC%9C%BC%EB%A1%9C-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/)|
 |주제X|Python에서 dictionary 키를 list로 리턴하는 방법 :: 라이언(Ryan)의 블로그| [] |[링크](https://sdr1982.tistory.com/177)|
 |주제X|Python - 딕셔너리에 key가 있는지 확인| [] |[링크](https://codechacha.com/ko/python-check-key-exists-in-dict/)|
