@@ -9,6 +9,8 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|리눅스 리다이렉션 & 파이프(Linux redirection & pipe) :: JDM's Blog| [] |[링크](https://jdm.kr/blog/74)|
+|주제X|Apache Airflow - Workflow 명령정리| [] |[링크](https://zzsza.github.io/data/2018/01/04/airflow-1/)|
 |주제X|하하하하하 :: 'TOOL/IDE' 카테고리의 글 목록| [] |[링크](https://forgiveall.tistory.com/category/TOOL/IDE)|
 |주제X|오버헤드 - 위키백과, 우리 모두의 백과사전| [] |[링크](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C#:~:text=%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C(overhead)%EB%8A%94%20%EC%96%B4%EB%96%A4,%EC%8B%9C%EA%B0%84%20%C2%B7%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EB%93%B1%EC%9D%84%20%EB%A7%90%ED%95%9C%EB%8B%A4.)|
 |주제X|[Spark] 스파크 Dataframe 데이터프레임 가공하기 :: 쫄보의삽질 블로그| [] |[링크](https://ninano1109.tistory.com/89)|
