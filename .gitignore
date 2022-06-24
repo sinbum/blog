@@ -170,4 +170,4 @@ cython_debug/
 
 # 아래는 지정파일
 *.py
-
+*.json
