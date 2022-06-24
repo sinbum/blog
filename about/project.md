@@ -45,7 +45,7 @@ description: 프로젝트.
     
 ## 2022 개인 프로젝트
 
-### 파이썬/notionAPI/GithubAPI/Airflow 를 사용해 노션 웹클리퍼 정보 자동화하기
+### 노션 API를 사용해 데이터 추출 후 내블로그에 자동으로 연동하기
 
 ### GitHub, GitBook 을 사용한 블로그 사이트 만들기.
 
