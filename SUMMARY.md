@@ -62,10 +62,9 @@
 * [bigData 개념](bigData/Basic/Readme.md)
   * [OLTP,OLAP](bigData/Basic/OltpOlap.md)
 * [Kafka](bigData/kafka/kafka.md)
-  * [환경설정 및 소스코드 다운로드](undefined-2/kafka/undefined.md)
-  * [아파치 카프카의 탄생 배경](undefined-2/kafka/undefined-1/README.md)
-    * [아파치 카프카 탄생](bigData/kafka/kafkaBorn.md)
-  * [카프카 기초 개념](undefined-2/kafka/undefined-2.md)
+  * [환경설정 및 소스코드 다운로드](bigData/kafka/download.md)
+  * [카프카 기초 개념](bigData/kafka/understand.md)
+    * [아파치 카프카의 설명](bigData/kafka/kafkaBorn.md)
 
 ## About
 
