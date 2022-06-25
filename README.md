@@ -42,7 +42,7 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 
 ## 언어
 
-* [자바](undefined-1/undefined/README.md)
+* [자바](python/undefined/README.md)
   * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
     * [JVM 메모리](java/useGuide/JVM.md)
   * [자바 설치 가이드](java/JavaEnvGuide.md)
@@ -71,7 +71,7 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
     * [네트워크](java/useGuide/Network.md)
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
   * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
-* [파이썬](undefined-1/undefined-1.md)
+* [파이썬](python/README.md)
 
 ## GITHUB
 
