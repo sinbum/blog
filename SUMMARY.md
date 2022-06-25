@@ -4,11 +4,13 @@
   * [History](History.md)
 
 ## 기초 연습
-* 리눅스 사용
+
+* [리눅스 사용](undefined/undefined/README.md)
   * [기본명령어](linux/BasicCommand.md)
 
 ## 언어
-* 자바
+
+* [자바](undefined-1/undefined/README.md)
   * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
     * [JVM 메모리](java/useGuide/JVM.md)
   * [자바 설치 가이드](java/JavaEnvGuide.md)
@@ -27,20 +29,17 @@
     * [생성자](java/useGuide/Constructor.md)
     * [오버로딩](java/useGuide/Overloading.md)
     * [상속](java/useGuide/Extends.md)
-    * [상속생성자](java/useGuide/ExtendsConstructor.md)  
+    * [상속생성자](java/useGuide/ExtendsConstructor.md)
     * [접근제한자 와 가비지 컬렉션](java/useGuide/GarbageCollection.md)
     * [추상클래스 와 인터페이스](java/useGuide/AbstractAndInterface.md)
     * [다중구현](java/useGuide/MultipleInheritance.md)
-    * [예외처리](java/useGuide/Exception.md)  
+    * [예외처리](java/useGuide/Exception.md)
     * [컬렉션 프레임워크](java/useGuide/CollectionFramework.md)
     * [쓰레드](java/useGuide/Thread.md)
     * [네트워크](java/useGuide/Network.md)
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
   * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
-* 파이썬
-
-
-
+* [파이썬](undefined-1/undefined-1.md)
 
 ## GITHUB
 
@@ -71,7 +70,7 @@
 
 ## About
 
-* [SINBUM](about/sinbum.md)  
+* [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
 * [PROJECT](about/project.md)
   * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/history.md)
