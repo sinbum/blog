@@ -66,7 +66,7 @@
   * 아파치 카프카의 탄생 배경
     * [아파치 카프카 탄생](bigData/kafka/kafkaBorn.md)
   * 카프카 기초 개념
-*[Airflow](bigData/airflow/content.md)
+* [Airflow](bigData/airflow/content.md)
 
 ## About
 
