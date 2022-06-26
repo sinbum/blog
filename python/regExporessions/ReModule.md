@@ -1,7 +1,5 @@
 
-# re 모듈
-
-## re 의사용
+ㅛ# re 의사용
 ```python
 import re
 
