@@ -42,11 +42,11 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 
 ## 언어
 
-* [자바](undefined-1/undefined/README.md)
+* [자바](python/undefined/README.md)
   * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
     * [JVM 메모리](java/useGuide/JVM.md)
   * [자바 설치 가이드](java/JavaEnvGuide.md)
-  * [자바 언어 활용](java/javaUseGuide.md)
+  * [자바 언어 활용](java/JavaUseGuide.md)
     * [변수](java/useGuide/Variable.md)
     * [static](java/useGuide/Static.md)
     * [상수](java/useGuide/Constant.md)
@@ -70,15 +70,15 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
     * [쓰레드](java/useGuide/Thread.md)
     * [네트워크](java/useGuide/Network.md)
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
-  * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
-* [파이썬](undefined-1/undefined-1.md)
+  * [간단한 채팅 앱 개발하기](java/miniProject/Chat.md)
+* [파이썬](python/README.md)
 
 ## GITHUB
 
-* [깃 허브](gitHub/gitHub.md)
-  * [가져오기](gitHub/pull.md)
-  * [저장하기](gitHub/commit.md)
-  * [내보내기](gitHub/push.md)
+* [깃 허브](gitHub/GitHub.md)
+  * [가져오기](gitHub/Pull.md)
+  * [저장하기](gitHub/Commit.md)
+  * [내보내기](gitHub/Push.md)
 
 ## DATABASE
 
@@ -103,5 +103,5 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
 * [PROJECT](about/project.md)
-  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/history.md)
+  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
 * [CONTACT](about/contact.md)

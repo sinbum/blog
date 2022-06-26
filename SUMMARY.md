@@ -10,11 +10,11 @@
 
 ## 언어
 
-* [자바](undefined-1/undefined/README.md)
+* [자바](java/README.md)
   * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
     * [JVM 메모리](java/useGuide/JVM.md)
   * [자바 설치 가이드](java/JavaEnvGuide.md)
-  * [자바 언어 활용](java/javaUseGuide.md)
+  * [자바 언어 활용](java/JavaUseGuide.md)
     * [변수](java/useGuide/Variable.md)
     * [static](java/useGuide/Static.md)
     * [상수](java/useGuide/Constant.md)
@@ -38,15 +38,23 @@
     * [쓰레드](java/useGuide/Thread.md)
     * [네트워크](java/useGuide/Network.md)
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
-  * [간단한 채팅 앱 개발하기](java/miniProject/chat.md)
-* [파이썬](undefined-1/undefined-1.md)
+  * [간단한 채팅 앱 개발하기](java/miniProject/Chat.md)
+* [파이썬](python/README.md)
+  * [정규표현식](python/regExporessions/RegExpression.md)
+    * [re 모듈](python/regExporessions/ReModule.md)
+    * [메타문자1](python/regExporessions/Meta1.md)
+    * [메타문자2](python/regExporessions/Meta2.md)
+    * [그루핑](python/regExporessions/Grouping.md)
+    * [전방탐색](python/regExporessions/Lookahead.md)
+    * [문자열 바꾸기](python/regExporessions/Replace.md)
+    * [Greedy 와 Non-Greedy](python/regExporessions/Greed_and_NoneGreed.md)
 
 ## GITHUB
 
-* [깃 허브](gitHub/gitHub.md)
-  * [가져오기](gitHub/pull.md)
-  * [저장하기](gitHub/commit.md)
-  * [내보내기](gitHub/push.md)
+* [깃 허브](gitHub/GitHub.md)
+  * [가져오기](gitHub/Pull.md)
+  * [저장하기](gitHub/Commit.md)
+  * [내보내기](gitHub/Push.md)
 
 ## DATABASE
 
@@ -62,14 +70,16 @@
 * [bigData 개념](bigData/Basic/Readme.md)
   * [OLTP,OLAP](bigData/Basic/OltpOlap.md)
 * [Kafka](bigData/kafka/kafka.md)
-  * [환경설정 및 소스코드 다운로드](bigData/kafka/download.md)
-  * [카프카 기초 개념](bigData/kafka/understand.md)
-    * [아파치 카프카의 설명](bigData/kafka/kafkaBorn.md)
+  * 환경설정 및 소스코드 다운로드
+  * 아파치 카프카의 탄생 배경
+    * [아파치 카프카 탄생](bigData/kafka/kafkaBorn.md)
+  * 카프카 기초 개념
+* [Airflow](bigData/airflow/content.md)
 
 ## About
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
 * [PROJECT](about/project.md)
-  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/history.md)
+  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
 * [CONTACT](about/contact.md)
