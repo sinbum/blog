@@ -40,7 +40,14 @@
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
   * [간단한 채팅 앱 개발하기](java/miniProject/Chat.md)
 * [파이썬](python/README.md)
-  * [정규표현식](python/RegExpression.md)
+  * [정규표현식](python/regExporessions/RegExpression.md)
+    * [re모듈](python/regExporessions/ReModule.md)
+    * [메타문자1](python/regExporessions/Meta1.md)
+    * [메타문자2](python/regExporessions/Meta2.md)
+    * [그루핑](python/regExporessions/Grouping.md)
+    * [전방탐색](python/regExporessions/Lookahead.md)
+    * [문자열 바꾸기](python/regExporessions/Replace.md)
+    * [Greedy 와 Non-Greedy](python/regExporessions/Greed_and_NoneGreed.md)
 
 ## GITHUB
 
