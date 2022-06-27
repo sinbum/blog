@@ -1,3 +1,10 @@
+---
+description: 파이썬을 입문자 및 쉽게 이해 할 수 있도록 만든 페이지 입니다.
+cover: >-
+https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80
+---
+
+
 # 파이썬
 
 ## 문자열
