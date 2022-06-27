@@ -44,7 +44,7 @@
   * [입력,출력](python/input_output.md)
   * [타입선언](python/type.md)
   * [자료구조](python/DataStructure.md)
-  * [주석처리](python/)
+  * [주석처리](python/Comment.md)
   * [문자열](python/)
     * [기본구조](python/)
     * [포맷](python/)
