@@ -75,4 +75,3 @@ odd_numbers = [number for number in numbers if number % 2 == 1]
 ```
 
 **컴프리헨션을**이용하면코드가 훨씬 간편해 질 수 있습니다. 
-[number for number in numbers if number % 2 == 1]
