@@ -91,8 +91,8 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 
 ## 빅데이터 분야
 
-* [bigData 개념](bigData/Basic/Readme.md)
-  * [OLTP,OLAP](bigData/Basic/OltpOlap.md)
+* [bigData 개념](bigData/basic/Readme.md)
+  * [OLTP,OLAP](bigData/basic/OltpOlap.md)
 * [Kafka](bigData/kafka/kafka.md)
   * [환경설정 및 소스코드 다운로드](bigData/kafka/download.md)
   * [카프카 기초 개념](bigData/kafka/understand.md)
