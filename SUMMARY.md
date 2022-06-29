@@ -61,7 +61,7 @@
       * [전방탐색](python/useGuide/regExporessions/Lookahead.md)
       * [문자열 바꾸기](python/useGuide/regExporessions/Replace.md)
       * [Greedy 와 Non-Greedy](python/useGuide/regExporessions/Greed_and_NoneGreed.md)
-  *[미니프로젝트] 
+  *[미니프로젝트](python/miniProject/README.md)
       *[파이썬,단순한 복리식 계산하기](python/miniProject/YearRate_Calculator.md)
   * [마치며...](python/useGuide/Finish.md)
 
