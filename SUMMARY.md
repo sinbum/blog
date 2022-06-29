@@ -84,8 +84,10 @@
   * [DataWarehouse](bigData/basic/DataWarehouse.md)
 * [Kafka](bigData/kafka/README.md)
   * 환경설정 및 소스코드 다운로드
-  * 아파치 카프카의 탄생 배경
-    * [아파치 카프카 탄생](bigData/kafka/kafkaBorn.md)
+  * 아파치 카프카는?
+    * [카프카의 시작](bigData/kafka/Born.md)
+    * [카프카 특성](bigData/kafka/Propoties.md)
+    * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * 카프카 기초 개념
 * [Airflow](bigData/airflow/content.md)
 

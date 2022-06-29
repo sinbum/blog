@@ -96,7 +96,7 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 * [Kafka](bigData/kafka/kafka.md)
   * [환경설정 및 소스코드 다운로드](bigData/kafka/download.md)
   * [카프카 기초 개념](bigData/kafka/understand.md)
-    * [아파치 카프카의 설명](bigData/kafka/kafkaBorn.md)
+    * [아파치 카프카의 설명](bigData/kafka/Propoties.md)
 
 ## About
 
