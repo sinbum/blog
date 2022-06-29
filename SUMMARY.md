@@ -40,7 +40,9 @@
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
   * [간단한 채팅 앱 개발하기](java/miniProject/Chat.md)
 * [파이썬](python/README.md)
-  * [파이썬 언어 활용]
+  * [파이썬(Python)은 무엇인가?](python/WhatIsPython.md)
+  * [파이썬 설치 가이드](python/PythonInstall.md)
+  * [파이썬 언어 활용](python/PythonUseGuide.md)
     * [변수](python/useGuide/vriables.md)
     * [입력,출력](python/useGuide/Input_output.md)
     * [타입선언](python/useGuide/Type.md)
