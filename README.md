@@ -55,7 +55,7 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
     * [배열](java/useGuide/Array.md)
     * [CLI-자바사용](java/useGuide/JavaUseInCLI.md)
     * [클래스](java/useGuide/Class.md)
-    * [메소드](java/useGuide/method.md)
+    * [메소드](java/useGuide/Method.md)
     * [값에의한 호출](java/useGuide/CallByRef.md)
     * [GUI 프레임](java/useGuide/Frame.md)
     * [생성자](java/useGuide/Constructor.md)
