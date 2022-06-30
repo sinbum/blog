@@ -81,12 +81,13 @@
   * [데이터베이스 중급](database/theory/Middle.md)
 * [오라클](database/oracle/Oracle.md)
 
-## 빅데이터 분야
+## BigData
 
 * [bigData 개념](bigData/basic/Readme.md)
   * [OLTP,OLAP](bigData/basic/OltpOlap.md)
   * [ELT,ETL](bigData/basic/EltEtl.md)
-  * [DataWarehouse](bigData/basic/DataWarehouse.md)
+  * [DW](bigData/basic/DataWarehouse.md)
+  * [ObjectStorage](bigData/basic/ObjStorage.md)
 * [Kafka](bigData/kafka/README.md)
   * 환경설정 및 소스코드 다운로드
   * 아파치 카프카는?
@@ -94,7 +95,9 @@
     * [카프카 특성](bigData/kafka/Propoties.md)
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * 카프카 기초 개념
-* [Airflow](bigData/airflow/content.md)
+* [빅데이터 솔루션]
+  * [Airflow](bigData/solutions/airflow.md)
+  * [Grafana](bigData/solutions/Grafana.md)
 
 ## About
 
