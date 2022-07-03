@@ -92,6 +92,7 @@ class Two_Array {
 ```
 
 > MultiArrayTest.java
+
 - length 속성은 for문의 반복횟수를 결정하는데 사용됩니다.
 - 3차원 배열은 [면][행][열]로 이루어져 있으며 프로그래밍분야에서 사용되지 않습니다.
 

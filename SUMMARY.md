@@ -96,7 +96,7 @@
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * 카프카 기초 개념
 * [빅데이터 솔루션]
-  * [Airflow](bigData/solutions/airflow.md)
+  * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
 
 ## About

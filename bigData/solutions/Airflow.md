@@ -45,5 +45,5 @@ Airflow worker는 실제로 task를 실행하는 주체입니다.
 Airflow database는 airflow에 있는 DAG, Task 등의 metadata를 저장하고 관리합니다.
 
 
-###DAG(Directed Acyclic Graph)
+### DAG(Directed Acyclic Graph)
 DAG는 비순환 그래프로써 순환하는 사이클이 없는 그래프입니다. 즉, 노드와 노드가 단반향으로 연결되어 있어 그노드로 향하게 되면 돌아오지 않는다는 특성을 가지고 있습니다. Airflow에서는 이러한 DAG를 이용해 Workflow를 구성하여 어떤 순서로 task를 실행시킬 것인지 dependency를 어떻게 표현할 것인지 등을 설정합니다.
