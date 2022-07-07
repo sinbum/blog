@@ -9,19 +9,34 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
-|주제X|정규표현식 연습 - regexone.com | Momentous for the future| [] |[링크](https://jacegem.github.io/blog/2019/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-%EC%97%B0%EC%8A%B5/)|
-|주제X|[Intellij] 인텔리제이 단어 일괄로 바꾸기(일괄 수정) - 기초공사| [] |[링크](https://baekh-93.tistory.com/33)|
-|주제X|[intellij]인텔리제이 세로편집 모드(열편집 모드) 단축키, 하는방법 - 기초공사| [] |[링크](https://baekh-93.tistory.com/49)|
-|주제X|PyCharm 에러: Fatal Python error: Py_Initialize: can't initialize sys standard streams| [] |[링크](https://neodreamer-dev.tistory.com/758)|
-|주제X|COS Pro 2급 파이썬: 22.2 문자열을 인덱스 범위로 접근하기| [] |[링크](https://dojang.io/mod/page/view.php?id=1333)|
+|주제X|[MySQL] Inner Join과 Left Join의 차이| [] |[링크](https://jaenjoy.tistory.com/7)|
+|DB|[DATABASE] 서브쿼리란? 서브쿼리 사용해보기| ['서브쿼리'] |[링크](https://mozi.tistory.com/233)|
+|DB|Correlated scalar subqueries in Apache Spark SQL on waitingforcode.com - articles about Apache Spark SQL| ['SCALA 쿼리'] |[링크](https://www.waitingforcode.com/apache-spark-sql/correlated-scalar-subqueries-apache-spark-sql/read#correlated_projection_query)|
+|파이썬|Python 날짜, 시간 계산 방법 (오늘, 어제, 한달 전, 일년 전, 내일, 한달 후, 일년 후, 날짜 시간 더하기, 날짜 시간 빼기)| ['파이썬기본'] |[링크](https://jsikim1.tistory.com/143)|
+|파이썬|파이썬 파일 사용법 정리 (파일 읽기, 파일 쓰기, with문, pickle 모듈)| ['파이썬기본'] |[링크](https://withcoding.com/86)|
+|DB|블록, 파일, 오브젝트 스토리지 쉽게 이해하기 : Dongkuk Systems Portal| ['오브젝트 스토리지'] |[링크](https://www.dknyou.com/blog/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=10474168&t=board)|
+|DB|오브젝트 스토리지| ['오브젝트 스토리지'] |[링크](https://tech.gluesys.com/blog/2021/04/20/storage_9_intro.html)|
+|파이프라인|차량용 단말을 위한 IoT 파이프라인 구축기 (feat. Kafka) #2 - SOCAR Tech Blog| ['아키텍처'] |[링크](https://tech.socarcorp.kr/mobility/2022/02/09/socar-iot-pipeline-2.html)|
+|주제X|[솔루션헌터]클라우드 중심, IT 혁신, 클라우드, AI, 미래산업, 통신 : 네이버 블로그| [] |[링크](https://blog.naver.com/PostList.naver?blogId=ki630808&categoryNo=18)|
+|자료구조|JSON 스키마| ['JSON'] |[링크](https://mystyle1057.tistory.com/entry/JSON-%EC%8A%A4%ED%82%A4%EB%A7%88)|
+|파이프라인|Kafka Operations(Production Deployment) – Sori-Nori| ['카프카'] |[링크](https://sori-nori.gitlab.io/docs/Kafka-Operations/)|
+|파이프라인|Grafana 소개 및 사용| ['그라파나'] |[링크](https://www.cisco.com/c/ko_kr/support/docs/wireless/policy-suite-mobile/214788-introduction-of-grafana-and-its-usage.pdf)|
+|파이프라인|그라파나(Grafana)란? | 44BITS| ['그라파나'] |[링크](https://www.44bits.io/ko/keyword/grafana)|
+|파이프라인|How SmartNews Built a Lambda Architecture on AWS to Analyze Customer Behavior and Recommend Content | AWS Big Data Blog| ['AWS'] |[링크](https://aws.amazon.com/ko/blogs/big-data/how-smartnews-built-a-lambda-architecture-on-aws-to-analyze-customer-behavior-and-recommend-content/)|
+|파이프라인|스타트업 개발자가 배우는 아파치 카프카| ['카프카'] |[링크](https://moonsupport.oopy.io/post/22)|
+|파이썬|python 3에서는 f-string이 갑이다.| ['파이썬'] |[링크](https://bluese05.tistory.com/70)|
+|파이썬|정규표현식 연습 - regexone.com | Momentous for the future| ['정규표현식'] |[링크](https://jacegem.github.io/blog/2019/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-%EC%97%B0%EC%8A%B5/)|
+|IDE|[Intellij] 인텔리제이 단어 일괄로 바꾸기(일괄 수정) - 기초공사| ['인텔리제이'] |[링크](https://baekh-93.tistory.com/33)|
+|IDE|[intellij]인텔리제이 세로편집 모드(열편집 모드) 단축키, 하는방법 - 기초공사| ['인텔리제이'] |[링크](https://baekh-93.tistory.com/49)|
+|파이썬|PyCharm 에러: Fatal Python error: Py_Initialize: can't initialize sys standard streams| ['파이참'] |[링크](https://neodreamer-dev.tistory.com/758)|
+|파이썬|COS Pro 2급 파이썬: 22.2 문자열을 인덱스 범위로 접근하기| ['문자열'] |[링크](https://dojang.io/mod/page/view.php?id=1333)|
 |주제X|IT정보, seek : 네이버 블로그| [] |[링크](https://blog.naver.com/dktmrorl)|
-|주제X|Github Token 방식으로 로그인하기| [] |[링크](https://velog.io/@shin6949/Github-Token-%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%95%98%EA%B8%B0-ch3ra7vc)|
-|주제X|리눅스 리다이렉션 & 파이프(Linux redirection & pipe) :: JDM's Blog| [] |[링크](https://jdm.kr/blog/74)|
-|주제X|Apache Airflow - Workflow 명령정리| [] |[링크](https://zzsza.github.io/data/2018/01/04/airflow-1/)|
-|주제X|하하하하하 :: 'TOOL/IDE' 카테고리의 글 목록| [] |[링크](https://forgiveall.tistory.com/category/TOOL/IDE)|
-|주제X|오버헤드 - 위키백과, 우리 모두의 백과사전| [] |[링크](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C#:~:text=%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C(overhead)%EB%8A%94%20%EC%96%B4%EB%96%A4,%EC%8B%9C%EA%B0%84%20%C2%B7%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EB%93%B1%EC%9D%84%20%EB%A7%90%ED%95%9C%EB%8B%A4.)|
-|주제X|[Spark] 스파크 Dataframe 데이터프레임 가공하기 :: 쫄보의삽질 블로그| [] |[링크](https://ninano1109.tistory.com/89)|
-|주제X|[Spark] Spark DataFrame 개념 정리!| [] |[링크](https://artist-developer.tistory.com/21)|
+|형상관리|Github Token 방식으로 로그인하기| ['깃허브'] |[링크](https://velog.io/@shin6949/Github-Token-%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%95%98%EA%B8%B0-ch3ra7vc)|
+|파이프라인|리눅스 리다이렉션 & 파이프(Linux redirection & pipe) :: JDM's Blog| ['리눅스'] |[링크](https://jdm.kr/blog/74)|
+|파이프라인|Apache Airflow - Workflow 명령정리| ['에어플로우'] |[링크](https://zzsza.github.io/data/2018/01/04/airflow-1/)|
+|자료구조|오버헤드 - 위키백과, 우리 모두의 백과사전| ['오버헤드'] |[링크](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C#:~:text=%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C(overhead)%EB%8A%94%20%EC%96%B4%EB%96%A4,%EC%8B%9C%EA%B0%84%20%C2%B7%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EB%93%B1%EC%9D%84%20%EB%A7%90%ED%95%9C%EB%8B%A4.)|
+|빅데이터|[Spark] 스파크 Dataframe 데이터프레임 가공하기 :: 쫄보의삽질 블로그| ['스파크'] |[링크](https://ninano1109.tistory.com/89)|
+|빅데이터|[Spark] Spark DataFrame 개념 정리!| ['스파크'] |[링크](https://artist-developer.tistory.com/21)|
 |파이썬|Python datetime 쉽게 조작하는 Pendulum 라이브러리 알아보기 – Minwook-Shin's Tech Blog – Junior Developer's Basics Technology Blog!| ['라이브러리'] |[링크](https://minwook-shin.github.io/python-ease-datetimes-manipulation-using-pendulum/)|
 |서버툴|Airflow 조그맣게 시작하기 - Quick start| ['에어플로우'] |[링크](https://velog.io/@hamdoe/Airflow-%EC%A1%B0%EA%B7%B8%EB%A7%A3%EA%B2%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Quick-start)|
 |서버툴|Airflow란 무엇인가? Airflow 설치 방법과 간단한 예제 ( 본 포스팅 )| ['에어플로우'] |[링크](https://lsjsj92.tistory.com/631)|
@@ -94,4 +109,3 @@ coverY: 263.4640234948605
 |자바스크립트|Class vs Factory Function 차이| ['노드js'] |[링크](https://urbanbase.github.io/dev/2021/03/28/ECMAScript6.html)|
 |클라이언트|구글 스프레드,노션 연동| ['연동'] |[링크](https://paullabkorea.medium.com/%EC%97%B0%EC%9E%AC-%EB%85%B8%EC%85%98-%EC%A2%80-%EC%8D%A8%EB%B3%BC%EA%B9%8C-1-%EA%B5%AC%EA%B8%80-%EC%84%A4%EB%AC%B8%EC%A7%80-%EC%97%B0%EB%8F%99%EB%B6%80%ED%84%B0-%EC%9D%91%EB%8B%B5%EC%97%B0%EB%8F%99%EA%B9%8C%EC%A7%80-45e3c5cb61f2)|
 |빅데이터|나스를 이용해서 홈페이지를 운영 시 장단점| ['나스'] |[링크](https://namedia.tistory.com/180)|
-|클라이언트|Project Tree Generator(트리구조 생성기)| ['개발정보', '링크'] |[링크](https://woochanleee.github.io/project-tree-generator/)|
