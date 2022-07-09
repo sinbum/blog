@@ -1,6 +1,6 @@
 # 그라파나(Grafana)란?
 
-![그라파나 로고](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f5b5d065-3617-4855-a86c-c8fa93a870fb/9c82520bd5e035c892676622e795f2f9fd37978fba110780c33ef4db02d3f3ed.m.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220630T074100Z&X-Amz-Expires=86400&X-Amz-Signature=98c66db5b445fe49c830bd7a2aa4e8c12909e0b50cb76d4adcd57194d85077e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%229c82520bd5e035c892676622e795f2f9fd37978fba110780c33ef4db02d3f3ed.m.png%22&x-id=GetObject)
+![그라파나 로고](https://www.whitelabeldevelopers.tech/upload/glossary/384/headimg.webp)
 
 ## 그라파나 설명
 
