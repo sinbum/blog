@@ -10,7 +10,7 @@
 
 ## 블록, 파일, 오브젝트
 
-![블록,파일,오브젝트 개념도](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70918737-7e41-48e7-882e-d946c2159bea/blockfileobject.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220630T113857Z&X-Amz-Expires=86400&X-Amz-Signature=b3dd501a0d542ee7efcbec7964062c0df973d655a2f1f8c8b0f857aa744a0f3c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22blockfileobject.png%22&x-id=GetObject)
+![블록,파일,오브젝트 개념도](./images/ObjStorage_blockfileobject.png)
 
 - 블록 저장 방식
     - 데이터를 고정된 크기의 단위로 나누어 스토리지에 저장.
@@ -54,7 +54,7 @@
 - 환경 구성에 따른 성능 튜닝 필요
 - 클러스터 내 저장한 위치에 대한 해시 테이블 알고리즘에 따른 성능 의존
 
-![파일시스템과 오브젝트의 차이](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bc5ef8f5-2bf7-4b5d-92b4-58679b63620f/filesystemvsobject.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220630T113842Z&X-Amz-Expires=86400&X-Amz-Signature=81ac7a4eb8f332a2d8c32e499903dbd38445e7e6a61456e130f1aeeb58d44feb&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22filesystemvsobject.png%22&x-id=GetObject)
+![파일시스템과 오브젝트의 차이](./images/ObjStorage_filesystemvsobject.png)
 
 ## 오브젝트 스토리지의 활용
 
