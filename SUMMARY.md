@@ -67,10 +67,8 @@
 
 ## GITHUB
 
-* [깃 허브](gitHub/GitHub.md)
-  * [가져오기](gitHub/Pull.md)
-  * [저장하기](gitHub/Commit.md)
-  * [내보내기](gitHub/Push.md)
+* [깃허브 협업 모델](gitHub/GitHub.md)
+ 
 
 ## DATABASE
 
