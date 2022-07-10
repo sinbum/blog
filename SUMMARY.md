@@ -101,7 +101,7 @@
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
-* PROJECT
+* PROJECTS
   * [업무 프로젝트](project/Project_Work.md) 
   * [개인 프로젝트](project/Project_Peronal.md)
     * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
