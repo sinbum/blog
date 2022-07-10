@@ -103,4 +103,5 @@
 * [INTEREST](about/interest.md)
 * [PROJECT](about/project.md)
   * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
+  * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
 * [CONTACT](about/contact.md)
