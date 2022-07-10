@@ -81,7 +81,7 @@
 
 ## BigData
 
-* [bigData 개념](bigData/basic/Readme.md)
+* [BigData 개념](bigData/basic/Readme.md)
   * [OLTP,OLAP](bigData/basic/OltpOlap.md)
   * [ELT,ETL](bigData/basic/EltEtl.md)
   * [DW](bigData/basic/DataWarehouse.md)
@@ -93,7 +93,7 @@
     * [카프카 특성](bigData/kafka/Propoties.md)
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * 카프카 기초 개념
-* [빅데이터 솔루션]
+* [BuildApplications]
   * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
 
