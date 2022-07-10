@@ -9,6 +9,8 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|사이드프로젝트 플랫폼 모음(커뮤니티, 블로그, 서비스 등)| [] |[링크](https://ahnslab.com/sideproject-platform-list/#%EB%B9%84%EC%82%AC%EC%9D%B4%EB%93%9C)|
+|주제X|12월 | 2015 | 텐서 플로우 블로그 (Tensor ≈ Blog)| [] |[링크](https://tensorflow.blog/2015/12/)|
 |주제X|[MySQL] Inner Join과 Left Join의 차이| [] |[링크](https://jaenjoy.tistory.com/7)|
 |DB|[DATABASE] 서브쿼리란? 서브쿼리 사용해보기| ['서브쿼리'] |[링크](https://mozi.tistory.com/233)|
 |DB|Correlated scalar subqueries in Apache Spark SQL on waitingforcode.com - articles about Apache Spark SQL| ['SCALA 쿼리'] |[링크](https://www.waitingforcode.com/apache-spark-sql/correlated-scalar-subqueries-apache-spark-sql/read#correlated_projection_query)|
@@ -107,5 +109,3 @@ coverY: 263.4640234948605
 |자바스크립트|Prototype, 그리고 Class| ['prototype', '노드js'] |[링크](https://tecoble.techcourse.co.kr/post/2021-06-14-prototype/)|
 |자바스크립트|module.exports와 exports| ['노드js', '객체지향'] |[링크](https://edykim.com/ko/post/module.exports-and-exports-in-node.js/)|
 |자바스크립트|Class vs Factory Function 차이| ['노드js'] |[링크](https://urbanbase.github.io/dev/2021/03/28/ECMAScript6.html)|
-|클라이언트|구글 스프레드,노션 연동| ['연동'] |[링크](https://paullabkorea.medium.com/%EC%97%B0%EC%9E%AC-%EB%85%B8%EC%85%98-%EC%A2%80-%EC%8D%A8%EB%B3%BC%EA%B9%8C-1-%EA%B5%AC%EA%B8%80-%EC%84%A4%EB%AC%B8%EC%A7%80-%EC%97%B0%EB%8F%99%EB%B6%80%ED%84%B0-%EC%9D%91%EB%8B%B5%EC%97%B0%EB%8F%99%EA%B9%8C%EC%A7%80-45e3c5cb61f2)|
-|빅데이터|나스를 이용해서 홈페이지를 운영 시 장단점| ['나스'] |[링크](https://namedia.tistory.com/180)|
