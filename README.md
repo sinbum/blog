@@ -102,6 +102,6 @@ description: 이사이트를 방문하는 모든 분들을 위한 문서
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
-* [PROJECT](about/project.md)
+* [PROJECT](project/Project_Peronal.md)
   * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
 * [CONTACT](about/contact.md)

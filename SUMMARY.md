@@ -93,7 +93,7 @@
     * [카프카 특성](bigData/kafka/Propoties.md)
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * 카프카 기초 개념
-* [BuildApplications]
+* BuildApplications
   * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
 
@@ -101,7 +101,9 @@
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
-* [PROJECT](about/project.md)
-  * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
-  * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
+* PROJECT
+  * [업무 프로젝트](project/Project_Work.md) 
+  * [개인 프로젝트](project/Project_Peronal.md)
+    * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
+    * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
 * [CONTACT](about/contact.md)
