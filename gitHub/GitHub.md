@@ -167,3 +167,5 @@ $ git merge --no-ff hotfix-1.2.1
 또는 핫픽스 이전의 릴리즈 버전을 삭제하고 재 생성을 할 수도 있습니다.
 
 
+## 참고
+[VincetDriessen 블로그](https://nvie.com/posts/a-successful-git-branching-model/)
