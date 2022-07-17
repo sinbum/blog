@@ -9,6 +9,8 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|리눅스듀얼부팅 - 인터넷 / 소프트웨어 - 기글하드웨어| [] |[링크](https://gigglehd.com/gg/soft/8712451)|
+|주제X|로지텍 m705 마우스 더블클릭 현상으로 알리에서 옴론 스위치 구입 후 교체 예정입니다. : 네이버 블로그| [] |[링크](https://m.blog.naver.com/hwasilcho/222107753425)|
 |주제X|사이드프로젝트 플랫폼 모음(커뮤니티, 블로그, 서비스 등)| [] |[링크](https://ahnslab.com/sideproject-platform-list/#%EB%B9%84%EC%82%AC%EC%9D%B4%EB%93%9C)|
 |주제X|12월 | 2015 | 텐서 플로우 블로그 (Tensor ≈ Blog)| [] |[링크](https://tensorflow.blog/2015/12/)|
 |주제X|[MySQL] Inner Join과 Left Join의 차이| [] |[링크](https://jaenjoy.tistory.com/7)|
@@ -107,5 +109,3 @@ coverY: 263.4640234948605
 |자바스크립트|Javascript - fs(파일 시스템) 프로미스 동기 처리| ['라이브러리', 'fs'] |[링크](https://right-hot.tistory.com/entry/Javascript-fs%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4-%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC)|
 |자바스크립트|[Selenium-웹자동화] async Iterator 유의사항| ['라이브러리', 'selenium'] |[링크](https://ipex.tistory.com/entry/Selenium%EC%9B%B9%EC%9E%90%EB%8F%99%ED%99%94-async-Iterator-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD-findElements-Bycss)|
 |자바스크립트|Prototype, 그리고 Class| ['prototype', '노드js'] |[링크](https://tecoble.techcourse.co.kr/post/2021-06-14-prototype/)|
-|자바스크립트|module.exports와 exports| ['노드js', '객체지향'] |[링크](https://edykim.com/ko/post/module.exports-and-exports-in-node.js/)|
-|자바스크립트|Class vs Factory Function 차이| ['노드js'] |[링크](https://urbanbase.github.io/dev/2021/03/28/ECMAScript6.html)|
