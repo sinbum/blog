@@ -100,6 +100,8 @@ description:도커를 설명 합니다.
   - SSH 서버 설치 후 운영
     - apt-get update && apt-get install -y openssh-server curl vim tree
   - Xshell 로 로그인 구성하기.(원격 접속)
+    - 그래픽 모드 : sudo systemctl isolate graphical.target
+    - 텍스트 모드 : sudo systemctl isolate multi-user.target
 ### VM에 centos 설치하고 기본환경 구성
 ### Ubuntu/CentOS Server에 Docker 설치
 
