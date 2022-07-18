@@ -8,6 +8,7 @@
 * [리눅스](undefined/undefined/README.md)
   * [기본명령어](linux/BasicCommand.md)
   * [프록시서버](linux/ProxyServer.md)
+  * [우분투 앱](linux/ubuntu_first_install.md)
 
 ## 언어
 
