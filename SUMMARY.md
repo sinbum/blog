@@ -73,15 +73,6 @@
 * [깃허브 협업 모델](gitHub/GitHub.md)
  
 
-## DATABASE
-
-* [데이터베이스](database/database.md)
-  * [데이터베이스 입문](database/theory/Basic.md)
-    * [데이터베이스 역사](database/theory/BasicHistory.md)
-    * [데이터베이스 종류](database/theory/BasicType.md)
-  * [데이터베이스 중급](database/theory/Middle.md)
-* [오라클](database/oracle/Oracle.md)
-
 ## BigData
 
 * [BigData 개념](bigData/basic/Readme.md)
