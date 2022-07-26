@@ -102,7 +102,26 @@ description:도커를 설명 합니다.
   - Xshell 로 로그인 구성하기.(원격 접속)
     - 그래픽 모드 : sudo systemctl isolate graphical.target
     - 텍스트 모드 : sudo systemctl isolate multi-user.target
+
+
 ### VM에 centos 설치하고 기본환경 구성
+  - CentOs 다운로드 링크 [https://centos.org](https://centos.org)
+  - 설치 후 환경구성하기.
+    - 관리자 계정 : {id입력} / work\
+    - root password : {password입력}
+    - 해상도 조절
+    - 네트워크 구성:10.100.0.106/24,GW:10.100.0.1,DNS:10.100.0.1,
+      - hostname:docker-centos.example.com
+      - /etc/hosts 구성하기
+        - 연결되어있는 네트워크 지정해주기.
+        - 예) 10.100.0.106 {hostname 입력} {name 입력}
+        - 예) 10.100.0.106 docker-centos.example.com docker-centos
+      - text-login 구성
+        - systemctl set-default multi-user.target
+      - sshd 서비스 동작상태 확인하기.
+        - systemctl status sshd        
+      - MobaXterm으로 세션 로그인 설정 후 접속. - 우분투에서의 원격 접속과 같음.
+
 ### Ubuntu/CentOS Server에 Docker 설치
 
 
