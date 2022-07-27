@@ -198,7 +198,7 @@ description:도커를 설명 합니다.
     - RUN : 컨테이너 빌드를 위해 base image 에서 실행할 명령
     - COPY : 컨테이너 빌드시 호스트의 파일을 컨테이너로 복사.
     - ADD : 컨테이너 빌드시 호스트의 파일(tar, url 포함)을 컨테이너로 복사
-    - WORKDIR : 컨테이너 비륻시 명령이 실행될 작업 디렉터ㅣㄹ 설정
+    - WORKDIR : 컨테이너 비륻시 명령이 실행될 작업 디렉터리 설정
     - ENV : 환경변수 지정
     - USER : 명령 및 컨테이너 실행시 적용할 유저 설정.
     - VOLUME : 파일 또는 디렉토리를 컨테이너의 디렉토리로 마운트
@@ -236,21 +236,25 @@ description:도커를 설명 합니다.
 
 ### *) 우분투 기반의 웹 서버 컨테이너 만들기
 - hellojs.js 생성
-```js
-const http = require('http');
-const os = require('os');
-console.log("Test server starting..");
+  - cat >(리다이렉션) 파일명은 라인입력으로 글을 작성 가능.
+  - 컨트롤 d 로 저장
+  ```js
+  const http = require('http');
+  const os = require('os');
+  console.log("Test server starting..");
+  
+  var handler = function(request, response){
+    console.log("Received request from " + request.connection.remoteAddress);
+    response.writeHead(200);
+    response.end("Container Hostname: " + os.hostname() + "\n");
+  };
+    
+  var www = http.createServer(handler);  
+  www.listen(8080);
+  ```
 
-var handler = function(request, response){
-  console.log("Received request from " + request.connection.remoteAddress);
-  response.writeHead(200);
-  response.end("Container Hostname: " + os.hostname() + "\n");
-};
-
-var www = http.createServer(handler);
-www.listen(8080);
-```
 - Dockerfile 만들기
+
 ```dockerfile
 FROM node:14
 COPY hello.js /
@@ -294,12 +298,43 @@ CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
   ```shell
   docker run -d -p 80:80 --name web webserver:v1
   ```
+### *) 데비안 에서의 빌드 및 배포 연습
+1. fortune을 실행시 결과 아웃풋을 다음과 같은 html 파일의 경로에 담는다.
+```shell
+#!/bin/bash
+mkdir /htdocs
+while :
+do
+ /usr/games/fortune > /htdocs/index.html
+ sleep 10
+done
+```
+2. Dockerfile 에 다음과 같이 스크립트를 작성한다.
+```dockerfile
+FROM debian:latest
+RUN apt-get update \
+ && apt-get -y install fortune
+WORKDIR /scripts
+COPY webpage.sh .
+CMD ["chmod","+x","webpage.sh"]
+CMD ["bash","webpage.sh"]
+```
+3. 빌드를 하고 실행한다.
+   - docker build -t new_fortune .
+   - docker images
+   - docker run -d --name fortune new_fortune
+   - docker ps
+   - docker exec fortune cat /htdocs/index.html
+
+
 
 ### *) 만든 컨테이너 배포하기
 
 - docker login
 - docker tag 명령어로 이름 바꿔주기
 - docker push
+
+
 
 ## 컨테이너 보관
 
