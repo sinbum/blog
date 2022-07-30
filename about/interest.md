@@ -9,6 +9,15 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|코끼리를 냉장고에 넣는 방법 :: [Python] os.path 모듈. 파일 경로 조작하기| [] |[링크](https://dololak.tistory.com/693)|
+|주제X|root blog :: 윈도우 시스템 영역이 다른 파티션에 설치됐을 때 복구 방법(부팅 디스크 변경)| [] |[링크](https://rootblog.tistory.com/218)|
+|주제X|[Ubuntu 18.04] Ubuntu 18.04 환경설정(3) - Terminator| [] |[링크](https://krobot.tistory.com/entry/Ubuntu-1804-Ubuntu-1804-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%953-Terminator)|
+|주제X|Spark Shuffle Partition과 최적화 – tech.kakao.com| [] |[링크](https://tech.kakao.com/2021/10/08/spark-shuffle-partition/)|
+|주제X|[이해하기] NAT (Network Address Translation) - 네트워크 주소 변환 | STEVEN J. LEE| [] |[링크](https://www.stevenjlee.net/2020/07/11/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-nat-network-address-translation-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A3%BC%EC%86%8C-%EB%B3%80%ED%99%98/)|
+|주제X|쿠버네티스 알아보기 1편: 쿠버네티스와 컨테이너, 도커에 대한 기본 개념| [] |[링크](https://samsungsds.com/kr/story/220222_kubernetes1.html)|
+|주제X|Ubuntu) Terminator 설치 및 사용법| [] |[링크](https://shanepark.tistory.com/313)|
+|주제X|개발자를 위한 Ubuntu 필수 설치와 설정| [] |[링크](https://shanepark.tistory.com/242)|
+|주제X|GitHub 접속 용 SSH 키 만드는 방법 - LainyZine| [] |[링크](https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/)|
 |주제X|리눅스듀얼부팅 - 인터넷 / 소프트웨어 - 기글하드웨어| [] |[링크](https://gigglehd.com/gg/soft/8712451)|
 |주제X|로지텍 m705 마우스 더블클릭 현상으로 알리에서 옴론 스위치 구입 후 교체 예정입니다. : 네이버 블로그| [] |[링크](https://m.blog.naver.com/hwasilcho/222107753425)|
 |주제X|사이드프로젝트 플랫폼 모음(커뮤니티, 블로그, 서비스 등)| [] |[링크](https://ahnslab.com/sideproject-platform-list/#%EB%B9%84%EC%82%AC%EC%9D%B4%EB%93%9C)|
@@ -100,12 +109,3 @@ coverY: 263.4640234948605
 |cms|워드프레스 사이트 ssl 인븡 플러그인| ['워드프레스'] |[링크](https://marketerish.com/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-http-https-%EB%B3%80%EA%B2%BD/)|
 |PHP|[우분투] php용량제한이 있어 테마 업로드가 되지 않는경우.| [] |[링크](https://tomcabin.tistory.com/19)|
 |서버툴|[nginx] 파일 업로드 크기 제한 변경| ['nginx'] |[링크](https://hippocode.tistory.com/9)|
-|파이썬|파이썬 디자인 패턴 정리| [] |[링크](https://mino-park7.github.io/python%20study/2018/08/15/python-desing-pattern-singleton-pattern/)|
-|자바스크립트|TOAST UI :: Make Your Web Delicious!| ['라이브러리', 'ToastUI'] |[링크](https://ui.toast.com/)|
-|호스팅|[Oracle Cloud](오라클 클라우드 도메인 연결| ['네트워크', '프리티어'] |[링크](https://m.blog.naver.com/bb_/222167412684)|
-|서버툴|오라클 클라우드에서 우분투 Nginx 서버 설치| ['nginx'] |[링크](https://itreport.tistory.com/628)|
-|호스팅|오라클 클라우드 VM 생성하고 SSH(MobaXterm, putty) 로 연결| ['보안', '프리티어'] |[링크](https://gauryan.tistory.com/173)|
-|호스팅|[오라클클라우드] 프리티어 가입| ['프리티어'] |[링크](https://techhans.tistory.com/36?category=1008166)|
-|자바스크립트|Javascript - fs(파일 시스템) 프로미스 동기 처리| ['라이브러리', 'fs'] |[링크](https://right-hot.tistory.com/entry/Javascript-fs%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4-%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC)|
-|자바스크립트|[Selenium-웹자동화] async Iterator 유의사항| ['라이브러리', 'selenium'] |[링크](https://ipex.tistory.com/entry/Selenium%EC%9B%B9%EC%9E%90%EB%8F%99%ED%99%94-async-Iterator-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD-findElements-Bycss)|
-|자바스크립트|Prototype, 그리고 Class| ['prototype', '노드js'] |[링크](https://tecoble.techcourse.co.kr/post/2021-06-14-prototype/)|
