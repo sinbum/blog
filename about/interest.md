@@ -9,6 +9,11 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|파이썬 인터페이스 분리 원칙| [] |[링크](https://velog.io/@kimsehwan96/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B6%84%EB%A6%AC-%EC%9B%90%EC%B9%99)|
+|주제X|[Linux] nano 에디터 단축키| [] |[링크](https://sungje365.tistory.com/17)|
+|주제X|Python Basic : format (천단위 콤마 삽입하기)| [] |[링크](https://cosmosproject.tistory.com/373)|
+|주제X|[SPARK] 파이참에서 스파크 개발 환경 만들기 (pyspark)| [] |[링크](https://koddol016.tistory.com/m/7)|
+|주제X|[Python 완전정복 시리즈] 2편 : Pandas DataFrame 완전정복 - WikiDocs| [] |[링크](https://wikidocs.net/book/7188)|
 |주제X|시계열 데이터 - Azure Architecture Center | Microsoft Docs| [] |[링크](https://docs.microsoft.com/ko-kr/azure/architecture/data-guide/scenarios/time-series)|
 |주제X|파이썬 yaml 파일 쓰기에 한글 문제| [] |[링크](https://kblck.com/487)|
 |주제X|코끼리를 냉장고에 넣는 방법 :: [Python] os.path 모듈. 파일 경로 조작하기| [] |[링크](https://dololak.tistory.com/693)|
@@ -104,8 +109,3 @@ coverY: 263.4640234948605
 |서버툴|Docker로 워드프레스 설치하기 - WordPress 가이드| ['도커'] |[링크](https://wpguide.usefulparadigm.com/posts/257)|
 |서버툴|Docker – Docker로 WordPress Blog 만들기 – 구름이 꾸는 꿈| ['도커'] |[링크](https://seankim.life/2021/07/03/docker-docker%EB%A1%9C-wordpress-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/)|
 |서버툴|Ubuntu 20.04 LTS ) Docker 설치하기| ['도커'] |[링크](https://shanepark.tistory.com/237)|
-|서버툴|[Docker] Ubuntu에 Docker 설치| ['도커'] |[링크](https://dongle94.github.io/docker/docker-ubuntu-install/)|
-|서버툴|오라클 클라우드 VM 인스턴스 2개 생성 과 네트워크| ['오라클', '클라우드'] |[링크](https://jimnong.tistory.com/1125)|
-|cms|워드프레스의 이미지 업로드 폴더를 년월이 아니라 한 디렉토리로| ['워드프레스'] |[링크](http://dobiho.com/44772/)|
-|cms|notion-py로 노션(Notion)을 내 블로그의 CMS로 사용| ['노션'] |[링크](https://younho9.dev/notion-as-blog-cms)|
-|cms|워드프레스 사이트 ssl 인븡 플러그인| ['워드프레스'] |[링크](https://marketerish.com/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-http-https-%EB%B3%80%EA%B2%BD/)|
