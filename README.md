@@ -1,8 +1,8 @@
 ---
-description: 이사이트를 방문하는 모든 분들을 위한 문서
+description: 꿈에서도 공부하는 인셉션 개발자
 ---
 
-# 기록보단 기억을
+# Inception Developer : Sinbum's Blog
 
 ## 이 문서는...
 
