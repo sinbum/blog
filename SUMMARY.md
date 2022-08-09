@@ -8,6 +8,8 @@
 * [리눅스 기초](undefined/undefined/README.md)
   * [기본명령어](linux/BasicCommand.md)
   * [프록시서버](linux/ProxyServer.md)
+  * [온프레미스](linux/OnPremise.md)
+  * [systemd](linux/Systemd.md)
   * [우분투 앱](linux/Ubuntu_first_install.md)
 * [도커](linux/docker/README.md)
 
