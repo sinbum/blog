@@ -1,6 +1,6 @@
 # Table of contents
 
-* [기록보단 기억을](README.md)
+* [인셉션 개발자](README.md)
   * [History](History.md)
 
 ## 리눅스
