@@ -9,6 +9,8 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|비즈니스 용어 'Ramp up' 이란? : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=iotspace&logNo=221417597015)|
+|주제X|오라클 SCN : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=whdahek&logNo=220789522830)|
 |주제X|파이썬 인터페이스 분리 원칙| [] |[링크](https://velog.io/@kimsehwan96/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B6%84%EB%A6%AC-%EC%9B%90%EC%B9%99)|
 |주제X|[Linux] nano 에디터 단축키| [] |[링크](https://sungje365.tistory.com/17)|
 |주제X|Python Basic : format (천단위 콤마 삽입하기)| [] |[링크](https://cosmosproject.tistory.com/373)|
@@ -107,5 +109,3 @@ coverY: 263.4640234948605
 |서버툴|docker-machine, virtualbox 로 docker cli 환경 구성 (Docker Desktop 유료화, host only network, x509: certificate)| ['도커'] |[링크](https://tangoblog.tistory.com/20)|
 |서버툴|ubuntu docker 설치시 Package 'docker-ce' has no installation candidate 해결| ['도커'] |[링크](https://boying-blog.tistory.com/82)|
 |서버툴|Docker로 워드프레스 설치하기 - WordPress 가이드| ['도커'] |[링크](https://wpguide.usefulparadigm.com/posts/257)|
-|서버툴|Docker – Docker로 WordPress Blog 만들기 – 구름이 꾸는 꿈| ['도커'] |[링크](https://seankim.life/2021/07/03/docker-docker%EB%A1%9C-wordpress-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/)|
-|서버툴|Ubuntu 20.04 LTS ) Docker 설치하기| ['도커'] |[링크](https://shanepark.tistory.com/237)|
