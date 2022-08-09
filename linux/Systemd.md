@@ -5,7 +5,7 @@ description: system daemon 을 관리하는 systemctl 사용.
 # Systemd
 systemd는 unix 시스템이 부팅 후 프로세스를 실행하는 역할을 합니다.
 
-![Systemd Utilities](https://en.wikipedia.org/wiki/Systemd#/media/File:Systemd_components.svg)
+![Systemd Utilities](https://www.lesstif.com/system-admin/files/24445064/100205441/1/1610982384000/image2021-1-19_0-6-23.png)
 [출처링크 : 위키피디아](https://en.wikipedia.org/wiki/Systemd#/media/File:Systemd_components.svg)
 
 
