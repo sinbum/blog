@@ -83,6 +83,7 @@
   * [ELT,ETL](bigData/basic/EltEtl.md)
   * [DW](bigData/basic/DataWarehouse.md)
   * [ObjectStorage](bigData/basic/ObjStorage.md)
+  * [LamdaArchi](bigData/basic/LamdaArchitecture.md)
 * [Kafka](bigData/kafka/README.md)
   * 환경설정 및 소스코드 다운로드
   * 아파치 카프카는?
