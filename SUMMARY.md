@@ -100,5 +100,5 @@
   * [개인 프로젝트](project/Project\_Peronal.md)
     * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
     * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
-* [로지텍 마우스 수리](about/undefined.md)
+    * [로지텍 마우스 수리](about/LogitechMouseSelfToFix.md)
 * [CONTACT](about/contact.md)
