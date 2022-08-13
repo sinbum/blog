@@ -10,7 +10,7 @@
   * [프록시서버](linux/ProxyServer.md)
   * [온프레미스](linux/OnPremise.md)
   * [systemd](linux/Systemd.md)
-  * [우분투 앱](linux/Ubuntu_first_install.md)
+  * [우분투 앱](linux/Ubuntu\_first\_install.md)
 * [도커](linux/docker/README.md)
 
 ## 언어
@@ -49,11 +49,11 @@
   * [파이썬 설치 가이드](python/PythonInstall.md)
   * [파이썬 언어 활용](python/PythonUseGuide.md)
     * [변수](python/useGuide/vriables.md)
-    * [입력,출력](python/useGuide/Input_output.md)
+    * [입력,출력](python/useGuide/Input\_output.md)
     * [타입선언](python/useGuide/Type.md)
     * [자료구조](python/useGuide/DataStructure.md)
     * [주석처리](python/useGuide/Comment.md)
-    * [문자열](python/useGuide/String.md) 
+    * [문자열](python/useGuide/String.md)
     * [리스트](python/useGuide/List.md)
     * [반복문](python/useGuide/Loop.md)
     * [연산자](python/useGuide/Operator.md)
@@ -65,16 +65,12 @@
       * [그루핑](python/useGuide/regExporessions/Grouping.md)
       * [전방탐색](python/useGuide/regExporessions/Lookahead.md)
       * [문자열 바꾸기](python/useGuide/regExporessions/Replace.md)
-      * [Greedy 와 Non-Greedy](python/useGuide/regExporessions/Greed_and_NoneGreed.md)
-  *[미니프로젝트](python/miniProject/README.md)
-      *[파이썬,단순한 복리식 계산하기](python/miniProject/YearRate_Calculator.md)
+      * [Greedy 와 Non-Greedy](python/useGuide/regExporessions/Greed\_and\_NoneGreed.md)
   * [마치며...](python/useGuide/Finish.md)
-
 
 ## GITHUB
 
 * [깃허브 협업 모델](gitHub/GitHub.md)
- 
 
 ## BigData
 
@@ -85,13 +81,13 @@
   * [ObjectStorage](bigData/basic/ObjStorage.md)
   * [LambdaArc](bigData/basic/LamdaArchitecture.md)
 * [Kafka](bigData/kafka/README.md)
-  * 환경설정 및 소스코드 다운로드
-  * 아파치 카프카는?
+  * [환경설정 및 소스코드 다운로드](bigdata/kafka/undefined.md)
+  * [아파치 카프카는?](bigdata/kafka/undefined-1/README.md)
     * [카프카의 시작](bigData/kafka/Born.md)
     * [카프카 특성](bigData/kafka/Propoties.md)
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
-  * 카프카 기초 개념
-* BuildApplications
+  * [카프카 기초 개념](bigdata/kafka/undefined-2.md)
+* [BuildApplications](bigdata/buildapplications/README.md)
   * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
 
@@ -99,9 +95,10 @@
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
-* PROJECTS
-  * [업무 프로젝트](project/Project_Work.md) 
-  * [개인 프로젝트](project/Project_Peronal.md)
+* [PROJECTS](about/projects/README.md)
+  * [업무 프로젝트](project/Project\_Work.md)
+  * [개인 프로젝트](project/Project\_Peronal.md)
     * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
     * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
+* [로지텍 마우스 수리](about/undefined.md)
 * [CONTACT](about/contact.md)

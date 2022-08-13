@@ -1,16 +1,18 @@
+# 메소드
 
-# 멤버 메소드
+## 멤버 메소드
 
-- C언어의 함수와 비슷합니다.
-- 데이터 처리 기능을 구현합니다.
-- 리턴값이 없는 메소드는 void 형을 지정합니다.
-- 메소드가 받는 인수의 데이터 타입은 메소드를 호출하는 쪽과
-  일치해야 합니다.
-- Method Overloading(중복 정의), Overriding(재정의)기술로 확장 됩니다.
-- 메소드가 리턴하는 값과 리턴되는 값의 데이터 타입은 일치해야 합니다.
+* C언어의 함수와 비슷합니다.
+* 데이터 처리 기능을 구현합니다.
+* 리턴값이 없는 메소드는 void 형을 지정합니다.
+* 메소드가 받는 인수의 데이터 타입은 메소드를 호출하는 쪽과 일치해야 합니다.
+* Method Overloading(중복 정의), Overriding(재정의)기술로 확장 됩니다.
+* 메소드가 리턴하는 값과 리턴되는 값의 데이터 타입은 일치해야 합니다.
 
-## 메소드를 사용하지 않은 경우
+### 메소드를 사용하지 않은 경우
+
 > PayCalc2.java
+
 ```
 public class Pay2 {
     //멤버 변수, 인스턴스 변수, 필드
@@ -20,7 +22,6 @@ public class Pay2 {
     int    silsu;
 }
 ```
-
 
 ```
 public class PayCalc2 {
@@ -55,12 +56,11 @@ public class PayCalc2 {
 }
 ```
 
-## 메소드를 사용한 경우
+### 메소드를 사용한 경우
 
 > Pay.java
 
 ```
-
 package classtest;
 
 /**
@@ -110,10 +110,10 @@ package classtest;
 
   }
   }
-
 ```
 
 > PayCalc.java
+
 ```
 /**
 
@@ -150,15 +150,13 @@ package classtest;
 
     }
     }
-
 ```
 
-## 리턴값이 있는 메소드의 사용
+### 리턴값이 있는 메소드의 사용
 
 > PayCalc.java
 
 ```
-
 
 
 /**
@@ -196,7 +194,6 @@ package classtest;
 
     }
     }
-
 ```
 
 > Pay.java
@@ -253,12 +250,12 @@ package classtest;
 
   }
   }
-
 ```
 
-## 클래스의 분리
+### 클래스의 분리
 
 > Pay.java
+
 ```
 package classtest;
 
@@ -311,8 +308,8 @@ package classtest;
 
   }
   }
-
 ```
+
 > PayCalc.java
 
 ```
@@ -355,12 +352,11 @@ package classtest;
     }
 ```
 
-## 메소드를 이용해 성적프로그램 만들기. Sungjuk, SungjukUse
-
+### 메소드를 이용해 성적프로그램 만들기. Sungjuk, SungjukUse
 
 > Sungjuk.java
-```
 
+```
 class Sungjuk{
 String name = "";
 int kuk = 0;
@@ -370,10 +366,10 @@ int math = 0;
 int avg = 0;
 }
 ```
+
 > SungjukMgr.java
 
 ```
-
 public class SungjukMgr {
 
 // ⓐ 값 초기화
@@ -402,7 +398,6 @@ public void print(){
 
 > SungjukUse.java
 
-
 ```
 public class SungjukUse {
 
@@ -421,29 +416,29 @@ public static void main(String[] args) {
 }
 ```
 
-# 변수의 유효 범위(scope)
+## 변수의 유효 범위(scope)
 
-## 멤버 변수(Instance 변수)
-- 변수가 메소드 밖에 선언되는 변수를 말합니다.
-- 멤버변수, 인스턴스 변수, 필드라고 합니다.
-- 멤버 변수는 모든 메소드가 사용할 수 있습니다.
-- 메모리 모델에서 Heap 메모리를 이용합니다.
-- 변수의 사용이 끝나도 클래스의 객체 자체가 GC에 의해 회수 되기 전에는 할당받은
-  메모리를 계속 유지하게 됩니다. 따라서 불필요한 멤버 변수를 최대한 사용하지
-  않아야 메모리를 낭비없이 효율적으로 이용할 수 있습니다.
-- 변수 선언시 값을 주지 않아도 특정 값으로 초기화 됩니다.
-## 지역 변수, Local Variable
-- 변수가 메소드안에 선언되는 것을 말합니다.
-- Stack 메모리를 이용합니다.
-- 메소드의 이용이 끝나면 자동으로 메모리가 회수됩니다.
-- 초기화를 해야 사용할 수 있습니다.
-- 블럭안에 선언: '{ }'안에서만 생명력을 가집니다.
-    - Stack 메모리를 이용합니다.
+### 멤버 변수(Instance 변수)
+
+* 변수가 메소드 밖에 선언되는 변수를 말합니다.
+* 멤버변수, 인스턴스 변수, 필드라고 합니다.
+* 멤버 변수는 모든 메소드가 사용할 수 있습니다.
+* 메모리 모델에서 Heap 메모리를 이용합니다.
+* 변수의 사용이 끝나도 클래스의 객체 자체가 GC에 의해 회수 되기 전에는 할당받은 메모리를 계속 유지하게 됩니다. 따라서 불필요한 멤버 변수를 최대한 사용하지 않아야 메모리를 낭비없이 효율적으로 이용할 수 있습니다.
+* 변수 선언시 값을 주지 않아도 특정 값으로 초기화 됩니다.
+
+### 지역 변수, Local Variable
+
+* 변수가 메소드안에 선언되는 것을 말합니다.
+* Stack 메모리를 이용합니다.
+* 메소드의 이용이 끝나면 자동으로 메모리가 회수됩니다.
+* 초기화를 해야 사용할 수 있습니다.
+* 블럭안에 선언: '{ }'안에서만 생명력을 가집니다.
+  * Stack 메모리를 이용합니다.
 
 > Variable.java
 
 ```
-
 public class Variable {
 //멤버 변수, 인스턴스 변수, 필드, Heap
 String movie = "트로이";
@@ -469,14 +464,11 @@ public static void main(String[] args) {
 
 
 }
-
 ```
-
 
 > Block.java
 
 ```
-
 public class Block {
 String Block="재미있는 영화";
 
@@ -504,5 +496,4 @@ public static void main(String[] args) {
     //ERROR
     //System.out.println("Movie:" + b2);
 }
-
 ```
