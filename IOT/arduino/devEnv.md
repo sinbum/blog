@@ -4,10 +4,10 @@
 
 ### 아두이노 킷.
 
-![아두이노 킷사진1](img.png)
+![아두이노 킷사진1](images/arduinoKit.png)
 
 
-![아두이노 부품리스트](img_1.png)
+![아두이노 부품리스트](images/arduinoProductList.png)
 
 
 
@@ -23,10 +23,10 @@
 
 [아두이노 설치 링크](https://www.arduino.cc/)
 
-![img.png](images/img.png)
+![img.png](images/arduinoInstall.png)
 전용 os 에 맞춰 다운로드 합니다.
 
-![img_1.png](images/img_1.png)
+![img_1.png](images/ide.png)
 설치 후 실행한 아두이노 ide 개발 툴의 모습.
 
 ### 전기와 전자.
@@ -39,7 +39,7 @@
 - R = V/I
 
 ### 브레드 보드의 구조.
-![브레드 보드 사진](img_2.png)
+![브레드 보드 사진](images/breadBoard.png)
 
 
 
@@ -85,9 +85,9 @@ void loop() {
 ```
 
 
-![아두이노를 활용한 LED 출력](img_3.png)
+![아두이노를 활용한 LED 출력](images/led_img_finished1.png)
 
-![완성된 사진](img_4.png)
+![완성된 사진](images/led_img_finished2.png)
 
 2. PWM을 이용한 LED 밝기 제어.
 
