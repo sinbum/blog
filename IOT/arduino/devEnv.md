@@ -42,9 +42,4 @@
 5. 가운데를 기준으로 위 아래는 서로 다른 구간이다.
 
 
-![아두이노를 활용한 LED 출력](images/led_img_finished1.png)
-
-![완성된 사진](images/led_img_finished2.png)
-
-
 

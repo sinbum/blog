@@ -29,3 +29,8 @@ void loop() {
   delay(1500); // 딜레이 함수를 한번 더 적용합니다.  
 }
 ```
+
+![아두이노를 활용한 LED 출력](images/led_img_finished1.png)
+
+![완성된 사진](images/led_img_finished2.png)
+
