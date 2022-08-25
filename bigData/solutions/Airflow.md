@@ -33,6 +33,8 @@ Airflow의 웹 서버는 Airflow의 로그를 보여주거나 스케줄러에 �
 ### Airflow Scheduler
 Airflow 스케줄러는 airflow로 할당된 work들을 스케줄링 해주는 component 입니다. Scheduled 된 workflow들의 트리거링과 실행하기 위해서 executor에게 task를 제공해주는 역학을 수행합니다.
 
+![크론탭 스크립트 예제. / 마이크로소프트웨어 395호](https://itimg.chosun.com/sitedata/image/201902/20/2019022000249_0.png)
+
 
 
 ### Airflow Executor
