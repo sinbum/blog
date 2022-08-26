@@ -1,3 +1,4 @@
+![header](https://capsule-render.vercel.app/api?type=waving&height=200&text=Inception%20Developer&fontAlign=51&fontAlignY=40&color=gradient)
 ---
 description: 꿈에서도 공부하는 인셉션 개발자
 ---
@@ -101,3 +102,5 @@ description: 꿈에서도 공부하는 인셉션 개발자
 * [PROJECT](project/Project\_Peronal.md)
   * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
 * [CONTACT](about/contact.md)
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
