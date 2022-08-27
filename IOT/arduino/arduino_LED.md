@@ -61,13 +61,18 @@ void loop() {
  
 }
 
-[![점점 밝아지고 점점 어두워지는 led 출력](https://youtube.com/shorts/H3ccrY8EObs?feature=share) 
 
 
 ```
 
+
+[영상보기-클릭](https://youtube.com/shorts/H3ccrY8EObs?feature=share)
+
 ## 여러개의 led전구를 fadeOn과 fadeOff의 형식으로 출력하기
 ![img.png](images/fadeOn_multi_Led_img.png)
+[영상보기_클릭_여러개전구](https://youtu.be/Gt8zVnluAA8)
+[영상보기_클릭_여러개전구_fade](https://youtu.be/pSKfEgj29qc)
+
 ```
 int led_pin[4] = {8,9,10,11};
 
