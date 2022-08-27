@@ -30,14 +30,16 @@ void loop() {
 }
 ```
 
-![아두이노를 활용한 LED 출력](images/led_img_finished1.png)
+![아두이노를 활용한 LED 출력](images/led_img_finished1.png)  
 
-![완성된 사진](images/led_img_finished2.png)
+![완성된 사진](images/led_img_finished2.png)  
 
 
 
-## 점점 밝아지고 점점 어두워지는 led 출력
-![img_1.png](images/fadeOn_img_1.png)
+## 점점 밝아지고 점점 어두워지는 led 출력  
+
+![img_1.png](images/fadeOn_img_1.png)  
+
 ```c
 
 int ledPin = 9; // 9번 핀에 led 연결
@@ -69,9 +71,12 @@ void loop() {
 [영상보기-클릭](https://youtube.com/shorts/H3ccrY8EObs?feature=share)
 
 ## 여러개의 led전구를 fadeOn과 fadeOff의 형식으로 출력하기
-![img.png](images/fadeOn_multi_Led_img.png)
-[영상보기_클릭_여러개전구](https://youtu.be/Gt8zVnluAA8)
+
+[영상보기_클릭_여러개전구](https://youtu.be/Gt8zVnluAA8)  
 [영상보기_클릭_여러개전구_fade](https://youtu.be/pSKfEgj29qc)
+
+
+![img.png](images/fadeOn_multi_Led_img.png)  
 
 ```
 int led_pin[4] = {8,9,10,11};
