@@ -74,22 +74,23 @@
 
 ## BigData
 
-* [BigData 개념](bigdata/basic/Readme.md)
-  * [OLTP,OLAP](bigdata/basic/OltpOlap.md)
-  * [ELT,ETL](bigdata/basic/EltEtl.md)
-  * [DW](bigdata/basic/DataWarehouse.md)
-  * [ObjectStorage](bigdata/basic/ObjStorage.md)
-  * [LambdaArc](bigdata/basic/LamdaArchitecture.md)
-* [Kafka](bigdata/kafka/README.md)
+* [BigData 개념](bigData/basic/Readme.md)
+  * [OLTP,OLAP](bigData/basic/OltpOlap.md)
+  * [ELT,ETL](bigData/basic/EltEtl.md)
+  * [DW](bigData/basic/DataWarehouse.md)
+  * [ObjectStorage](bigData/basic/ObjStorage.md)
+  * [LambdaArc](bigData/basic/LamdaArchitecture.md)
+  * [OGG](bigData/basic/OracleGoldenGate.md)
+* [Kafka](bigData/kafka/README.md)
   * [환경설정 및 소스코드 다운로드](bigdata/kafka/undefined.md)
   * [아파치 카프카는?](bigdata/kafka/undefined-1/README.md)
-    * [카프카의 시작](bigdata/kafka/Born.md)
-    * [카프카 특성](bigdata/kafka/Propoties.md)
-    * [빅데이터 아키텍처](bigdata/kafka/Architect.md)
+    * [카프카의 시작](bigData/kafka/Born.md)
+    * [카프카 특성](bigData/kafka/Propoties.md)
+    * [빅데이터 아키텍처](bigData/kafka/Architect.md)
   * [카프카 기초 개념](bigdata/kafka/undefined-2.md)
 * [BuildApplications](bigdata/buildapplications/README.md)
-  * [Airflow](bigdata/solutions/Airflow.md)
-  * [Grafana](bigdata/solutions/Grafana.md)
+  * [Airflow](bigData/solutions/Airflow.md)
+  * [Grafana](bigData/solutions/Grafana.md)
 
 ## IOT
 
