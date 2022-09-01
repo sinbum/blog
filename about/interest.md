@@ -9,6 +9,14 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|nota's story :: [Linux] 리눅스 rsync 설정 방법| [] |[링크](https://nota.tistory.com/77)|
+|주제X|[Windows] 윈도우용 rsync 프로그램 : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jjun_97&logNo=150030193418)|
+|주제X|scp와 rsync(secure Copy & remote synchronization)| [] |[링크](https://madplay.github.io/post/scp-rsync)|
+|주제X|Windows cwrsync설치 및 사용법| [] |[링크](https://server-talk.tistory.com/84)|
+|주제X|[명령어] rsync 이해| [] |[링크](https://blueyikim.tistory.com/562)|
+|주제X|LiquidCrystal_I2C : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=eye_korea&logNo=220839266242)|
+|주제X|[오라클] DATE 날짜 타입 :: 코드조각모음| [] |[링크](https://enzycut.tistory.com/entry/%EC%98%A4%EB%9D%BC%ED%81%B4-DATE-%EB%82%A0%EC%A7%9C-%ED%83%80%EC%9E%85)|
+|주제X|[Node.js] moment 사용하기 | millo's tech blog| [] |[링크](https://millo-l.github.io/Nodejs-moment-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)|
 |주제X|비즈니스 용어 'Ramp up' 이란? : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=iotspace&logNo=221417597015)|
 |주제X|오라클 SCN : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=whdahek&logNo=220789522830)|
 |주제X|파이썬 인터페이스 분리 원칙| [] |[링크](https://velog.io/@kimsehwan96/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B6%84%EB%A6%AC-%EC%9B%90%EC%B9%99)|
@@ -101,11 +109,3 @@ coverY: 263.4640234948605
 |CSS|한글 타이포그래피 구독 서비스 홈페이지 제작 | 텀블벅 - 크리에이터를 위한 크라우드펀딩| [] |[링크](https://tumblbug.com/eyongjepage)|
 |CSS|CSS에 폰트 적용하기 (웹폰트 & 폰트 파일)| [] |[링크](https://velog.io/@jehjong/CSS%EC%97%90-%ED%8F%B0%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9B%B9%ED%8F%B0%ED%8A%B8-%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC)|
 |자바스크립트|스벨트 부트스트랩 Components - Get Started ⋅ Storybook| ['스벨트', '부트스트랩'] |[링크](https://sveltestrap.js.org/?path=/story/components--get-started)|
-|CSS|웹 레이아웃 기술 발전사 - CSS Grid Layout Guidebook| [] |[링크](https://yamoo9.gitbook.io/css-grid/web-layout-history)|
-|서버툴|Docker Compose를 이용하여 워드프레스 설치하기 > 우분투 서버 | ['중요', '도커'] |[링크](https://www.wsgvet.com/ubuntu/97)|
-|서버툴|docker rm 사용법: Docker 컨테이너를 삭제하는 방법 - LainyZine| ['도커', '우분투', '리눅스'] |[링크](https://www.lainyzine.com/ko/article/docker-rm-removing-docker-containers/)|
-|서버툴|[리눅스] apt, apt-get의 사용법 비교| ['서버', '우분투'] |[링크](https://coding-groot.tistory.com/90)|
-|호스팅|오라클 클라우드 방화벽 설정에 대한 모든 것 - ELMITASH FOR DEV| ['오라클', '클라우드'] |[링크](https://blog.elmi.page/412)|
-|서버툴|docker-machine, virtualbox 로 docker cli 환경 구성 (Docker Desktop 유료화, host only network, x509: certificate)| ['도커'] |[링크](https://tangoblog.tistory.com/20)|
-|서버툴|ubuntu docker 설치시 Package 'docker-ce' has no installation candidate 해결| ['도커'] |[링크](https://boying-blog.tistory.com/82)|
-|서버툴|Docker로 워드프레스 설치하기 - WordPress 가이드| ['도커'] |[링크](https://wpguide.usefulparadigm.com/posts/257)|
