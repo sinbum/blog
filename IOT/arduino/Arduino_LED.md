@@ -160,7 +160,7 @@ void loop()
 ## RGB LED 제어하기
 빨간색, 초록색, 파란색 세 종류의 색을 이요해, 0~255 범위의 analogWrite 함수의 인자 값을 조절해 다양한 색을 표현 할 수있습니다.
 
-![img.png](img.png)
+![img.png](images/sensors_img.png)
 
 rgb 기본 코드 설정.
 
