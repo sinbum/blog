@@ -193,7 +193,7 @@ void loop() {
 int redPin = 6;
 int greenPin = 5;
 int bluePin = 3;
-int redOff,greenOff,blueOff; // 쓰레기값으로 인식하여 0 으로 처리함.
+int redOff,greenOff,blueOff; // 쓰레기값으로 인식하여 0 으로 받아들임.
 
 void setup() {
 

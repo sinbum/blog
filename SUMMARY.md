@@ -96,6 +96,7 @@
 
 * [아두이노](IOT/arduino/README.md)
   * [설치 및 기초](IOT/arduino/DevEnv.md)
+  * [센서의 종류](IOT/arduino/Sensors.md)
   * [led 출력하기](IOT/arduino/Arduino_LED.md)
   * [시리얼 통신](IOT/arduino/SerialNetwork.md)
   
