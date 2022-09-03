@@ -157,3 +157,65 @@ void loop()
   }
 }
 ```
+## RGB LED 제어하기
+빨간색, 초록색, 파란색 세 종류의 색을 이요해, 0~255 범위의 analogWrite 함수의 인자 값을 조절해 다양한 색을 표현 할 수있습니다.
+
+![img.png](img.png)
+
+rgb 기본 코드 설정.
+
+```c++
+int redPin = 6;
+int greenPin = 5;
+int bluePin = 3;
+int redOff,greenOff,blueOff;
+
+void setup() {
+
+}
+
+void loop() {
+  analogWrite (redPin, 255);
+  delay(1000);
+  analogWrite (redPin, redOff);
+  delay(1000);
+  analogWrite (greenPin, greenOff);
+  delay(1000);
+  analogWrite (bluePin, 255);
+  delay(1000);
+  analogWrite (bluePin, blueOff);  
+
+}
+
+```
+
+```C++
+int redPin = 6;
+int greenPin = 5;
+int bluePin = 3;
+int redOff,greenOff,blueOff; // 쓰레기값으로 인식하여 0 으로 처리함.
+
+void setup() {
+
+}
+
+void loop() {
+  analogWrite (redPin, 112);  
+  analogWrite (bluePin, 128);
+  analogWrite (redPin, 144);
+  delay(1000);   
+  analogWrite (redPin, 0);  
+  analogWrite (bluePin, 0);
+  analogWrite (redPin, 0);  
+  delay(1000);  
+  analogWrite (redPin, 184);  
+  analogWrite (bluePin, 134);
+  analogWrite (redPin, 11);
+  delay(1000);   
+  analogWrite (redPin, redOff);  
+  analogWrite (bluePin, redOff);
+  analogWrite (redPin, redOff);  
+  delay(1000);
+
+}
+```
