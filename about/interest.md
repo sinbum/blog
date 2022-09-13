@@ -9,6 +9,19 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|스마트홈2. 구글홈 미니를 이용해 DIY LED 음성제어하기(without blynk/IFTTT) – Google Home Mini, Google Assistant, Home Assistant, ESPHome – mahler83 blog| [] |[링크](http://blog.mahler83.net/2020/11/%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%99%882-%ea%b5%ac%ea%b8%80%ed%99%88-%eb%af%b8%eb%8b%88%eb%a5%bc-%ec%9d%b4%ec%9a%a9%ed%95%b4-diy-led-%ec%9d%8c%ec%84%b1%ec%a0%9c%ec%96%b4%ed%95%98%ea%b8%b0without-blynk/)|
+|주제X|Jupyter notebook - 원격 접속 시 token 입력 없게 : 네이버 블로그| [] |[링크](https://m.blog.naver.com/ziippy/222076950590)|
+|주제X|[파이썬] 우분투 주피터 jupyter 원격 접속 서버 설정하는법, 오류 고치기| [] |[링크](https://light-tree.tistory.com/111)|
+|주제X|오라클 데이터베이스, 테이블, 데이터 용량 쿼리문| [] |[링크](https://kjk92.tistory.com/55)|
+|주제X|오라클 테이블 데이터 용량 확인하기 :: 꿀팁 공유 블로그| [] |[링크](https://animal-park.tistory.com/173)|
+|주제X|nota's story :: [Linux] 리눅스 rsync 설정 방법| [] |[링크](https://nota.tistory.com/77)|
+|주제X|[Windows] 윈도우용 rsync 프로그램 : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jjun_97&logNo=150030193418)|
+|주제X|scp와 rsync(secure Copy & remote synchronization)| [] |[링크](https://madplay.github.io/post/scp-rsync)|
+|주제X|Windows cwrsync설치 및 사용법| [] |[링크](https://server-talk.tistory.com/84)|
+|주제X|[명령어] rsync 이해| [] |[링크](https://blueyikim.tistory.com/562)|
+|주제X|LiquidCrystal_I2C : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=eye_korea&logNo=220839266242)|
+|주제X|[오라클] DATE 날짜 타입 :: 코드조각모음| [] |[링크](https://enzycut.tistory.com/entry/%EC%98%A4%EB%9D%BC%ED%81%B4-DATE-%EB%82%A0%EC%A7%9C-%ED%83%80%EC%9E%85)|
+|주제X|[Node.js] moment 사용하기 | millo's tech blog| [] |[링크](https://millo-l.github.io/Nodejs-moment-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)|
 |주제X|비즈니스 용어 'Ramp up' 이란? : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=iotspace&logNo=221417597015)|
 |주제X|오라클 SCN : 네이버 블로그| [] |[링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=whdahek&logNo=220789522830)|
 |주제X|파이썬 인터페이스 분리 원칙| [] |[링크](https://velog.io/@kimsehwan96/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B6%84%EB%A6%AC-%EC%9B%90%EC%B9%99)|
@@ -96,16 +109,3 @@ coverY: 263.4640234948605
 |빅데이터|Kafka Confluent Certified Administrator (CCOAK) Preparation | by Krishna Chaitanya Sarvepalli | Medium| [] |[링크](https://chkrishna.medium.com/kafka-confluent-certified-administrator-ccoak-preparation-f8be953c90d1)|
 |빅데이터|[PySpark] Spark 환경 설정 with Anaconda(Jupyter Notebook) Python(Pyspark Standalone mode) on windows| ['스파크'] |[링크](https://spidyweb.tistory.com/199)|
 |CSS|스켈레톤ui | Simple CSS Spinners| [] |[링크](https://tobiasahlin.com/spinkit/)|
-|자바스크립트|[스벨트 라우팅문제]소개 & 설치 - 만들면서 배우는 svelte| ['스벨트'] |[링크](https://freeseamew.gitbook.io/svelte/8.-routify/untitled)|
-|CSS|[레이아웃]옛날신문스타일 메뉴판, 복고풍메뉴판, 포차메뉴판| [] |[링크](https://blog.naver.com/PostView.nhn?blogId=jjs5907&logNo=222033671718&parentCategoryNo=&categoryNo=97&viewDate=&isShowPopularPosts=true&from=search)|
-|CSS|한글 타이포그래피 구독 서비스 홈페이지 제작 | 텀블벅 - 크리에이터를 위한 크라우드펀딩| [] |[링크](https://tumblbug.com/eyongjepage)|
-|CSS|CSS에 폰트 적용하기 (웹폰트 & 폰트 파일)| [] |[링크](https://velog.io/@jehjong/CSS%EC%97%90-%ED%8F%B0%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9B%B9%ED%8F%B0%ED%8A%B8-%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC)|
-|자바스크립트|스벨트 부트스트랩 Components - Get Started ⋅ Storybook| ['스벨트', '부트스트랩'] |[링크](https://sveltestrap.js.org/?path=/story/components--get-started)|
-|CSS|웹 레이아웃 기술 발전사 - CSS Grid Layout Guidebook| [] |[링크](https://yamoo9.gitbook.io/css-grid/web-layout-history)|
-|서버툴|Docker Compose를 이용하여 워드프레스 설치하기 > 우분투 서버 | ['중요', '도커'] |[링크](https://www.wsgvet.com/ubuntu/97)|
-|서버툴|docker rm 사용법: Docker 컨테이너를 삭제하는 방법 - LainyZine| ['도커', '우분투', '리눅스'] |[링크](https://www.lainyzine.com/ko/article/docker-rm-removing-docker-containers/)|
-|서버툴|[리눅스] apt, apt-get의 사용법 비교| ['서버', '우분투'] |[링크](https://coding-groot.tistory.com/90)|
-|호스팅|오라클 클라우드 방화벽 설정에 대한 모든 것 - ELMITASH FOR DEV| ['오라클', '클라우드'] |[링크](https://blog.elmi.page/412)|
-|서버툴|docker-machine, virtualbox 로 docker cli 환경 구성 (Docker Desktop 유료화, host only network, x509: certificate)| ['도커'] |[링크](https://tangoblog.tistory.com/20)|
-|서버툴|ubuntu docker 설치시 Package 'docker-ce' has no installation candidate 해결| ['도커'] |[링크](https://boying-blog.tistory.com/82)|
-|서버툴|Docker로 워드프레스 설치하기 - WordPress 가이드| ['도커'] |[링크](https://wpguide.usefulparadigm.com/posts/257)|
