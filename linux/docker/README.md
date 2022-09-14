@@ -460,6 +460,15 @@ docker logs webserver
 docker exec webserver /bin/bash
 - 현재 실행중인 컨테이너에 추가로 bash를 실행하고 싶을 때 쓰는 명령어입니다.
 
+#### 도커 연습
+1. 아파치 웹서버 컨테이너 이미지를 검색 후 다운로드 search,create
+2. 다운로드한 아파치 웹서버를 백그라운드 실행(detach), 컨테이너 이름: web 으로 동작 시키기 (run)
+3. 동작중인 컨테이너 목록 확인 후 web 컨테이너가 running 중인지 확인해보기 (ps)
+4. 실행중인 web 컨테이너의 ip Address 확인 (inspect)
+5. curl 명령으로 접속시도해보기.
+6. web 컨테이너가 만들어내는 로그 출력
+7. 실행중인 모든 컨테이너를 중지하고 삭제해보기.
+8. 다운로드 된 컨테이너 이미지 삭제하기.
 
 ## 컨테이너 볼륨
 
