@@ -35,7 +35,7 @@ description: 꿈에서도 공부하는 인셉션 개발자
 ### 기초 연습
 
 * [리눅스 사용](undefined/undefined/)
-  * [기본명령어](linux/BasicCommand.md)
+  * [기본명령어](linux/guide/BasicCommand.md)
 
 ### 언어
 
