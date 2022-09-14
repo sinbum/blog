@@ -1,27 +1,5 @@
 ---
-'0': d
-'1': e
-'2': s
-'3': c
-'4': r
-'5': i
-'6': p
-'7': t
-'8': i
-'9': o
-'10': 'n'
-'11': ':'
-'12': 도
-'13': 커
-'14': 를
-'15': ' '
-'16': 설
-'17': 명
-'18': ' '
-'19': 합
-'20': 니
-'21': 다
-'22': .
+description: 도커에 대하여..
 ---
 
 # 도커
@@ -365,9 +343,123 @@ CMD ["bash","webpage.sh"]
 
 ## 컨테이너 보관
 
+- Registry : 컨테이너 이미지를 저장하는 저장소.
+- Docker Hub : hub.docker.com
+- Private Registry : 사내 컨테이너 저장소.
+
+### 도커 허브 
+
+도커 허브는 깃허브와 마찬가지로 도커를 보관하는 웹 저장소의 개념입니다.
+
+- https://hub.docker.com/
+- image 종류 : Official Images, Verified Publisher 등등
+- 이미지 검색 : $docker search ${keyword}
+
+### Private Registry
+registry 컨테이너를 이용해서 개인적, 또는 사내 컨테이너로 운영이 가능합니다.
+
+```shell
+docker run -d -p 5000:5000 --restart always --name registry registry:2
+```
+
+도커를 실행 후 다음과 같이 호스트네임과 포트번호를 입력 후 이미지 이름을 적어 주도록 합니다.
+
+- image repository
+  - localhost:5000/ubuntu:18.04
+  - docker.example.com:5000/ubuntu:18.04
+
+
+
 ## 컨테이너 사용
 
-## 컨테이너 관리
+### 컨테이너 이미지 사용방법
+
+- 이미지 검색
+- 이미지 다운로드
+- 다운받은 이미지 목록 출력
+- 다운받은 이미지 상세
+- 이미지 삭제 
+
+
+#### 이미지 검색
+ - docker search [옵션] <이미지이름:태그명>
+ - 예) docker search database
+ - 예) docker search nginx
+ #### 이미지 다운로드
+ - docker pull [옵션] <이미지이름:태그명>
+ - 예) docker pull mysql:latest
+ #### 다운받은 이미지 목록 출력하기
+ - docker images
+ #### 다운받은 이미지 상세보기
+ - docker inspect [옵션] <이미지이름:태그명>
+ - docker inspect nginx:latest
+ #### 이미지삭제
+ - docker rmi [옵션] <이미지이름>
+ - docker rmi nginx
+
+
+
+### 컨테이너 실행,종료
+
+- 컨테이너 생성
+- 컨테이너 실행
+- 컨테이너 생성/실행
+- 실행중인 컨테이너 목록 확인
+- 동작중인 컨테이너 중지
+- 컨테이너 삭제
+
+#### 컨테이너 생성
+docker create --name webserver nginx
+#### 컨테이너 실행
+docker start webserver
+#### 컨테이너 생성/실행
+docker run --name webserver -d nginx:latest
+#### 실행중인 컨테이너 목록 확인
+docker ps
+#### 동작중인 컨테이너 중지
+docker stop webserver
+#### 컨테이너 삭제
+docker rm webserver
+
+### run 과 pull의 차이
+
+도커의 사용 주기는 다음과 같다.
+
+pull >> create >> start >> stop
+run >> stop
+
+
+### 컨테이너 관리
+실행중인 컨테이너의 관리의 대표적인 명령어는 다음과 같습니다.
+ps,top,webserver
+
+- 실행중인 컨테이너 목록 확인
+- 포그라운드로 실행중인 컨테이너에 연결
+- 동작중인 컨테이너에 NEW 명령어 추가 실행
+- 컨테이너에서 동작되는 프로세스 확인
+- 동작중인 커네팅너가 생성한 로그 보기
+
+#### 실행중인 컨테이너 목록 확인
+docker ps webserver
+#### 포그라운드로 실행중인 컨테이너에 연결
+docker attach [옵션] 컨테이너 이름
+docker attach centos
+#### 동작중인 컨테이너에 NEW 명령어 추가 실행
+docker exec -it webserver /bin/bash
+#### 컨테이너에서 동작되는 프로세스 확인
+docker top
+#### 동작중인 커네팅너가 생성한 로그 보기
+docker logs
+docker logs -f
+
+docker top 이미지
+- 도커의 컨테이너가 실행하기위한 프로세스들을 나타냅니다.
+- 도커가 실행중인 웹서버 컨테이너 목록을 나타냅니다.
+docker logs webserver
+- 현재 런닝 중 인 컨테이너의 로그정보를 나타냅니다.
+docker exec webserver /bin/bash
+- 현재 실행중인 컨테이너에 추가로 bash를 실행하고 싶을 때 쓰는 명령어입니다.
+
 
 ## 컨테이너 볼륨
 
