@@ -10,7 +10,7 @@
   * [프록시서버](linux/ProxyServer.md)
   * [온프레미스](linux/OnPremise.md)
   * [systemd](linux/Systemd.md)
-  * [우분투 앱](linux/Ubuntu\_first\_install.md)
+  * [우분투 앱](linux/Ubuntu_first_install.md)
 * [도커](linux/docker/README.md)
   * [도커 설치](linux/docker/install.md)
   * [컨테이너 만들기](linux/docker/container_make.md)
