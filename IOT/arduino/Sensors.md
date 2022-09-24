@@ -80,7 +80,42 @@ void loop()
 
 ![측정 범위](images/sensors_img_8.png)
 
+```c++
+#include <DHT.h>
+#define DHTPIN 2
+DHT dht (DHTPIN, DHT11);
 
+void setup()
+{
+  Serial.begin (9600);
+  Serial.println ("DHT11 measure start!");
+  Serial.println();
+  dht.begin ();
+}
+
+void loop()
+{
+  float humivalue = dht.readHumidity ();
+  float tempvalue = dht.readTemperature();
+
+  if (isnan (humivalue) || isnan (tempvalue))
+  {
+    Serial.print("fail to read from dht sensor!");
+  }
+
+  Serial.print ("Humidity : ");
+  Serial.print (humivalue);
+  Serial.println ("%RH");
+
+  Serial.print ("Temperature : ");
+  Serial.print (tempvalue);
+  Serial.println ("C");
+  Serial.println ();
+
+  delay (2000);
+  
+}
+```
 
 ## 토양 수분 센서
 
@@ -89,6 +124,7 @@ void loop()
 토양 수분 센서는 토양 내 수분 함량에 따른 저항의 변화를 측정하는 센서로 토양 내 수분과 토양을 구성하는 입자의 크기 및 다양성에 영향을 받는다.
 토양 내 수분 함량이 많으면 저항값이 작아지고 수분 함량이 부족하면 저항값이 커진다.
 
+토양 센서를 연결하고 수분이 일정량 들어오는 경우 led가 켜지도록 설정.
 ```c++
 int ledPin = 13; 	// 아두이노 보드 13번 LED 연결
 int soilsensorPinA = A0; 	// 아날로그 출력 핀(AO). A0 핀에 연결
