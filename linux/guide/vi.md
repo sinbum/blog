@@ -116,3 +116,6 @@ description : vi 또는 vim  에 대해서 설명합니다.
 |           :%s/string/rep/g            |         	파일 전체 str을 rep로 전부대체         |
 |              :.$/aaa/bbb              | 	커서의 위치로부터 파일의 끝까지 있는 모든 aaa를 bbb로 대체 |
 
+### 단축키 이미지
+![단축기 명령어 1](images/vi_command_1.png)
+![단축기 명령어 2](images/vi_command_2.jpg)
