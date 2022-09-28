@@ -11,6 +11,7 @@
   * [온프레미스](linux/guide/OnPremise.md)
   * [systemd](linux/guide/Systemd.md)
   * [우분투 앱](linux/guide/Ubuntu_first_install.md)
+  * [vi 사용법](linux/guide/vi.md)
 * [도커](linux/docker/README.md)
   * [MSA 아키텍처](linux/docker/msa_architecture.md)
   * [도커 설명](linux/docker/docker.md)
