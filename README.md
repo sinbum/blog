@@ -106,7 +106,7 @@ description: 꿈에서도 공부하는 인셉션 개발자
 
 ## GITHUB
 
-* [깃허브 협업 모델](gitHub/GitHub.md)
+* [깃허브 협업 모델](gitHub/GithubCoWork.md)
 
 ## BigData
 

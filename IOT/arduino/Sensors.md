@@ -217,9 +217,31 @@ void loop() {
 주로 가변 저항을 통하는 연속적인 전기 활동을 사용해 전체 이동 범위 내에서 레버의 정확한 위치를 측정합니다.  
 아두이노 우노 보드의 ADC 모듈의 해상도에 따라서 수직 이동과 수평이동값을 이용해 0에서 1023까지 입력신호를 얻을 수 있습니다. 입력을 HIGH 또는 LOW로만 받는 디지털 조이스틱보다 더 정밀하게 입력값을 처리 할 수 있습니다.
 
+![아날로그 조이스틱](images/analog_joystic.png)
 
-![img.png](img.png)
+```c++
+int SW = 2;
+int VRX = A1;
+int VRY = A0;
 
+
+void setup() {
+ Serial.begin(9600);
+ pinMode(SW,INPUT_PULLUP);
+
+}
+
+void loop() {
+ Serial.print("VRX = ");  Serial.print(analogRead(VRX));
+ Serial.print(" / ");
+ Serial.print("VRY = "); Serial.print(analogRead(VRY));
+ Serial.print(" / ");
+ Serial.print("SW = ");
+ Serial.println(digitalRead(SW));
+ delay(500);
+}
+
+```
 
 ## 기울기 센서
 기울기 센서의 전압이 설정된 기준 전압보다 낮으면 센서 내의 비교기를 통해 LOW 신호를 출력하고 기울기가 없으면 비교기를 통해 HIGH 신호를 출력 합니다. 

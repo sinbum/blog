@@ -80,9 +80,11 @@
       * [Greedy 와 Non-Greedy](python/useGuide/regExporessions/Greed_and_NoneGreed.md)
   * [마치며...](python/useGuide/Finish.md)
 
-## GITHUB
+## 형상관리,CI/CD
 
-* [깃허브 협업 모델](gitHub/GitHub.md)
+* [깃허브](gitHub/readme.md)
+  * [깃허브 협업 모델](gitHub/GithubCoWork.md)
+  * [깃허브 설치 와 ssl](gitHub/install_and_config.md)
 
 ## BigData
 
@@ -111,6 +113,7 @@
   * [센서의 종류](IOT/arduino/Sensors.md)
   * [led 출력하기](IOT/arduino/Arduino_LED.md)
   * [시리얼 통신](IOT/arduino/SerialNetwork.md)
+  * [무선 통신](IOT/arduino/Wireless.md)
   
 
 ## About
