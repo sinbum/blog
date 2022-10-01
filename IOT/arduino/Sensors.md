@@ -166,12 +166,60 @@ void loop()
 
 ```
 
+
+
+
 ![토양 수분센서의 시리얼 통신 내용](images/sensors_img_10.png)
 
 ## 초음파 센서
 초음파 센서는 초음파가 가지고 있는 파장의 분해능과 반사 특성을 이용하여 거리나 두께,움직임, 농도 등을 검출하는 센서 입니다.
 
+- 거리를 계산할 때는 HIGH 펄스가 유지된 시간에 초음파가 1센티미터, 또는 1인치를 이동하는데 소요된 시간을 적용하면 됩니다.
+
 ![초음파 센서 모듈 HC-SR04](images/sensors_img_11.png)
+
+```shell
+
+int trigPin = 2;
+int echoPin = 3;
+
+
+void setup() {
+  pinMode (trigPin, OUTPUT);
+  pinMode (echoPin, INPUT);
+  Serial.begin (9600);
+  Serial.println ("HC-SR04. distance measure start!");
+  Serial.println ();
+
+}
+
+void loop() {
+  float duration, cm;
+
+  digitalWrite (trigPin,HIGH);
+  delayMicroseconds (10);
+  digitalWrite (trigPin, LOW);
+
+  duration = pulseIn (echoPin, HIGH);
+  cm = duration / 58.0; // 거리 = 왕복에 걸린 시간 / 58
+
+  Serial.print ("distance : ");
+  Serial.print (cm);
+  Serial.println (" cm");
+  delay (1000);
+
+}
+
+```
+
+## 아날로그 조이스틱
+**PS2 아날로그 조이스틱 모듈**  
+주로 가변 저항을 통하는 연속적인 전기 활동을 사용해 전체 이동 범위 내에서 레버의 정확한 위치를 측정합니다.  
+아두이노 우노 보드의 ADC 모듈의 해상도에 따라서 수직 이동과 수평이동값을 이용해 0에서 1023까지 입력신호를 얻을 수 있습니다. 입력을 HIGH 또는 LOW로만 받는 디지털 조이스틱보다 더 정밀하게 입력값을 처리 할 수 있습니다.
+
+
+![img.png](img.png)
+
 
 ## 기울기 센서
 기울기 센서의 전압이 설정된 기준 전압보다 낮으면 센서 내의 비교기를 통해 LOW 신호를 출력하고 기울기가 없으면 비교기를 통해 HIGH 신호를 출력 합니다. 
