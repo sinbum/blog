@@ -9,6 +9,19 @@ coverY: 263.4640234948605
 ---
 |주제|이름|태그|참고링크|
 |:--:|:-----------------------------------------------|:-----:|:---:|
+|주제X|[PyCharm] PyCharm 프로젝트 생성시 'Failed to create a virtual environment' 에러| [] |[링크](https://hbase.tistory.com/367)|
+|주제X|파이썬 if __name__ == "__main__" 의미| [] |[링크](https://madplay.github.io/post/python-main-function)|
+|주제X|웨이크온란 · PyPI| [] |[링크](https://pypi.org/project/wakeonlan/)|
+|주제X|Svelte - Docker + Nginx 를 이용한 배포하기| [] |[링크](https://asecurity.dev/entry/Svelte-Docker-Nginx-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)|
+|주제X|[nginx] nginx root경로 변경방법 및 403에러| [] |[링크](https://hongddo.tistory.com/106)|
+|주제X|꿈꾸는 개발자, DBA 커뮤니티 구루비| [] |[링크](http://www.gurubee.net/lecture/2398)|
+|주제X|3.4 시리얼통신을 이용한 LED제어| [] |[링크](https://hackerjacob.tistory.com/m/136)|
+|주제X|[LINUX] 📚 Alias 설정 & 사용 방법 정리 (+ 단축어 예시TIP)| [] |[링크](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-Alias-%EC%84%A4%EC%A0%95-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC-%EB%8B%A8%EC%B6%95%EC%96%B4-%EC%98%88%EC%8B%9CTIP)|
+|주제X|Nginx 이해하기 및 기본 환경설정 세팅하기| [] |[링크](https://whatisthenext.tistory.com/123)|
+|주제X|Nginx로 React를 배포하는 방법| [] |[링크](https://codechacha.com/ko/deploy-react-with-nginx/)|
+|주제X|Rocky Linux 9에 Docker 및 Docker-Compose를 설치하는 방법 :: www.uname.in| [] |[링크](https://www.uname.in/209)|
+|주제X|[Rocky Linux] 최소 설치(Minimal Install) 시 네트워크 설정하기 – GIS Developer| [] |[링크](http://www.gisdeveloper.co.kr/?p=12433)|
+|주제X|날짜 타입, Timestamp와 Datetime의 차이 알아보기| [] |[링크](https://fascinate-zsoo.tistory.com/38)|
 |주제X|스마트홈2. 구글홈 미니를 이용해 DIY LED 음성제어하기(without blynk/IFTTT) – Google Home Mini, Google Assistant, Home Assistant, ESPHome – mahler83 blog| [] |[링크](http://blog.mahler83.net/2020/11/%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%99%882-%ea%b5%ac%ea%b8%80%ed%99%88-%eb%af%b8%eb%8b%88%eb%a5%bc-%ec%9d%b4%ec%9a%a9%ed%95%b4-diy-led-%ec%9d%8c%ec%84%b1%ec%a0%9c%ec%96%b4%ed%95%98%ea%b8%b0without-blynk/)|
 |주제X|Jupyter notebook - 원격 접속 시 token 입력 없게 : 네이버 블로그| [] |[링크](https://m.blog.naver.com/ziippy/222076950590)|
 |주제X|[파이썬] 우분투 주피터 jupyter 원격 접속 서버 설정하는법, 오류 고치기| [] |[링크](https://light-tree.tistory.com/111)|
@@ -96,16 +109,3 @@ coverY: 263.4640234948605
 |파이썬|python - How to create a commit and push into repo with GitHub API v3? - Stack Overflow| ['파이썬기본'] |[링크](https://stackoverflow.com/questions/11801983/how-to-create-a-commit-and-push-into-repo-with-github-api-v3)|
 |시험|2022 제4회 빅데이터분석기사(빅분기) 필기 후기 - 플라스크 속의 난쟁이| ['빅데이터분석기사'] |[링크](http://dwarfintheflask.xyz/9)|
 |파이썬|20. 파이썬 출력 결과 저장하기 - Codetorial| [] |[링크](https://codetorial.net/tips_and_examples/save_print_output.html)|
-|파이썬|[파이썬] requests 라이브러리로 원격 API 호출하기 | Engineering Blog by Dale Seo| ['라이브러리'] |[링크](https://www.daleseo.com/python-requests/)|
-|네트워크|[가이드] 액세스 토큰| ['HTTP'] |[링크](https://docs.iamport.kr/tech/access-token)|
-|자바스크립트|NodeJS - Token 저장 위치의 고찰| [] |[링크](https://velog.io/@neity16/NodeJS-Token-%EC%A0%80%EC%9E%A5-%EC%9C%84%EC%B9%98%EC%9D%98-%EA%B3%A0%EC%B0%B0)|
-|자바스크립트|Node.js에서 환경 변수 다루기 (process.env) | Engineering Blog by Dale Seo| [] |[링크](https://www.daleseo.com/js-node-process-env/)|
-|빅데이터|아파치 카프카를 데이터 레이크로 사용할 수 있을까?| ['카프카'] |[링크](https://blog.voidmainvoid.net/407)|
-|자료구조|자료 구조(Data Structure) 개념 및 종류 정리| [] |[링크](https://bnzn2426.tistory.com/m/115)|
-|빅데이터|빅데이터의 실시간 처리와 람다/카파 아키텍처| [] |[링크](https://saintbinary.tistory.com/m/15)|
-|서버툴|[리눅스]tree 명령어| ['Tree'] |[링크](https://promobile.tistory.com/374)|
-|빅데이터|카프카를 활용한 레이싱카 센서 실시간 수집 데이터 파이프라인 구축| [] |[링크](https://blog.voidmainvoid.net/478)|
-|빅데이터|Apache Kafka CCDAK 시험 노트 - Coding N Concepts| [] |[링크](https://codingnconcepts.com/post/apache-kafka-ccdak-exam-notes/)|
-|빅데이터|Kafka Confluent Certified Administrator (CCOAK) Preparation | by Krishna Chaitanya Sarvepalli | Medium| [] |[링크](https://chkrishna.medium.com/kafka-confluent-certified-administrator-ccoak-preparation-f8be953c90d1)|
-|빅데이터|[PySpark] Spark 환경 설정 with Anaconda(Jupyter Notebook) Python(Pyspark Standalone mode) on windows| ['스파크'] |[링크](https://spidyweb.tistory.com/199)|
-|CSS|스켈레톤ui | Simple CSS Spinners| [] |[링크](https://tobiasahlin.com/spinkit/)|
