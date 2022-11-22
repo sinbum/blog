@@ -2,6 +2,7 @@
 
 * [인셉션 개발자](README.md)
   * [History](History.md)
+  * [Editorial Board](editorial_board/Important_of_GUI.md)
 
 ## 리눅스
 
@@ -114,7 +115,6 @@
   * [led 출력하기](IOT/arduino/Arduino_LED.md)
   * [시리얼 통신](IOT/arduino/SerialNetwork.md)
   * [무선 통신](IOT/arduino/Wireless.md)
-  
 
 ## About
 
