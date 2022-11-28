@@ -106,7 +106,9 @@
 * [BuildApplications](bigData/buildapplications/README.md)
   * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
-
+* [PowerBi](bigData/power_bi/README.md)
+  * [DAX]()
+    * [REMOVEFILTERS](bigData/power_bi/dax/removefilters.md)
 ## IOT
 
 * [아두이노](IOT/arduino/README.md)
