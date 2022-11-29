@@ -109,6 +109,7 @@
 * [PowerBi](bigData/power_bi/README.md)
   * [DAX]()
     * [REMOVEFILTERS](bigData/power_bi/dax/removefilters.md)
+    * [DAX_문법](bigData/power_bi/dax/grammar.md)
 ## IOT
 
 * [아두이노](IOT/arduino/README.md)
