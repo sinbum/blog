@@ -19,4 +19,3 @@
  예) CALENDAR, FILTER, TOPN, SUMMARIZE
  
 ##
-최영철님 나이스
