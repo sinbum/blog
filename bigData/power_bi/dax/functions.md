@@ -48,5 +48,28 @@ Order_FirstDate = MIN (F_Sales [OrderDate])
 ```text
 Duration = DATEDIFF([FirstOrderDate],[LateOrderDate],DAY)
 ```
+### LOOKUPVALUE()
+
+1) 거래(F)테이를에 가격과 거래금액이 없을때 매출은 어떻게 구할까?
+2) (엑셀과는 달리) 여러값을 매칭해서 가져을 수는 없을까?
+
+```text
+AAA= LOOKUPVALUE ( D-Products(UstPnceL D-Products(ProductKey), (ProductKeyl )
+```
+
+기타 관련 함수: Related
 
 
+### FORMAT()
+
+적용사례 : 데이터 표현형식을 바꾸고 싶을 때 (엑셀의 FORMAT과 동일)
+
+```text
+Sales Amt(억원) = FORMAT ( (Sales Amt(KRW) 1 / 100000000. "#0.0억원")
+```
+
+1) 카드에 억 단위로 표현말 수는 없을까?
+2) 금액 크기에 따라 억원 단위와 만원 단위를 함께 쓸 수는 없을까?
+3) 날짜 형식을 연&까지만 나타나게 할 수는 없을까?
+
+기타 관련 함수: IF, SWITCH 함수
