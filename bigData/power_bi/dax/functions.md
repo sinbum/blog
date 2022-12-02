@@ -1,6 +1,6 @@
 
 
-# 함수 리스트 
+## 함수 리스트 
 
 강의 저자 : 어니언 비아이
 강의 제목 : POWER BI DAX 사용법
@@ -36,3 +36,17 @@
 ```text
 Order_FirstDate = MIN (F_Sales [OrderDate])
 ```
+
+### DATEDIFF()
+1) (고객 별로) 유지기간(Retention)은 얼마나 되는가 (보유기간)?
+2) (고객 별로) 거래 안한지 얼마나 되었나 (휴면기간)?
+3) 평균적 으로 얼마만에 한번씩 우리물건을 구매하는가? (구매빈도/주기)
+
+* 기타 관련 함수: Today, 시간인 텔리전스(Time lntelligence) 함수들
+(DatesAdd, DatesBetween, DatesYTD, DateInPeri0d 등)
+
+```text
+Duration = DATEDIFF([FirstOrderDate],[LateOrderDate],DAY)
+```
+
+
