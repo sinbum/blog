@@ -2,6 +2,10 @@
 
 # 함수 리스트 
 
+강의 저자 : 어니언 비아이
+강의 제목 : POWER BI DAX 사용법
+강의 url : [https://www.youtube.com/@user-bs8qs5fs3k](https://www.youtube.com/watch?v=0Wh7PoDwASI&list=PLXTZTI9YjEQ172Ek4eT7TJGK4WAEZ2YV5)
+
 
 ### COUNTBLANK()
 
