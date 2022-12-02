@@ -68,8 +68,20 @@ AAA= LOOKUPVALUE ( D-Products(UstPnceL D-Products(ProductKey), (ProductKeyl )
 Sales Amt(억원) = FORMAT ( (Sales Amt(KRW) 1 / 100000000. "#0.0억원")
 ```
 
+```text
+Sales Amt(억,만원) = 
+IF([Sales Amt(KRW)] >= 100000000, FORMAT([Sales Amt($)]/100000000, "#,##0억원"),
+IF([Sales Amt(KRW)] >= 10000, FORMAT([Sales Amt(KRW)]/10000, "#,##0만원"),
+    FORMAT([Sales Amt(KRW)], "#,##0 원"))
+)
+
+```
+
 1) 카드에 억 단위로 표현말 수는 없을까?
 2) 금액 크기에 따라 억원 단위와 만원 단위를 함께 쓸 수는 없을까?
 3) 날짜 형식을 연&까지만 나타나게 할 수는 없을까?
 
 기타 관련 함수: IF, SWITCH 함수
+
+- 텍스트 기반 정렬
+- 시각화의 한계
