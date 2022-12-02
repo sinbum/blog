@@ -86,6 +86,7 @@
 * [깃허브](gitHub/readme.md)
   * [깃허브 협업 모델](gitHub/GithubCoWork.md)
   * [깃허브 설치 와 ssl](gitHub/install_and_config.md)
+  * [깃허브를 잘쓰는 팁 모음](gitHub/useful.md)
 
 ## BigData
 
