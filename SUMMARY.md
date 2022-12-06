@@ -112,6 +112,8 @@
     * [REMOVEFILTERS](bigData/power_bi/dax/removefilters.md)
     * [DAX_문법](bigData/power_bi/dax/grammar.md)
     * [DAX_함수](bigData/power_bi/dax/functions.md)
+* [Azure](bigData/azure/readme.md)
+  * [SynapseAnalytics](bigData/azure/SynapseAnalytics/readme.md)
 ## IOT
 
 * [아두이노](IOT/arduino/README.md)
