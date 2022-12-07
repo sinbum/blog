@@ -1,10 +1,10 @@
 
 ## 강의 요약.
 
-링크 : https://www.youtube.com/@WafaStudies/playlists
-저자 : WafaStudies
-국가 : 인도
-키워드 : Azure, Pyspark, Databricks 등
+링크 : https://www.youtube.com/@WafaStudies/playlists  
+저자 : WafaStudies  
+국가 : 인도  
+키워드 : Azure, Pyspark, Databricks 등  
 
 1. Introduction to Azure Synapse Analytics
     - 시냅스에 대한 전반적인 설명, 아키텍처 등
