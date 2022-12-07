@@ -35,4 +35,56 @@
       - df.repartition(1) 의 경우 결과값의 한 row가 하나씩 파일로 만들어 지는 것이 아닌 모든 데이터 결과값이 한 개의 파일로 적재 될 수 있도록 옵션을 설정 해 주어야함.
     
 8. Integrate Pipelines in Azure Synapse Analytics
+   - 로드된 데이터를 SQL스크립트로 데이터를 보는 방법과, 쥬피터 노트북과 같은 환경의 애져기반 노트북에서 같은 데이터를 보는 방법을 설명.
+   - 파이프 라인을 설계하는 것을 설명함.
+   - 에어플로우 에서의 DAG를 활용한 파이프라인의 구축과 비슷함.
+   - 모니터링도 가능하고 진행중인 과정도 웹환경에서 GUI가 구현되어 있음.
+   - 트리거 사용 방법 설명
+   
+9. Monitor your Azure Synapse Analytics Workspace
+   - 파이프라인과 트리거, SQL의 활동 및 스파크활동 모니터
+   - 스파크의 잡형태 세션 정보 등등을 애져 시냅스 기반에서 확인이 가능함.
+   
+10. Add an Administrator to your Azure Synapse Workspace
+    - 담당자 권한 설정.
+    - SQL인 경우
+    ```SQL
+     CREATE USER [abc@outlook.com] FROM EXTERNAL PROVIDER;
+     EXEC sp_addrolememember 'db owner', 'abc@outlook.com/
+      ```
     
+11. Azure Synapse SQL Architecture
+    - Synapse SQL 의 종류 2가지
+      - Serverless SQL Pool 
+      - Dedicated SQL Pool 
+    - 서버리스 SQL Pool (Serverless SQL Pool) -> query data, blob storage 등
+      - Dedicated SQL Pool -> DB
+
+12. Distributions(Hash, Round Robbin & Replicate) in Azure Synapse Analytics
+    - 해시 분산 테이블 (Hash Distributed Tables)
+      - [참조링크 : 해시넷](http://wiki.hash.kr/index.php/%EB%B6%84%EC%82%B0%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94)
+      - [참조링크 : 블로그](https://ddongwon.tistory.com/76)
+    - 라운드 로빈 분산 테이블 (Round Robbin Distributed Tables)
+      - 라운드 로빈 테이블은 적재를 위한 가장 심플한 방법이다.
+      - 테이블 생성과 데이터 전달의 퍼포먼스가 빠르다.
+      - 그러나 쿼리 퍼포먼스는 해시 분산 테이블 더 나을 수 있다.
+    - 복제 테이블 (Replicated Tables)
+      - 테이블내 데이터를 여러 노드에 복제 한다.
+      - 적은 테이블 갯수를에 쿼리 퍼포먼스가 가장 빠르다. 왜냐하면 같은 내용을 분산처리로 조회하기떄문.
+13. Server less SQL Pool Overview in Azure Synapse Analytics
+    - 이기종의 성격을 가진 데이터 포멧이나 DB 에 폭넓은 쿼리를 지원한다.
+    - T-SQL 문법도 사용가능하다.
+    - Serverless SQL pool 은 T-SQL 을 지원한다. 그러나 다음 항목은 지원하지 않는다.
+      - Tables
+      - Triggers
+      - Materialized Views
+      - DDL statements view 나 보안과 관련된 하나이상
+      - DML statements
+14. Create External Data source in Azure Synapse Analytics
+    - ![접근_정보_생성.png](images/접근_정보_생성.png)
+    - ![접근_정보_생성_결과.png](images/접근_정보_생성_결과.png)
+    - External Data source
+    - Master Key
+    - Credential(Database coped credential)
+      - 외부 소스로 접근하기 위한 승인 정보
+15. Create External File Format in Azure Synapse Analytics
