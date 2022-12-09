@@ -78,8 +78,7 @@
       - Tables
       - Triggers
       - Materialized Views
-      - DDL statements view 나 보안과 관련된 하나이상
-      - DML statements
+      - DDL statements view 나 보안과 관련된 하나이상 - DML statements
 14. Create External Data source in Azure Synapse Analytics
     - ![접근_정보_생성.png](images/접근_정보_생성.png)
     - ![접근_정보_생성_결과.png](images/접근_정보_생성_결과.png)
@@ -88,3 +87,36 @@
     - Credential(Database coped credential)
       - 외부 소스로 접근하기 위한 승인 정보
 15. Create External File Format in Azure Synapse Analytics
+    - External File 하는 경우 다른 포맷으로 테이블 데이터를 변환 할 수 있음.
+    - 예) table 데이터 -> csv
+    - ![img.png](images/파일생성쿼리.png)
+16. CETAS with Synapse SQL in Azure Synapse Analytics
+    - CETAS(Create External Table as SELECT)
+    - 문법은 다음과 같다.
+    - ![img.png](images/CETAS_grammar.png)
+17. CTAS with Synapse SQL in Azure Synapse Analytics
+    - CTAS(Create Table as SELECT)
+    - SELECT INTO vs CTAS 차이점 설명
+      - CTAS 는 커스터마이징을 상세 하게 할 수 있다.
+      - SELECT INTO 는 분산 방법 의 타입을 지정 할 수가 없다.
+      - SELECT INTO 는 DEFUALT 로 분산처리 방식이 라운드로빈으로 설정된다.
+      - CTAS는 분산처리와 테이블 구조 타입을 지정할 수있다.
+
+18. External Tables with Synapse SQL in Azure Synapse Analytics
+    - ![external_tables_type.png](images/external_tables_type.png)
+19. Create and query external tables from a file in ADLS in Azure Synapse Analytics
+    - 시냅스 sql 로 external table 을 만들 수있다. 그러나 오직 **Parquet** file의 형태만 지원한다.
+20. Types of External Tables(Hadoop & Native) in Synapse SQL in Azure Synapse Analytics
+    - 하둡과 네이티브 의 차이가있다.
+    - 하둡방식
+      - 자바 기반. 조회속도에 네이티브에 비해 더 걸린다.
+    - 네이티브 방식
+      - C 기반. 처리속도가 빠르다.
+    - 하둡과 네이티브 방식의 차이와 지원 여부
+      - ![different_hadoop_native.png](images/different_hadoop_native.png)
+21. Administrative accounts in Synapse SQL in Azure Synapse Analytics
+    - Azure Synapse Analytics 의 워크스페이스 내에서 sql endpoint 계정 설정 url 설명
+      - SQL Active Directory admin
+      - Dedicated SQL endpoint
+      - Serverless SQL endpoint
+      - Development endpoint

@@ -134,3 +134,5 @@
     * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
     * [로지텍 마우스 수리](about/LogitechMouseSelfToFix.md)
 * [CONTACT](about/contact.md)
+* [세미나](about/seminar/readme.md)
+  * * [MS_빅데이터_분석_교육](about/seminar/MS_Databricks_2022_12_08.md)
