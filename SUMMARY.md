@@ -135,4 +135,5 @@
     * [로지텍 마우스 수리](about/LogitechMouseSelfToFix.md)
 * [CONTACT](about/contact.md)
 * [세미나](about/seminar/readme.md)
-  * * [MS_빅데이터_분석_교육](about/seminar/MS_Databricks_2022_12_08.md)
+  * [MS_빅데이터_분석_교육](about/seminar/MS_Databricks_2022_12_08.md)
+  * [DataBricks_Musinsa_사례분석](about/seminar/databricks_musinsa_2022_12_09.md)
