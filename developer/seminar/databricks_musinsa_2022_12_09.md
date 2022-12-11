@@ -46,21 +46,23 @@
   - 모델관리, AutoML
 - 워크플로우관리
 - 데이터 웨어하우징
-  - 데이터 타입에 따른 델타레이크(delta lake) 에 데이터 통합
-![무신사_데이터_플랫폼_아키텍처.png](images/databricks_musinsa_2022_12_09_architecture.png)
+  - 데이터 타입에 따른 델타레이크(delta lake) 에 데이터 통합  
+  - 
+![무신사_데이터_플랫폼_아키텍처.png](images/databricks_musinsa_2022_12_09_architecture.png)  
 
 ## 데이터 수집
 데이터 수집의 방법과 아케틱처 설명.
 
 ### 서비스 데이터베이스 데이터 수집
   관계형데이터 베이스의 변경분을 지속적으로 델타레이크에 마이그레이션 할 수 있는수준이 됨.
+
   ![서비스 데이터베이스 데이터 수집.png](images/databricks_musinsa_DB_Extract.png)
   
 ### 사용자 실시간 행동 로그
 카탈로그 관리하는것이 인상적이다. 구글 스프레드 시트를 Unity Catalog 에 동기화 하는것. 유연하게 거버넌스를 관리 할 수 있다.
-
 - 카탈로그 관리 측면
 - 데이터 처리 측면
+
 ![사용자 실시간 행동 로그.png](images/databricks_musinsa_user_act_analytics.png)
 
 ### AWS에서 운영하던 기존 GOLD DATA
@@ -76,22 +78,24 @@
 
 ### 데이터셋 관리
 데이터셋에 따른 카탈로그를 부서 및 역할군 으로 나누어 관리함.
+
 ![데이터셋 관리.png](images/databricks_musinsa_manage_dataset.png)
 
 ### 워크스페이스 관리
 데이터 활용 범위에 따른 워크스페이스 활용
+
 ![워크스페이스 관리.png](images/databricks_musinsa_manage_workspace.png) 
 
 ## 정리
-- 접근성
+- **접근성**
   - SSO
   - 데이터 공유
     - 누구나 데이터를 생성하고 공유할 수있음.
-- 거버넌스 측면
+- **거버넌스 측면**
   - Unity Catalog
     - 컬럼 단위까지 접근제어가 가능하다.
   - 조직별 리소스 접근 제어
     - GPU Machine을 포함한 클러스터 사이즈 생성관리.
     - 페르소나에 따른 리소스 관리
-- 클라우드 통합
+- **클라우드 통합**
   - 기존 클라우드와 통합 가능한 데이터 플랫폼 구축.
