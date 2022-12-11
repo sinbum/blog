@@ -7,6 +7,7 @@
     * [MS_빅데이터_분석_교육](developer/seminar/MS_Databricks_2022_12_08.md)
     * [Databricks_Musinsa_사례분석](developer/seminar/databricks_musinsa_2022_12_09.md)
     * [Databricks_AMOREPACIFIC_사례분석](developer/seminar/databricks_amorepacific_2022_12_09.md)
+  * [개발자 꿀팁](developer/tips/readme.md)
 
 
 ## 리눅스
