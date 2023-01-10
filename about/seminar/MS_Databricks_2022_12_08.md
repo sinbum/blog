@@ -36,8 +36,6 @@ Azure Synapse Analytics
 서버리스 SQL 풀 은 데이터 과금은 없으나 조회에 대한 시간에 대해 과금 적용.
 
 
-
-
 ## 빅데이터 처리 분석
 
 - 데이터 엔지니어를 위한 Databricks
@@ -50,3 +48,6 @@ Azure Databricks Lakehouse 플랫폼은 데이터 웨어하우스와 데이터 �
 
 - 실시간 데이터 수집
 - 실시간 데이터 처리 및 저장
+
+
+[![aab](https://mermaid.ink/img/pako:eNpdUl1P4zAQ_CurfWqlwLUlTa8WOgkOdEJqDyTKC8qLSZzEItn1-QNdqPrfz6UNB_hpPDMejXa9xYJLhQI7TWUnTU4AltmPRkdiPN5TANeb1QEArJhqaLTzbPuBE0IXTKNKQiVPnpifx4Nyxya00monvWYaWIBLq712DZiDDsb1RcMt1z3I4Bu2sGHq4TK8yuOr9e3V9erm968h45ZAVZUqvH4h5dz5k_32Q1IJlZI-WOU--C6C5y4WKKCw6kuRB_ffejg_3zwvCrwqGtJ_wlfDvbfSqzrGmVYSaao_6xe2Dp0iD3GA5l3dMLfvQXeKYF_WSKPsQK6V7aQuMcHuiARu92KOvlGdylFEWEr7nGNOu-iLo-L7ngoU3gaVYDBlbHalZW1lh6KSrYuskfTI_OmOYot_UUyX89N0kS1my2w-n07T74sEexSzs9Pl5GyRZdlkNp9kaZruEnx9i5gmqEodd78-fJy49krXuPsHdK602A?type=png)](https://mermaid.live/edit#pako:eNpdUl1P4zAQ_CurfWqlwLUlTa8WOgkOdEJqDyTKC8qLSZzEItn1-QNdqPrfz6UNB_hpPDMejXa9xYJLhQI7TWUnTU4AltmPRkdiPN5TANeb1QEArJhqaLTzbPuBE0IXTKNKQiVPnpifx4Nyxya00monvWYaWIBLq712DZiDDsb1RcMt1z3I4Bu2sGHq4TK8yuOr9e3V9erm968h45ZAVZUqvH4h5dz5k_32Q1IJlZI-WOU--C6C5y4WKKCw6kuRB_ffejg_3zwvCrwqGtJ_wlfDvbfSqzrGmVYSaao_6xe2Dp0iD3GA5l3dMLfvQXeKYF_WSKPsQK6V7aQuMcHuiARu92KOvlGdylFEWEr7nGNOu-iLo-L7ngoU3gaVYDBlbHalZW1lh6KSrYuskfTI_OmOYot_UUyX89N0kS1my2w-n07T74sEexSzs9Pl5GyRZdlkNp9kaZruEnx9i5gmqEodd78-fJy49krXuPsHdK602A)
