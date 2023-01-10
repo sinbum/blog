@@ -2,7 +2,13 @@
 
 * [인셉션 개발자](README.md)
   * [History](History.md)
-  * [Editorial Board](editorial_board/Important_of_GUI.md)
+  * [Editorial Board](developer/editorial_board/Important_of_GUI.md)
+  * [세미나](developer/seminar/readme.md)
+    * [MS_빅데이터_분석_교육](developer/seminar/MS_Databricks_2022_12_08.md)
+    * [Databricks_Musinsa_사례분석](developer/seminar/databricks_musinsa_2022_12_09.md)
+    * [Databricks_AMOREPACIFIC_사례분석](developer/seminar/databricks_amorepacific_2022_12_09.md)
+  * [개발자 꿀팁](developer/tips/readme.md)
+
 
 ## 리눅스
 
@@ -134,7 +140,3 @@
     * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
     * [로지텍 마우스 수리](about/LogitechMouseSelfToFix.md)
 * [CONTACT](about/contact.md)
-* [세미나](about/seminar/readme.md)
-  * [MS_빅데이터_분석_교육](about/seminar/MS_Databricks_2022_12_08.md)
-  * [Databricks_Musinsa_사례분석](about/seminar/databricks_musinsa_2022_12_09.md)
-  * [Databricks_AMOREPACIFIC_사례분석](about/seminar/databricks_amorepacific_2022_12_09.md)
