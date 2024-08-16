@@ -1,15 +1,18 @@
-# CollectionFramework
-- 배열의 단점을 개선한 클래스로 객체만 저장할 수 있습니다.
-- 배열의 단점인 메모리 낭비를 피할수 있는 구조입니다.
-- 동적인 크기 변경이 가능합니다.
-- 자료를 효율적으로 정리하는것을 자료구조(Data structure)라 합니다.
-- 자료구조 방법에는 Set계열, List계열, Map계열이 있습니다.
-- java는 java.util 패키지의 자바 컬렉션(JCF)에서 자료구조 방법을 제공합니다.
+# 컬렉션 프레임워크
 
+* 배열의 단점을 개선한 클래스로 객체만 저장할 수 있습니다.
+* 배열의 단점인 메모리 낭비를 피할수 있는 구조입니다.
+* 동적인 크기 변경이 가능합니다.
+* 자료를 효율적으로 정리하는것을 자료구조(Data structure)라 합니다.
+* 자료구조 방법에는 Set계열, List계열, Map계열이 있습니다.
+* java는 java.util 패키지의 자바 컬렉션(JCF)에서 자료구조 방법을 제공합니다.
 
-## *Set*
-    - 순서가 없고 중복안됨
-    - HashSet, TreeSet
+## _Set_
+
+```
+- 순서가 없고 중복안됨
+- HashSet, TreeSet
+```
 
 > SetTest
 
@@ -49,17 +52,16 @@ public static void print(Object [] obj){
 		System.out.println(obj[i]);
 	}
 }//
-
 ```
 
 }
 
 ## List
-- 순서가 있고 중복이 가능합니다.
-- ArrayList, LinkedList, Vector
+
+* 순서가 있고 중복이 가능합니다.
+* ArrayList, LinkedList, Vector
 
 > ListTest1
-
 
 ```java
 package collectiontest;
@@ -121,7 +123,7 @@ public static void printGet(List set){
 
 ### Vector의 정의 및 요소 검색, 크기 조절
 
-```text
+```
    java.lang.Object
    |
    +--java.util.AbstractCollection
@@ -131,18 +133,16 @@ public static void printGet(List set){
    +--java.util.Vector
 ```
 
-- 모든 구현 인터페이스
-  - Cloneable 
-  - Collection 
-  - List 
-  - RandomAccess 
-  - Serializable
-
-- 직계의 기존의 서브 클래스
-  - Stack
+* 모든 구현 인터페이스
+  * Cloneable
+  * Collection
+  * List
+  * RandomAccess
+  * Serializable
+* 직계의 기존의 서브 클래스
+  * Stack
 
 > SearchDelete.java
-
 
 ```java
 package collectiontest;
@@ -212,7 +212,6 @@ String name[]={"기획자","설계자","개발자"};
 ### Vector의 이용 예
 
 > Sungjuk.java
-
 
 ```java
 import java.util.Vector;
@@ -290,16 +289,13 @@ int i=0;
 }
 ```
 
+### java.util.ArrayList
 
-###  java.util.ArrayList
+* Vector와 같은 목적을 가지고 있으며 기능이 비슷합니다.
+* Vector와의 차이점은 네트워크를 통한 객체 공유시 동기화 처리가 되어 있지 않습니다.
+* 속도는 Vector보다 빠른 속도를 가지고 있습니다. 굳이 객체를 스레드를 이용해 공유할 경우가 아니면 ArrayList 사용을 권장합니다.
 
-- Vector와 같은 목적을 가지고 있으며 기능이 비슷합니다.
-- Vector와의 차이점은 네트워크를 통한 객체 공유시 동기화 처리가 되어
-  있지 않습니다.
-- 속도는 Vector보다 빠른 속도를 가지고 있습니다. 굳이 객체를 스레드를
-  이용해 공유할 경우가 아니면 ArrayList 사용을 권장합니다.
-
-```text
+```
 java.lang.Object
 |
 +--java.util.AbstractCollection
@@ -309,13 +305,12 @@ java.lang.Object
 +--java.util.ArrayList
 ```
 
-- 모든 구현 인터페이스
-  - Cloneable 
-  - Collection 
-  - List 
-  - RandomAccess 
-  - Serializable
-
+* 모든 구현 인터페이스
+  * Cloneable
+  * Collection
+  * List
+  * RandomAccess
+  * Serializable
 
 > ArrayListTest.java
 
@@ -343,6 +338,7 @@ public Jumsu(String name,int kuk,int eng){
 
 }
 ```
+
 > ArrayListTest.java
 
 ```java
@@ -398,14 +394,14 @@ int i=0;
 ```
 
 ## Map
-- Key, value 한쌍
-- HashMap, Hashtable
-- put 메서드로 입력합니다.
-- 중복된 키 값을 허용하지 않습니다. 만약 사용하게되면 기존의 값이 삭제됩니다.
-- 검색 결과가 없으면 null을 리턴합니다.
+
+* Key, value 한쌍
+* HashMap, Hashtable
+* put 메서드로 입력합니다.
+* 중복된 키 값을 허용하지 않습니다. 만약 사용하게되면 기존의 값이 삭제됩니다.
+* 검색 결과가 없으면 null을 리턴합니다.
 
 > MapTest
-
 
 ```java
 import java.util.*;
@@ -442,7 +438,7 @@ public static void print(Map sets){
 
 ### java.lang.Object
 
-```text
+```
     java.lang.Object
     |
     +--java.util.Dictionary
@@ -450,18 +446,15 @@ public static void print(Map sets){
     +--java.util.Hashtable
 ```
 
-- 모든 구현 인터페이스
-  - Cloneable 
-  - Map 
-  - Serializable
-
-- 직계의 기존의 서브 클래스
-  - Properties 
-  - UIDefaults
-
+* 모든 구현 인터페이스
+  * Cloneable
+  * Map
+  * Serializable
+* 직계의 기존의 서브 클래스
+  * Properties
+  * UIDefaults
 
 > TestHashTable.java
-
 
 ```java
 import java.util.Hashtable;
@@ -488,10 +481,11 @@ public class TestHashTable {
 }
 ```
 
-###  Properties
-- 속성값 부여를 목적으로 합니다.
+### Properties
 
-```text
+* 속성값 부여를 목적으로 합니다.
+
+```
     java.lang.Object
     |
     +--java.util.Dictionary
@@ -501,9 +495,7 @@ public class TestHashTable {
     +--java.util.Properties
 ```
 
-
-
-- 특정 객체 생성시 생성자에 초기값으로 속성값을 주는 역활을 합니다.
+* 특정 객체 생성시 생성자에 초기값으로 속성값을 주는 역활을 합니다.
 
 ```java
   java.util.Properties p = new java.util.Properties();

@@ -2,17 +2,12 @@
 
 ## 제어문 - 분기문 (if)
 
-- 조건에 따라 분기를 할 수 있습니다.
-- if (조건식){
-  참일 경우 실행
-  }else{
-  거짓일 경우 실행
-  }
-- 제어문에 따른 실행 문장이 한 문장이면 중괄호를 생략해도 됩니다.(권장아님)
-- 참거짓 상황에서 실행할 문장이 2문장 이상이면 중괄호 블럭을 반드시
-  추가해야합니다.
-- 처리할 문장이 한 문장이더라도 쉬운 식별을 위해 "{,}"을 추가합니다.
-- 중괄호 블럭안은 경계를 쉽게 알아볼수 있도록 반드시 들여쓰기를 합니다.
+* 조건에 따라 분기를 할 수 있습니다.
+* if (조건식){ 참일 경우 실행 }else{ 거짓일 경우 실행 }
+* 제어문에 따른 실행 문장이 한 문장이면 중괄호를 생략해도 됩니다.(권장아님)
+* 참거짓 상황에서 실행할 문장이 2문장 이상이면 중괄호 블럭을 반드시 추가해야합니다.
+* 처리할 문장이 한 문장이더라도 쉬운 식별을 위해 "{,}"을 추가합니다.
+* 중괄호 블럭안은 경계를 쉽게 알아볼수 있도록 반드시 들여쓰기를 합니다.
 
 ### 실습 예제
 
@@ -52,23 +47,18 @@ public static void main(String[] args) {
     System.out.println("연  봉: " + (pay * 13));
     System.out.println("월급여: " + ((pay * 13)/12));
 }
-
 ```
 
 }
 
 ## 제어문 - 분기문 (Switch)
 
-- 수식의 결과가 일정한 수치 형태로 나열되어 있는 값과 비교하는 경우 사용합니다.
-- case문에 올수 있는 데이터 타입은 byte, char, short, int, long처럼 정수 형태만
-  올 수 있습니다.
+* 수식의 결과가 일정한 수치 형태로 나열되어 있는 값과 비교하는 경우 사용합니다.
+* case문에 올수 있는 데이터 타입은 byte, char, short, int, long처럼 정수 형태만 올 수 있습니다.
 
 > SwitchTest.java
->
 
-public class SwitchTest{
-public static void main(String args[]){
-int k = 1;
+public class SwitchTest{ public static void main(String args\[]){ int k = 1;
 
 ```
     switch(k){
@@ -92,12 +82,9 @@ int k = 1;
 
 
 }
-
 ```
 
-
 > SwitchTest2.java
-
 
 ```
 public class SwitchTest2{
@@ -127,28 +114,21 @@ String str = "C";
 }
 ```
 
-
-
 ## 논리 연산자를 이용한 제어 조건의 이용
 
-- Short Circuit
-  . ||: 좌측의 연산식의 결과가 참이면 우측의 연산을
-  검사하지 않고 참 처리합니다.
+*   Short Circuit . ||: 좌측의 연산식의 결과가 참이면 우측의 연산을 검사하지 않고 참 처리합니다.
 
-  int a = 10;
-  int b = 5;
+    int a = 10; int b = 5;
 
-  a > b || c < d (a가 b보다 크거나 c가 d보다 클 때 )  
+    a > b || c < d (a가 b보다 크거나 c가 d보다 클 때 )
 
-  . &&: 좌측의 연산식의 결과가 거짓이면 우측의 연산을
-  검사하지 않고 거짓 처리합니다.
+    . &&: 좌측의 연산식의 결과가 거짓이면 우측의 연산을 검사하지 않고 거짓 처리합니다.
 
-  int a = 5;
-  int b = 10;
+    int a = 5; int b = 10;
 
-  a > b && c < d
+    a > b && c < d
+*   입력받은 값이 3의 배수이거나 5의 배수인 수를 판단하는 IF문의 사용
 
-- 입력받은 값이 3의 배수이거나 5의 배수인 수를 판단하는 IF문의 사용
     ```
     public class IfApp1{
     public static void main(String args[]){
@@ -161,14 +141,10 @@ String str = "C";
             System.out.println("K의 값은 3의 배수이거나 5의 배수가 아닙니다.");
         }
     }
-    
+
     }
     ```
-
-
-
-
-- 입력받은 값이 3의 배수이면서 5의 배수인 수를 판단하는 IF문의 사용
+*   입력받은 값이 3의 배수이면서 5의 배수인 수를 판단하는 IF문의 사용
 
     ```
     public class IfApp2{
@@ -182,19 +158,20 @@ String str = "C";
             System.out.println("K의 값은 3의 배수이면서 5의 배수가 아닙니다.");
         }
     }
-    
+
     }
     ```
-
 
 ## 제어문 - 반복문 While, do-While, for 문
 
 ### While 문
-- 참일동안 실행합니다.
-- 조건을 만족하지 않으면 한번도 실행을 안 합니다.
-- 순환 횟수를 정확히 지정할 수 없을 경우 사용합니다.
+
+* 참일동안 실행합니다.
+* 조건을 만족하지 않으면 한번도 실행을 안 합니다.
+* 순환 횟수를 정확히 지정할 수 없을 경우 사용합니다.
 
 > While.java
+
 ```
 public class While{
 public static void main(String args[]){
@@ -213,12 +190,9 @@ public static void main(String args[]){
 }
 
 };
-
 ```
 
 > Unlimit.java
-
-
 
 ```
 public class Unlimit {
@@ -241,9 +215,11 @@ public static void main(String[] args) {
 ```
 
 ### do-While 문
-- 조건에 관계 없이 무조건 1회는 실행합니다.
+
+* 조건에 관계 없이 무조건 1회는 실행합니다.
 
 > DoWhile.java
+
 ```
 public class DoWhile{
 public static void main(String args[]){
@@ -260,16 +236,13 @@ public static void main(String args[]){
     System.out.println("do-while문 종료후의 j의 값:" + j);
 }
 };
-
 ```
 
-
-
-
 ### for 문
-- 반복 횟수가 지정되어 있는 경우
-- for문은 내부에 초기화 코드를 가지고 있다.
-- 조건식이 참이면 계속 실행한다.
+
+* 반복 횟수가 지정되어 있는 경우
+* for문은 내부에 초기화 코드를 가지고 있다.
+* 조건식이 참이면 계속 실행한다.
 
 ```
     for (int i=1; i<=5;   i++) {
@@ -290,7 +263,6 @@ public static void main(String args[]){
     // 반복 처리순서
     //   ⓑ --> ⓒ --> ⓓ --> ⓔ --> ⓑ --> ⓒ
 ```
-
 
 > Array.java
 
@@ -335,7 +307,6 @@ public static void main(String[] args) {
 
 
 }
-
 ```
 
 ▷ 홀수의 합을 구해 보세요. (2500 이 정답)
@@ -376,12 +347,11 @@ for (int i=0; i<=2; i++) {     //3
 }
 ```
 
-
 ### continue
-- 루틴을 벗어나지않고 특정 조건에서만 로직을 수행하지 않는 경우에 사용합니다.
+
+* 루틴을 벗어나지않고 특정 조건에서만 로직을 수행하지 않는 경우에 사용합니다.
 
 > Continue.java
-
 
 ```
 public class Continue {
@@ -402,7 +372,6 @@ public static void main(String[] args) {
 
 
 }
-
 ```
 
 ## 구구단 출력 (문자열 + 숫자 = 문자열, 연산의 우선순의 주의)
@@ -443,13 +412,11 @@ public class GuguDan{
         }
     }
 }
-
 ```
 
-> 콘솔 결과 
+> 콘솔 결과
 
 ```
-
 ### 1단 2단 3단
 
 1 * 1 = 1	2 * 1 = 2	3 * 1 = 3
@@ -485,6 +452,4 @@ public class GuguDan{
 7 * 7 = 49	8 * 7 = 56	9 * 7 = 63
 7 * 8 = 56	8 * 8 = 64	9 * 8 = 72
 7 * 9 = 63	8 * 9 = 72	9 * 9 = 81
-
 ```
-

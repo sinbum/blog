@@ -1,4 +1,4 @@
-# 채팅 프로그램 앱 개발
+# 간단한 채팅 앱 개발하기
 
 ## Thread 기반의 채팅 서버/클라이언트 만들기
 
@@ -60,15 +60,13 @@ public class ChatServerThread {
         cs.serverStart();
     }
 }
-
 ```
 
 > ChatServerReadHandler.java
 
-- 데이터를 읽어오는 ReadHandler 생성
+* 데이터를 읽어오는 ReadHandler 생성
 
 ```java
-
 class ChatServerReadHandler extends Thread{
 private Socket socket;
 private String line;   //서버로부터 읽어온 문자열 저장
@@ -104,9 +102,11 @@ private String line;   //서버로부터 읽어온 문자열 저장
 
 }
 ```
-- 데이터를 보내는 SendHandler 생성
+
+* 데이터를 보내는 SendHandler 생성
 
 > ChatServerSendHandler.java
+
 ```java
 class ChatServerSendHandler extends Thread{
 private Socket socket;
@@ -152,9 +152,7 @@ private String s="";
     }
 
 }
-
 ```
-
 
 ### 채팅 클라 생성
 
@@ -214,7 +212,7 @@ private Socket socket = null;
 }
 ```
 
-- 데이터를 읽어오는 클라이언트 ReadHandler 생성
+* 데이터를 읽어오는 클라이언트 ReadHandler 생성
 
 ```java
 class ChatClientReadHandler extends Thread{
@@ -254,7 +252,7 @@ private String line;   //서버로부터 읽어온 문자열 저장
 }
 ```
 
-- 데이터를 보내는 클라이언트 SendHandler 생성
+* 데이터를 보내는 클라이언트 SendHandler 생성
 
 ```java
 class ChatClientSendHandler extends Thread{
@@ -300,24 +298,19 @@ private String s="";
     }
 
 }
-
 ```
-
-
 
 ### 실행 하기
 
-- CMD 를 실행합니다.
+* CMD 를 실행합니다.
 
-```text
+```
 C:
 cd F:\ChatServerThread 클래스가 있는 폴더경로.
 start java chatting.ChatServerThread
 
 start java chatting.ChatClientThread 172.16.3.1
 ```
-
-
 
 ## 멀티 채팅 앱 구현하기.
 
@@ -408,8 +401,9 @@ public class ChatServerThreadMulti {
 }
 ```
 
-- ReadHandler 생성
-> ChatServerReadHandler.java 
+* ReadHandler 생성
+
+> ChatServerReadHandler.java
 
 ```java
 class ChatServerReadHandler extends Thread{
@@ -462,10 +456,10 @@ private BufferedWriter writer; // 네트워크 전송
     }
 
 }
-
 ```
 
 ### 멀티 채팅 클라 생성
+
 > ChatClientThreadMulti.java
 
 ```java
@@ -521,7 +515,8 @@ private Socket socket = null;
 }
 ```
 
-- 클라이언트 ReadHandler 생성
+* 클라이언트 ReadHandler 생성
+
 > ChatClientReadHandler.java
 
 ```java
@@ -560,7 +555,9 @@ private String id;     //대화명
 
 }
 ```
-- 클라이언트 SendHandler 생성
+
+* 클라이언트 SendHandler 생성
+
 > ChatClientSendHandler.java
 
 ```java
@@ -612,16 +609,13 @@ private String id;
 
 }
 ```
+
 ### 실행 하기
 
-```text
+```
 실행:
 C:
 cd C:\ChatServerThreadMulti 자바 파일 경로
 start java multichatting.ChatServerThreadMulti
 start java multichatting.ChatClientThreadMulti {ip 주소} {아이디}
 ```
-
-
-
-

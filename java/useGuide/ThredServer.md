@@ -1,10 +1,11 @@
-# 다중 접속 서버 (TreadServer 만들기)
+# 다중 접속 서버 구현
 
-## Multi-threading 
-Multi-threading 을 이용한 다중 접속 서버, 문자열 전송
-    - 동시에 많은 접속자를 처리할 수 있습니다.
+## Multi-threading
+
+Multi-threading 을 이용한 다중 접속 서버, 문자열 전송 - 동시에 많은 접속자를 처리할 수 있습니다.
 
 ### 서버 생성
+
 > ThreadServer.java
 
 ```java
@@ -87,10 +88,10 @@ protected Socket socket;
         }
     }
 }
-
 ```
 
 ### 클라 생성
+
 > ThreadClient.java
 
 ```java
@@ -161,10 +162,9 @@ System.out.println("클라이언트 프로그램 작동.....");
 }
 ```
 
-
 ### 실행 하기
 
-```text
+```
 C:
 cd C:서버 경로
 start java ThreadServer
@@ -173,10 +173,10 @@ start java ThreadClient {고정ip호스팅주소}
 
 ## 다중 접속 동시 처리
 
-Multi-threading을 이용한 다중 접속 서버, 난수 발생을 이용한 실시간 주가 전송
-    - 동시에 많은 접속자를 처리할 수 있습니다.
+Multi-threading을 이용한 다중 접속 서버, 난수 발생을 이용한 실시간 주가 전송 - 동시에 많은 접속자를 처리할 수 있습니다.
 
 ### 서버 생성
+
 > ThreadServer2.java
 
 ```java
@@ -222,6 +222,7 @@ System.out.println("****************************************");
     }
 }
 ```
+
 > StockHandler.java
 
 ```java
@@ -342,25 +343,21 @@ System.out.println("클라이언트 프로그램 작동.....");
         System.out.println("서버 프로그램 실행을 종료합니다.");        
     }
 }
-
 ```
+
 ### 실행 하기
 
-- 서버 실행
-   ```text
-    C:
-    cd C:\서버경로
-    start java ThreadServer2
-   ```
-- 클라이언트 살행 - 추가 CMD 실행
-   
-  ```text
-   start java ThreadClient2 클라ip 1번
-   start java ThreadClient2 클라ip 2번
-   start java ThreadClient2 클라ip 3번   
-   ```
+*   서버 실행
 
+    ```
+     C:
+     cd C:\서버경로
+     start java ThreadServer2
+    ```
+*   클라이언트 살행 - 추가 CMD 실행
 
-
-
-
+    ```
+     start java ThreadClient2 클라ip 1번
+     start java ThreadClient2 클라ip 2번
+     start java ThreadClient2 클라ip 3번   
+    ```

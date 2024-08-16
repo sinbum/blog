@@ -1,11 +1,13 @@
-# NETWORK
+# 네트워크
 
 ## 네트워크 개념
-### Intranet / Internet의 구분
-- 라우터를 기준으로 안쪽을 intranet, 외부를 Internet이라고 합니다.
-- 라우터는 IP의 대역또한 가지고 있습니다.      
 
-```text
+### Intranet / Internet의 구분
+
+* 라우터를 기준으로 안쪽을 intranet, 외부를 Internet이라고 합니다.
+* 라우터는 IP의 대역또한 가지고 있습니다.
+
+```
       PC ---- NIC ---- HUB ---- HUB ---- ROUTER ---- INTERNET ---- (WEB, FTP, DB)Server
       LAN  UTP                                │
       │
@@ -17,30 +19,21 @@
       10.0.0.1
       127.0.0.1
 ```
-      
+
 ### IP and Port의 이해
-- IP는 도시와 같은 위치 정보에 해당합니다.
-- Port는 항구를 뜻하는 용어로 실제로 네트워크상으로 접속되는 지점을 말합니다.
-- 사용 가능한 포트 : 0 ~ 65535
-- 사용할 수 없는 포트
-  21 : FTP
-  23 : Telnet
-  25 : SMTP
-  80 : HTTP, IIS등 웹서버
-  1433 : MS-SQL 기본 포트
-  3306 : MySQL 기본 포트
-  1521 : Oracle 기본 포트
-  8080 : Apache, 기타 웹 서버
-- 1500번 이하는 시스템이 사용하는 포트가 많음으로 1500 이상되는 포트를 사용하기바람
+
+* IP는 도시와 같은 위치 정보에 해당합니다.
+* Port는 항구를 뜻하는 용어로 실제로 네트워크상으로 접속되는 지점을 말합니다.
+* 사용 가능한 포트 : 0 \~ 65535
+* 사용할 수 없는 포트 21 : FTP 23 : Telnet 25 : SMTP 80 : HTTP, IIS등 웹서버 1433 : MS-SQL 기본 포트 3306 : MySQL 기본 포트 1521 : Oracle 기본 포트 8080 : Apache, 기타 웹 서버
+* 1500번 이하는 시스템이 사용하는 포트가 많음으로 1500 이상되는 포트를 사용하기바람
 
 ### 네트워크를 지원하는 java.net 패키지의 기본클래스
-- URL 클래스
-  - URL 클래스는 웹상에 존재하는 자원에 접근하거나 네트웍상의 유일한 주소를
-  나타내기 위한 방법을 제공합니다.
-  또한 위치정보를 관리하기 위한 클래스 입니다.
-  해당 위치에 스트림을 개설할 수 있습니다.(openStream() 이용)
-- URL 객체 생성후 스트림 개설
-  - URL객체를 생성할때는 MalformedURLException 에러처리를 해야 합니다.
+
+* URL 클래스
+  * URL 클래스는 웹상에 존재하는 자원에 접근하거나 네트웍상의 유일한 주소를 나타내기 위한 방법을 제공합니다. 또한 위치정보를 관리하기 위한 클래스 입니다. 해당 위치에 스트림을 개설할 수 있습니다.(openStream() 이용)
+* URL 객체 생성후 스트림 개설
+  * URL객체를 생성할때는 MalformedURLException 에러처리를 해야 합니다.
 
 ```java
       try{
@@ -51,15 +44,16 @@
       }
 ```
 
-- URL의 구조
-  - 프로토콜://호스트이름: 포트/호스트상의 경로명/파일 의 형태를 지니고 있습니다.
+* URL의 구조
+  * 프로토콜://호스트이름: 포트/호스트상의 경로명/파일 의 형태를 지니고 있습니다.
 
 ## 네트워크 연습
 
 ### URL 클래스를 이용하는 방법
-> URLMain.java
-```java
 
+> URLMain.java
+
+```java
 import java.net.;
 import java.io.;
 public class URLMain{
@@ -117,48 +111,41 @@ public class URLMain{
         br.close();    
     } //end of main
 } //end of URLMain class
-
 ```
 
-
-
 ### URLConnection 클래스
+
 URL을 목표지점으로 하는 네트웍 연결을 위한 작업을 수행합니다.
 
-- URL객체의 스트림 생성과 URLConnection 객체의 스트림 생성
-  - URL 객체
-  
-    ```
-             URL uri = new URL("http", "hostname", 80, "default.htm");
-             InputStream is = uri.openStream();
-    
-    ```
+* URL객체의 스트림 생성과 URLConnection 객체의 스트림 생성
+  *   URL 객체
 
-  - URLConnection 객체
+      ```
+               URL uri = new URL("http", "hostname", 80, "default.htm");
+               InputStream is = uri.openStream();
+      ```
+  *   URLConnection 객체
 
-    ```
-             URL uri = URL("http", "hostname", 80, "default.htm");
-             URLConnection con = uri.openConnection();
-             InputStream is = uri.getInputStream();
-    
-             또는..
-    
-             URL uri = URL("http", "hostname", 80, "default.htm");
-             URLConnection con = uri.openConnection();
-             con.setDoOutput(true); //스트림방향을 출력으로 설정
-             OutputStream os  = uri.getOutputStream();
-    
-    ```
+      ```
+               URL uri = URL("http", "hostname", 80, "default.htm");
+               URLConnection con = uri.openConnection();
+               InputStream is = uri.getInputStream();
 
+               또는..
 
----
+               URL uri = URL("http", "hostname", 80, "default.htm");
+               URLConnection con = uri.openConnection();
+               con.setDoOutput(true); //스트림방향을 출력으로 설정
+               OutputStream os  = uri.getOutputStream();
+      ```
+
+***
 
 ### URLConnection을 이용한 입력 스트림 개설
 
 > URLConnectionMain.java
 
 ```java
-
 import java.net.;
 import java.io.;
 
@@ -181,6 +168,7 @@ public class URLConnectionMain{
 
 url을 이용하여 문서에 대한 정보를 얻어오는 형태
 ```
+
 > URLConnection.java
 
 ```
@@ -206,13 +194,13 @@ public class URLConnection {
 }
 ```
 
----
+***
+
 ### url을 이용하여 문서 내용을 가져오기
 
 > URLConnectionMain.java
 
 ```java
-
 import java.net.;
 import java.io.;
 
@@ -232,7 +220,7 @@ public class URLConnectionMain{
 } //end of Class
 ```
 
----
+***
 
 ### url이용 파일 다운로드
 
@@ -276,15 +264,13 @@ public class URLFileCopy {
           
     }
 }
-
 ```
-
 
 ## 간단 하게 서버접속하기
 
 ### 서버 생성
 
->Server.java - 서버 생성
+> Server.java - 서버 생성
 
 ```
 import java.io.IOException;
@@ -310,7 +296,7 @@ public static void main(String[] args) throws IOException {
 
 ### 클라이언트 생성
 
->Client.java - 클라이언트 생성
+> Client.java - 클라이언트 생성
 
 ```
 import java.io.IOException;
@@ -325,13 +311,13 @@ public class Client {
 }
 ```
 
-
 ## 소켓을이용한 데이터 전송
 
 ### 서버
+
 소켓을 이용해 데이터를 전달받을 서버를 생성.
 
-> server1.java 
+> server1.java
 
 ```
 import java.io.DataOutputStream;
@@ -375,7 +361,7 @@ public class Server1 {
 ### 클라이언트
 
 > Clinet1.java
-> 
+
 소켓을 이용해 데이터를 전달할 클라이언트를 생성.
 
 ```
@@ -410,22 +396,24 @@ public class Client1 {
 
 ### 컴퓨터-socket-stream-network
 
-- ServerSocket 클래스는 외부로 들어오는 접속 정보의 통로 역할을 하는 구멍으로서 정보를 제공하는 역할을 하므로 서버 1개, 클라이언트 여럿을 상대하게 됨
-- c에서는 소켓을 만들 때 IP 주소가 필요없지만, java 에서는 IP주소가 클래스 내에 포함되어 있어 서버소켓 생성시 ip주소를 입력하는 형태로 되어 있음, 이주소 함께 포트번호를 내부적으로 바인딩시켜줌
-- 서버에는 서버소켓은 들어오는 역할을 하는 통로이고 클라이언트는 다수를 취급하므로 클라이언트와 통신하는 소켓은 별도로 만들어줘야함.
-- 클라이언트가 서버에 접속해오면 별도의 소켓을 하나 더 생성하며 이를 일반적인 Socket클래스에서 다루게 됨
----
-- 소켓을 통해 스트림이 오고가며 소켓에 스트림을 연결해줘야 합니다.
-- 스트림 생성은 socket.getInputStream()을 InputStream 인스턴스를 생성하게 되며 추가적으로 데이터를 읽기 쉽도록 DataInputStream 추가적으로 연결하게 됩니다.(들어오는 데이터)
-- 반대로 출력스트림은 socket.getOutputStream()을 이용해 OutputStream 인스턴스를 생성하게 됩니다.(외부로 나가는 데이터)
-- 서버에 접속하기 위해서 클라이언트는 인터넷 정보를 수집하게 되는데 이때 이용하는 클래스가 InetAddress이다. 이클래스는 인터넷 주소 정보를 얻어오거나 저장해 두는 역할을 하는 클래스이다.
+* ServerSocket 클래스는 외부로 들어오는 접속 정보의 통로 역할을 하는 구멍으로서 정보를 제공하는 역할을 하므로 서버 1개, 클라이언트 여럿을 상대하게 됨
+* c에서는 소켓을 만들 때 IP 주소가 필요없지만, java 에서는 IP주소가 클래스 내에 포함되어 있어 서버소켓 생성시 ip주소를 입력하는 형태로 되어 있음, 이주소 함께 포트번호를 내부적으로 바인딩시켜줌
+* 서버에는 서버소켓은 들어오는 역할을 하는 통로이고 클라이언트는 다수를 취급하므로 클라이언트와 통신하는 소켓은 별도로 만들어줘야함.
+* 클라이언트가 서버에 접속해오면 별도의 소켓을 하나 더 생성하며 이를 일반적인 Socket클래스에서 다루게 됨
 
----
+***
+
+* 소켓을 통해 스트림이 오고가며 소켓에 스트림을 연결해줘야 합니다.
+* 스트림 생성은 socket.getInputStream()을 InputStream 인스턴스를 생성하게 되며 추가적으로 데이터를 읽기 쉽도록 DataInputStream 추가적으로 연결하게 됩니다.(들어오는 데이터)
+* 반대로 출력스트림은 socket.getOutputStream()을 이용해 OutputStream 인스턴스를 생성하게 됩니다.(외부로 나가는 데이터)
+* 서버에 접속하기 위해서 클라이언트는 인터넷 정보를 수집하게 되는데 이때 이용하는 클래스가 InetAddress이다. 이클래스는 인터넷 주소 정보를 얻어오거나 저장해 두는 역할을 하는 클래스이다.
+
+***
 
 ### InetAddress Class
-- IP주소와 관련된 여러 정보 제공
-  - InetAddress의 객체를 생성하기 위해 스태틱의 getByName()메소들
-    이용합니다.
+
+* IP주소와 관련된 여러 정보 제공
+  * InetAddress의 객체를 생성하기 위해 스태틱의 getByName()메소들 이용합니다.
 
 > AddressTest.java
 
@@ -458,12 +446,11 @@ class AddressTest{
 }
 ```
 
-##  Socket, ServerSocket
+## Socket, ServerSocket
 
-- ServerSocket: 클라이언트보다 먼저 실행되어 클라이언트의 접속 요청을 기다리며,
-  클라이언트가 접속하면 양방향 통신을 할 수 있는 Socket 객체를 생성합니다.
-- Socket: 다른 Socket과 데이터를 송수신 합니다.
-- Network 프로그램의 운영순서
+* ServerSocket: 클라이언트보다 먼저 실행되어 클라이언트의 접속 요청을 기다리며, 클라이언트가 접속하면 양방향 통신을 할 수 있는 Socket 객체를 생성합니다.
+* Socket: 다른 Socket과 데이터를 송수신 합니다.
+* Network 프로그램의 운영순서
   1. Server: ServerSocket 생성
   2. Server: 포트감시 시작, Client의 접속을 기다림
   3. Client: Socket 생성시에 인자 값으로 서버의 IP, PORT를 지정, 서버에 접속 요구
@@ -471,13 +458,13 @@ class AddressTest{
   5. Server: 생성된 Socket 객체를 이용해 Client에게 데이터를 보냄
   6. Client: Socket객체로 데이터를 받고 필요한 데이터를 다시 서버로 전송함
 
+### Socket의 처리방식.
 
-### Socket의 처리방식.  
-ServerSocket에 의해 Client의 접속요청후 생성된 Socket PORT 나, Clinet쪽 Socket PORT는 무작위로 발생 합니다.  
+ServerSocket에 의해 Client의 접속요청후 생성된 Socket PORT 나, Clinet쪽 Socket PORT는 무작위로 발생 합니다.
 
 다음설명은 아래와 같습니다.
 
-```text
+```
                                  2022
     
 
@@ -489,12 +476,11 @@ ServerSocket에 의해 Client의 접속요청후 생성된 Socket PORT 나, Clin
   ↓ |
   Socket1 ←────────┘
   ⓓ ⓔ 통신
-
 ```
 
 ### Queue(FIFO:First In First Out, 선입선출)
 
-```text
+```
 - Server ---> Socket 1 4307 <--- User1 Socket 3001
   Socket 2 4506 <--- User2 Socket 3002
   Socket 3 4308 <--- User3 Socket 3003
@@ -506,18 +492,12 @@ ServerSocket에 의해 Client의 접속요청후 생성된 Socket PORT 나, Clin
 1. Java <---> Socket -┬-- Output Queue ----> Input Queue --┬ Socket <---> Java
    │ │
    └-- Input Queue <---- Output Queue -┘
-
 ```
 
-
 ## 기본적인 소켓통신 연습
-- 네트웍으로 출력하는 경우
-  BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
-  writer.write("왕눈이 서버에 접속 하신것을 환영 합니다.");
-  writer.flush();
-- 네트웍에서 읽어오는 경우
-  BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-  String line = reader.readLine();
+
+* 네트웍으로 출력하는 경우 BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(client.getOutputStream())); writer.write("왕눈이 서버에 접속 하신것을 환영 합니다."); writer.flush();
+* 네트웍에서 읽어오는 경우 BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream())); String line = reader.readLine();
 
 ### 서버측 소켓 생성
 
@@ -584,6 +564,7 @@ public class TestServer {
     }
 }
 ```
+
 ### 클라이언트 측 소켓 생성
 
 > TestClient.java(클라이언트 측)
@@ -639,28 +620,28 @@ public class TestClient {
 }
 ```
 
-
-
 ### 실행하기
-- 포트보안 문제시 예외 처리
-   - **[시작 -- 설정 -- 제어판 -- Windows 방화벽]**에서 2022 포트를 **[예외]**로 등록합니다.
 
-- 서버 실행
-```text
+* 포트보안 문제시 예외 처리
+  * \*\*\[시작 -- 설정 -- 제어판 -- Windows 방화벽]\*\*에서 2022 포트를 \*\*\[예외]\*\*로 등록합니다.
+* 서버 실행
+
+```
     C:
     cd C:\서버폴더 경로
     java TestServer
 ```
-- Client 실행
-```text
+
+* Client 실행
+
+```
     C:
     cd C:\클라이언트 폴더 경로
     java TestClient 127.0.0.1 2022
 ```
 
-```text
+```
 C:
 cd C:\클라 경로
 java TestClient {고정ip주소} 2022
 ```
-

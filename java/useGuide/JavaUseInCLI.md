@@ -1,14 +1,12 @@
-
-# 명령 프롬프트(콘솔)상에서의 입력처리
+# CLI-자바사용
 
 ## 도스상에서의 문자열 데이터 입력 처리
-OS -----------------> JVM ----------------------> main()
-입력된 데이터 main(String[] args)
+
+OS -----------------> JVM ----------------------> main() 입력된 데이터 main(String\[] args)
 
 > DosInput.java
 
 ```
-
 public class DosInput {
 
 public static void main(String[] args) {
@@ -22,21 +20,20 @@ public static void main(String[] args) {
 
 
 }
-
 ```
 
-- 실행
-  ```
-  C:
-  CD\
-  CD C:\java_sunday\eclipse\workspace\february\classes
-  java DosInput 봄 여름.
-  ```
+*   실행
+
+    ```
+    C:
+    CD\
+    CD C:\java_sunday\eclipse\workspace\february\classes
+    java DosInput 봄 여름.
+    ```
 
 ## 숫자를 입력받는 경우
 
 > DosInput2.java
-
 
 ```
 public class DosInput2 {
@@ -55,7 +52,7 @@ public static void main(String[] args) {
 }
 ```
 
-- 실행
+* 실행
 
 ```
 C:
@@ -67,7 +64,6 @@ java DosInput2 10 200
 ### 문자와 숫자의 입력
 
 > DosInput3.java
-
 
 ```
 import java.text.DecimalFormat;
@@ -95,12 +91,13 @@ public class DosInput3 {
   
   }
 }
-
 ```
-- 실행
-  ```
-  C:
-  CD\
-  CD C:\java_sunday\eclipse\workspace\february\classes
-  java DosInput3 왕눈이 2000000 120000
-  ```
+
+*   실행
+
+    ```
+    C:
+    CD\
+    CD C:\java_sunday\eclipse\workspace\february\classes
+    java DosInput3 왕눈이 2000000 120000
+    ```

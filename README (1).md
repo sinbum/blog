@@ -1,39 +1,58 @@
-# Table of contents
+# DAX
 
-* [인셉션 개발자](README.md)
+### ![header](https://capsule-render.vercel.app/api?type=waving\&height=200\&text=Inception%20Developer\&fontAlign=51\&fontAlignY=40\&color=gradient)
+
+### description: 꿈에서도 공부하는 인셉션 개발자
+
+## 인셉션 개발자
+
+### Inception Developer : Sinbum's Blog
+
+#### 이 문서는...
+
+자바 및 자바의 사용법에 대해 정리한 e북 입니다.\
+주니어 개발자로써의 시야에서 초급자및 입문자에게 공유하는 문서입니다.\
+기존 선배개발자님들의 유용한 정보와 함께 더불어 공부한 내용을 바탕으로 작성되었습니다.
+
+**초급자 분들을 위해 조금이나마 보탬이 되기를 희망합니다.**
+
+#### 크고,작은 피드백과 의견은 큰 도움이 됩니다.
+
+* 이문서는 깃허브에 **저장** 및 **관리**되며 질 좋은 컨텐츠 제공을 위해 누구나 수정 및 **Contribute**(기여) 할 수 있습니다.
+* 제 깃허브에 수정과 merge를 요청 해주신 감사한 몇몇분에 한정해 소정의 상품을 드립니다.
+* 저는 주니어 개발자 이자 데이터엔지니어 **신범**입니다.
+* 여러분의 깃허브 팔로우는 큰 힘이 됩니다.
+*
+
+[_깃허브 팔로우_](https://github.com/sinbum) or [_메일 보내기_](mailto://sinbum@kakao.com)
+
+***
+
+## Table of contents
+
+* [인셉션 개발자](./)
   * [History](History.md)
-  * [Editorial Board](developer/editorial\_board/Important\_of\_GUI.md)
-  * [세미나](developer/seminar/readme.md)
-    * [MS\_빅데이터\_분석\_교육](developer/seminar/MS\_Databricks\_2022\_12\_08.md)
-    * [Databricks\_Musinsa\_사례분석](developer/seminar/databricks\_musinsa\_2022\_12\_09.md)
-    * [Databricks\_AMOREPACIFIC\_사례분석](developer/seminar/databricks\_amorepacific\_2022\_12\_09.md)
-  * [개발자 꿀팁](developer/tips/readme.md)
 
-## 리눅스
+### 리눅스
 
-* [리눅스 기초](linux/guide/README.md)
+* [리눅스 기초](linux/guide/)
   * [기본명령어](linux/guide/BasicCommand.md)
   * [프록시서버](linux/guide/ProxyServer.md)
   * [온프레미스](linux/guide/OnPremise.md)
   * [systemd](linux/guide/Systemd.md)
   * [우분투 앱](linux/guide/Ubuntu\_first\_install.md)
-  * [vi 사용법](linux/guide/vi.md)
-* [도커](linux/docker/README.md)
-  * [MSA 아키텍처](linux/docker/msa\_architecture.md)
-  * [도커 설명](linux/docker/docker.md)
+* [도커](bigData/kafka/what\_is\_kafka.md)
   * [도커 설치](linux/docker/install.md)
-  * [도커 가이드](linux/docker/guide/guide.md)
-    * [컨테이너 만들기](linux/docker/guide/container\_make.md)
-    * [컨테이너 보관](linux/docker/guide/container\_storage.md)
-    * [컨테이너 사용](linux/docker/guide/container\_use.md)
-    * [컨테이너 관리](linux/docker/guide/container\_operation.md)
-    * [컨테이너 볼륨](linux/docker/guide/container\_volume.md)
-    * [컨테이너 통신](linux/docker/guide/container\_network.md)
-    * [도커 연습](linux/docker/guide/practice.md)
+  * [컨테이너 만들기](linux/docker/guide/container\_make.md)
+  * [컨테이너 보관](linux/docker/guide/container\_storage.md)
+  * [컨테이너 사용](linux/docker/guide/container\_use.md)
+  * [컨테이너 관리](linux/docker/guide/container\_operation.md)
+  * [컨테이너 볼륨](bigData/azure/)
+  * [컨테이너 통신](linux/docker/)
 
-## 언어
+### 언어
 
-* [자바](java/README.md)
+* [자바](java/)
   * [자바(JAVA)는 무엇인가?](java/WhatIsJava.md)
     * [JVM 메모리](java/useGuide/JVM.md)
   * [자바 설치 가이드](java/JavaEnvGuide.md)
@@ -62,10 +81,10 @@
     * [네트워크](java/useGuide/Network.md)
     * [다중 접속 서버 구현](java/useGuide/ThredServer.md)
   * [간단한 채팅 앱 개발하기](java/miniProject/Chat.md)
-* [파이썬](python/README.md)
-  * [파이썬(Python)은 무엇인가?](python/WhatIsPython.md)
-  * [파이썬 설치 가이드](python/PythonInstall.md)
-  * [파이썬 언어 활용](python/PythonUseGuide.md)
+* [파이썬](python/)
+  * [파이썬(Python)은 무엇인가?](python/PythonInstall.md)
+  * [파이썬 설치 가이드](linux/docker/guide/container\_volume.md)
+  * [파이썬 언어 활용](python/WhatIsPython.md)
     * [변수](python/useGuide/vriables.md)
     * [입력,출력](python/useGuide/Input\_output.md)
     * [타입선언](python/useGuide/Type.md)
@@ -86,57 +105,48 @@
       * [Greedy 와 Non-Greedy](python/useGuide/regExporessions/Greed\_and\_NoneGreed.md)
   * [마치며...](python/useGuide/Finish.md)
 
-## 형상관리,CI/CD
+### GITHUB
 
-* [깃허브](gitHub/readme.md)
-  * [깃허브 협업 모델](gitHub/GithubCoWork.md)
-  * [깃허브 설치 와 ssl](gitHub/install\_and\_config.md)
-  * [깃허브를 잘쓰는 팁 모음](gitHub/useful.md)
+* [깃허브 협업 모델](gitHub/GithubCoWork.md)
 
-## BigData
+### BigData
 
-* [BigData 개념](bigData/basic/Readme.md)
+* [BigData 개념](bigData/basic/)
   * [OLTP,OLAP](bigData/basic/OltpOlap.md)
   * [ELT,ETL](bigData/basic/EltEtl.md)
   * [DW](bigData/basic/DataWarehouse.md)
   * [ObjectStorage](bigData/basic/ObjStorage.md)
   * [LambdaArc](bigData/basic/LamdaArchitecture.md)
   * [OGG](bigData/basic/OracleGoldenGate.md)
-* [Kafka](bigData/kafka/README.md)
-  * [환경설정 및 소스코드 다운로드](bigData/kafka/download.md)
-  * [아파치 카프카는?](bigData/kafka/what\_is\_kafka.md)
+* [Kafka](bigData/kafka/)
+  * [환경설정 및 소스코드 다운로드](gitHub/)
+  * [아파치 카프카는?](linux/docker/guide/container\_network.md)
     * [카프카의 시작](bigData/kafka/Born.md)
     * [카프카 특성](bigData/kafka/Propoties.md)
     * [빅데이터 아키텍처](bigData/kafka/Architect.md)
-  * [카프카 기초 개념](bigdata/kafka/undefined.md)
-* [BuildApplications](bigdata/buildapplications/README.md)
+  * [카프카 기초 개념](bigData/kafka/undefined-2.md)
+* [BuildApplications](bigData/buildapplications/)
   * [Airflow](bigData/solutions/Airflow.md)
   * [Grafana](bigData/solutions/Grafana.md)
-* [PowerBi](bigData/power\_bi/README.md)
-  * [DAX](<README (1).md>)
-    * [REMOVEFILTERS](bigData/power\_bi/dax/removefilters.md)
-    * [DAX\_문법](bigData/power\_bi/dax/grammar.md)
-    * [DAX\_함수](bigData/power\_bi/dax/functions.md)
-* [Azure](bigData/azure/readme.md)
-  * [SynapseAnalytics](bigData/azure/SynapseAnalytics/readme.md)
 
-## IOT
+### IOT
 
-* [아두이노](IOT/arduino/README.md)
+* [아두이노](IOT/arduino/)
   * [설치 및 기초](IOT/arduino/DevEnv.md)
   * [센서의 종류](IOT/arduino/Sensors.md)
   * [led 출력하기](IOT/arduino/Arduino\_LED.md)
   * [시리얼 통신](IOT/arduino/SerialNetwork.md)
-  * [무선 통신](IOT/arduino/Wireless.md)
 
-## About
+### About
 
 * [SINBUM](about/sinbum.md)
 * [INTEREST](about/interest.md)
-* [PROJECTS](about/projects/README.md)
+* [PROJECTS](about/projects/)
   * [업무 프로젝트](project/Project\_Work.md)
   * [개인 프로젝트](project/Project\_Peronal.md)
-    * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/README.md)
+    * [티스토리API를 사용한 블로그 앱](project/tistoryApiApp/)
     * [노션 API와 블로그 연동 자동화 하기](project/notionToGitbook/History.md)
     * [로지텍 마우스 수리](about/LogitechMouseSelfToFix.md)
 * [CONTACT](about/contact.md)
+
+![footer](https://capsule-render.vercel.app/api?type=waving\&color=gradient\&height=100\&section=footer)

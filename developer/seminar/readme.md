@@ -1,7 +1,6 @@
+# 세미나
 
-## seminar
-
-* [세미나](developer/seminar/readme.md)
-  * [MS_빅데이터_분석_교육](developer/seminar/MS_Databricks_2022_12_08.md)
-  * [Databricks_Musinsa_사례분석](developer/seminar/databricks_musinsa_2022_12_09.md)
-  * [Databricks_AMOREPACIFIC_사례분석](developer/seminar/databricks_amorepacific_2022_12_09.md)
+* [세미나](developer/seminar/)
+  * [MS\_빅데이터\_분석\_교육](developer/seminar/MS\_Databricks\_2022\_12\_08.md)
+  * [Databricks\_Musinsa\_사례분석](developer/seminar/databricks\_musinsa\_2022\_12\_09.md)
+  * [Databricks\_AMOREPACIFIC\_사례분석](developer/seminar/databricks\_amorepacific\_2022\_12\_09.md)

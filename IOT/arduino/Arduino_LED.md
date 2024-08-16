@@ -1,13 +1,16 @@
+# led 출력하기
 
-## LED 깜박임 디지털 출력
+### LED 깜박임 디지털 출력
+
 LED를 아두이노 보드에 다이렉트에 연결할 수 있는 이유는 LED에 이미 저항이 연결되어 있어서 저항 없이 회로를 구성해도 문제가 되지 않습니다.
-- LED 설명
-    - LED는 다리가 긴 쪽이 (+)
-    - 다리가 짧은 쪽은 (-)
-- LED 연결
-    - LED 다리가 긴 쪽을 우노보드 13에 연결 합니다.
-    - LED 다리가 짧은쪽을 우노보드 GND에 연결 합니다.
-    - LED 다리가 짧은쪽을 우노보드 GND에 연결 합니다.
+
+* LED 설명
+  * LED는 다리가 긴 쪽이 (+)
+  * 다리가 짧은 쪽은 (-)
+* LED 연결
+  * LED 다리가 긴 쪽을 우노보드 13에 연결 합니다.
+  * LED 다리가 짧은쪽을 우노보드 GND에 연결 합니다.
+  * LED 다리가 짧은쪽을 우노보드 GND에 연결 합니다.
 
 ```c
 void setup() {
@@ -30,18 +33,15 @@ void loop() {
 }
 ```
 
-![아두이노를 활용한 LED 출력](images/led_img_finished1.png)  
+![아두이노를 활용한 LED 출력](images/led\_img\_finished1.png)
 
-![완성된 사진](images/led_img_finished2.png)  
+![완성된 사진](images/led\_img\_finished2.png)
 
+### 점점 밝아지고 점점 어두워지는 led 출력
 
-
-## 점점 밝아지고 점점 어두워지는 led 출력  
-
-![img_1.png](images/fadeOn_img_1.png)  
+![img\_1.png](images/fadeOn\_img\_1.png)
 
 ```c
-
 int ledPin = 9; // 9번 핀에 led 연결
 void setup() {
 }
@@ -64,19 +64,16 @@ void loop() {
 }
 
 
-
 ```
-
 
 [영상보기-클릭](https://youtube.com/shorts/H3ccrY8EObs?feature=share)
 
-## 여러개의 led전구를 fadeOn과 fadeOff의 형식으로 출력하기
+### 여러개의 led전구를 fadeOn과 fadeOff의 형식으로 출력하기
 
-[영상보기_클릭_여러개전구](https://youtu.be/Gt8zVnluAA8)  
-[영상보기_클릭_여러개전구_fade](https://youtu.be/pSKfEgj29qc)
+[영상보기\_클릭\_여러개전구](https://youtu.be/Gt8zVnluAA8)\
+[영상보기\_클릭\_여러개전구\_fade](https://youtu.be/pSKfEgj29qc)
 
-
-![img.png](images/fadeOn_multi_Led_img.png)  
+![img.png](images/fadeOn\_multi\_Led\_img.png)
 
 ```
 int led_pin[4] = {8,9,10,11};
@@ -112,7 +109,8 @@ void loop()
 }
 ```
 
-- 위 코드의 함수화 및 리팩토링.
+* 위 코드의 함수화 및 리팩토링.
+
 ```c
 int led_pin[4] = {8,9,10,11};
 
@@ -157,14 +155,16 @@ void loop()
   }
 }
 ```
-## RGB LED 제어하기
-빨간색, 초록색, 파란색 세 종류의 색을 이요해, 0~255 범위의 analogWrite 함수의 인자 값을 조절해 다양한 색을 표현 할 수있습니다.
 
-![img.png](images/sensors_img.png)
+### RGB LED 제어하기
+
+빨간색, 초록색, 파란색 세 종류의 색을 이요해, 0\~255 범위의 analogWrite 함수의 인자 값을 조절해 다양한 색을 표현 할 수있습니다.
+
+![img.png](images/sensors\_img.png)
 
 rgb 기본 코드 설정.
 
-```c++
+```
 int redPin = 6;
 int greenPin = 5;
 int bluePin = 3;
@@ -186,10 +186,9 @@ void loop() {
   analogWrite (bluePin, blueOff);  
 
 }
-
 ```
 
-```C++
+```
 int redPin = 6;
 int greenPin = 5;
 int bluePin = 3;

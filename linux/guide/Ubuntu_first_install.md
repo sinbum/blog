@@ -1,10 +1,9 @@
-
-
-## 우분투 앱 모음
+# 우분투 앱
 
 우분투 설치시 기본 앱 모음.
 
-> first_install.sh
+> first\_install.sh
+
 ```shell
 install_list=(
               "
@@ -42,5 +41,4 @@ install_snap_list=(
 
   "
 )
-
 ```

@@ -1,16 +1,14 @@
-# CallByRef
+# 값에의한 호출
 
 ## Call By Value/Reference
 
 1. Call By Value: 값에 의한 호출
-    - 보통 숫자 계열 값을 메소드 호출시 메소드로 전송하는 경우가 해당이 됩니다.
-    - 메소드로 한 문자, 상수 문자열, 숫자를 전달하면 전부 값에의한 호출이라고
-      하고 Call By Value 라고 합니다.
+   * 보통 숫자 계열 값을 메소드 호출시 메소드로 전송하는 경우가 해당이 됩니다.
+   * 메소드로 한 문자, 상수 문자열, 숫자를 전달하면 전부 값에의한 호출이라고 하고 Call By Value 라고 합니다.
 
 > Pay1.java
 
 ```
-
 package classtest;
 class Pay1{
 String name="";   //직원 이름
@@ -45,10 +43,10 @@ public int earn(){
 
 
 }
-
 ```
 
-> Employee_arg.java
+> Employee\_arg.java
+
 ```
 public class Employee_arg {
 
@@ -72,12 +70,10 @@ public static void main(String[] args) {
 ```
 
 ### Call By Reference: 참조값에 의한 호출(Hash Code)
-- 메소드로 참조type을 전송할 수 있습니다.
-- 메소드로 클래스의 객체를 전달하면 메모리가 전달되는 것이 아니라
-  객체를 가르키고있는 Hash Code가 전달됨으로 Call By Reference 라고 합니다.
-- Call By Reference의 경우 참조값(Hash Code)을 전달한 객체는 자신의
-  참조값이 전달됨으로 값의 변화가 발생할 수 있고 heap memoey를
-  공유하게 됩니다.
+
+* 메소드로 참조type을 전송할 수 있습니다.
+* 메소드로 클래스의 객체를 전달하면 메모리가 전달되는 것이 아니라 객체를 가르키고있는 Hash Code가 전달됨으로 Call By Reference 라고 합니다.
+* Call By Reference의 경우 참조값(Hash Code)을 전달한 객체는 자신의 참조값이 전달됨으로 값의 변화가 발생할 수 있고 heap memoey를 공유하게 됩니다.
 
 ### Call By Value/Reference 예제
 
@@ -119,17 +115,14 @@ public static void main(String[] args) {
 > Ref.java, 데이터 클래스
 
 ```
-
 public class Ref {
 public String area = ""; // 지역
 public int oil = 0;      // 평군 기름값
 public String sobi = ""; // 전년 동월대비 소비량
 }
-
 ```
 
 > RefMgr.java, 데이터 조작 클래스
-
 
 ```
 public class RefMgr {
@@ -153,12 +146,11 @@ public void calc(Ref ref){
 
 
 }
-
 ```
 
 > RefUse.java 콤포넌트 이용 클래스
-```
 
+```
 public class RefUse {
 public static void main(String[] args){
 RefMgr m = new RefMgr();
@@ -186,25 +178,17 @@ RefMgr m = new RefMgr();
 }
 ```
 
-###  String객체의 특징
+### String객체의 특징
 
 1. 한번생성된 객체는 불변이다.("안녕" ->(X) "안녕하세요")
-2. 클래스를 객체화할때 new를 사용하지만
-   String은 사용하지 않아도 된다.(String name = "홍길동";)
-3. 메모리상에서 같은 문자열은 공유합니다.
-   String name = "홍길동";
-   String str = "홍길동";
-   name hashcode와 str hashcode는 같습니다.
-4. 문자열을 변경할때 ("안녕" -> "안녕하세요")
-   메모리상에는 "안녕"이라는 객체와 "안녕하세요"라는객체가
-   둘다 존재합니다.변경되어지는 객체가 있을때마다 새로운
-   객체가 만들어집니다.
+2. 클래스를 객체화할때 new를 사용하지만 String은 사용하지 않아도 된다.(String name = "홍길동";)
+3. 메모리상에서 같은 문자열은 공유합니다. String name = "홍길동"; String str = "홍길동"; name hashcode와 str hashcode는 같습니다.
+4. 문자열을 변경할때 ("안녕" -> "안녕하세요") 메모리상에는 "안녕"이라는 객체와 "안녕하세요"라는객체가 둘다 존재합니다.변경되어지는 객체가 있을때마다 새로운 객체가 만들어집니다.
 5. String 객체의 데이터 전달 유형
 
 > StringTest.java
 
 ```
-
 public class StringTest {
 
 public void changeString(String src){
@@ -222,8 +206,4 @@ public static void main(String[] args) {
     System.out.println(step);
 }
 }
-
 ```
-
-
-
